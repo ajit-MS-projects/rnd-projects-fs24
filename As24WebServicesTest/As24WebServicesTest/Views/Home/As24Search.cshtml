@@ -1,0 +1,171 @@
+﻿@model IEnumerable<As24WebServicesTest.As24.vehicle>
+
+@{
+    ViewBag.Title = "As24Search";
+}
+
+<h2>As24Search</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.accident_free)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.alloy_wheels_size)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.body_color)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.body_colorgroup_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.body_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.body_painting_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.brand_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.category_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.covering_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fuel_type_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gear_type_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.general_inspection)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.initial_registration)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.interior_color_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.kilowatt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mileage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.model_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.owners_offer_key)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.primary_fuel_type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.transmission_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.vehicle_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.version)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.type)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.accident_free)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.alloy_wheels_size)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.body_color)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.body_colorgroup_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.body_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.body_painting_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.brand_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.category_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.covering_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fuel_type_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.gear_type_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.general_inspection)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.initial_registration)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.interior_color_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.kilowatt)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mileage)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.model_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.owners_offer_key)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.primary_fuel_type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.transmission_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.vehicle_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.version)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.type)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

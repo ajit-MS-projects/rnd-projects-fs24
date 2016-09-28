@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="779d63b3-96e2-40b9-9ff3-4b4cfaefd397" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://api.autoscout24.com/AS24_WS_Search?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Search.xsd" MetadataType="Schema" ID="226727c2-9558-4b00-93c9-c6622f69e292" SourceId="1" SourceUrl="http://api.autoscout24.com/ssg/wsdl/Search.svc?serviceoid=227442735&amp;servdocoid=8667037697" />
+    <MetadataFile FileName="Search1.xsd" MetadataType="Schema" ID="6f9c2bb3-412f-42a9-af66-9fd5fb1216c7" SourceId="1" SourceUrl="http://api.autoscout24.com/ssg/wsdl/Search.svc?serviceoid=227442735&amp;servdocoid=8667037696" />
+    <MetadataFile FileName="ArticleSearchFacade.wsdl" MetadataType="Wsdl" ID="8532eb7a-35e1-494e-b56a-d585f8fcc8bc" SourceId="1" SourceUrl="http://api.autoscout24.com/AS24_WS_Search?wsdl" />
+    <MetadataFile FileName="Search2.xsd" MetadataType="Schema" ID="5c325c1f-cf17-4bea-b36c-fcc800ff948e" SourceId="1" SourceUrl="http://api.autoscout24.com/ssg/wsdl/Search.svc?serviceoid=227442735&amp;servdocoid=8667037698" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

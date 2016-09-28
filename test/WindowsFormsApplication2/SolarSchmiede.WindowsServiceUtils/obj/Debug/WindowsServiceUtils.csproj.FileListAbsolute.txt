@@ -1,0 +1,5 @@
+D:\ajit\rnd\test\WindowsFormsApplication2\WindowsServiceUtils\bin\Debug\WindowsServiceUtils.dll
+D:\ajit\rnd\test\WindowsFormsApplication2\WindowsServiceUtils\bin\Debug\WindowsServiceUtils.pdb
+D:\ajit\rnd\test\WindowsFormsApplication2\WindowsServiceUtils\obj\Debug\WindowsServiceUtils.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\test\WindowsFormsApplication2\WindowsServiceUtils\obj\Debug\WindowsServiceUtils.dll
+D:\ajit\rnd\test\WindowsFormsApplication2\WindowsServiceUtils\obj\Debug\WindowsServiceUtils.pdb

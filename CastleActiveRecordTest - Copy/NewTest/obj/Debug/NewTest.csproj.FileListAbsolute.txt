@@ -1,0 +1,70 @@
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\NewTest.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\NewTest.pdb
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.ActiveRecord.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.ActiveRecord.Web.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.Components.Validator.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.Core.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\CastleActiveRecordTest.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\EntityFramework.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Iesi.Collections.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\NHibernate.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\NHibernate.Search.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\CastleActiveRecordTest.pdb
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.ActiveRecord.xml
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.ActiveRecord.Web.xml
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.Components.Validator.pdb
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.Components.Validator.xml
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Castle.Core.xml
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\EntityFramework.xml
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\Iesi.Collections.xml
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\NHibernate.xml
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\es\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\fr\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\it\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\lt\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\lv\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\mk\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\nl\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\pl\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\pt\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\ru\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\bin\Debug\sv\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\obj\Debug\NewTest.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\obj\Debug\NewTest.dll
+D:\ajit\rnd\CastleActiveRecordTest\NewTest\obj\Debug\NewTest.pdb
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\NewTest.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\NewTest.pdb
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\Castle.ActiveRecord.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\Castle.ActiveRecord.Web.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\Castle.Components.Validator.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\Castle.Core.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\CastleActiveRecordTest.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\EntityFramework.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\Iesi.Collections.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\NHibernate.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\NHibernate.Search.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\CastleActiveRecordTest.pdb
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\Castle.ActiveRecord.xml
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\Castle.ActiveRecord.Web.xml
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\Castle.Components.Validator.pdb
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\Castle.Components.Validator.xml
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\Castle.Core.xml
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\EntityFramework.xml
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\Iesi.Collections.xml
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\NHibernate.xml
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\es\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\fr\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\it\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\lt\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\lv\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\mk\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\nl\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\pl\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\pt\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\ru\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\sv\Castle.Components.Validator.resources.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\obj\Debug\NewTest.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\obj\Debug\NewTest.dll
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\obj\Debug\NewTest.pdb
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\NewTest.dll.config
+D:\ajit\rnd\CastleActiveRecordTest - Copy\NewTest\bin\Debug\System.Linq.Dynamic.dll

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedSolrTest", "EmbeddedSolrTest\EmbeddedSolrTest.csproj", "{6758255C-76B1-4D1A-8F93-301DE3E9B486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedSolrTest.Tests", "EmbeddedSolrTest.Tests\EmbeddedSolrTest.Tests.csproj", "{08F1F516-36A9-4DBD-A82E-60E43CB0A46C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamineTest", "ExamineTest\ExamineTest.csproj", "{33A3319A-DCCD-4872-AFAB-467F8ECF27C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6758255C-76B1-4D1A-8F93-301DE3E9B486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6758255C-76B1-4D1A-8F93-301DE3E9B486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6758255C-76B1-4D1A-8F93-301DE3E9B486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6758255C-76B1-4D1A-8F93-301DE3E9B486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F1F516-36A9-4DBD-A82E-60E43CB0A46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F1F516-36A9-4DBD-A82E-60E43CB0A46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F1F516-36A9-4DBD-A82E-60E43CB0A46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F1F516-36A9-4DBD-A82E-60E43CB0A46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A3319A-DCCD-4872-AFAB-467F8ECF27C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A3319A-DCCD-4872-AFAB-467F8ECF27C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A3319A-DCCD-4872-AFAB-467F8ECF27C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A3319A-DCCD-4872-AFAB-467F8ECF27C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

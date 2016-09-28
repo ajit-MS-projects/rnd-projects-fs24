@@ -1,0 +1,16 @@
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\ProductBusiness.dll
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\ProductBusiness.pdb
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\Castle.ActiveRecord.dll
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\Castle.ActiveRecord.Web.dll
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\Castle.Components.Validator.dll
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\Castle.Core.dll
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\Iesi.Collections.dll
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\NHibernate.dll
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\ProductContracts.dll
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\ProductContracts.pdb
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\Castle.ActiveRecord.xml
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\Iesi.Collections.pdb
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\obj\Debug\ProductBusiness.dll
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\obj\Debug\ProductBusiness.pdb
+D:\ajit\rnd\MefMvc\MefMvcActiveRecordWorking\ProductBusiness\bin\Debug\NHibernate.ByteCode.Castle.dll

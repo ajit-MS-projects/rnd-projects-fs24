@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="9022C47E-9238-416E-B7C4-1BE302DA2AA1" ModuleId="ConsoleHost" />
+  <Module PersistentId="66812C22-036B-42AE-A636-B75A9449040E" ModuleId="WcfSessionWeb" />
+  <Module PersistentId="74DDFA4A-85E3-4367-B291-166C6C7AACF9" ModuleId="WindowsFormsApplication1" />
+  <Module PersistentId="4EFF681C-92AB-4864-B4D0-2EB5403A5602" ModuleId="WcfSessionWinServiceHost" />
+</Modules>

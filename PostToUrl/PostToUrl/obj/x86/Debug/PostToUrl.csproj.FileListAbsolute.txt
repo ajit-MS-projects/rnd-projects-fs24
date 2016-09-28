@@ -1,0 +1,14 @@
+D:\ajit\rnd\PostToUrl\PostToUrl\bin\Debug\PostToUrl.exe
+D:\ajit\rnd\PostToUrl\PostToUrl\bin\Debug\PostToUrl.pdb
+D:\ajit\rnd\PostToUrl\PostToUrl\obj\x86\Debug\PostToUrl.Form1.resources
+D:\ajit\rnd\PostToUrl\PostToUrl\obj\x86\Debug\PostToUrl.Properties.Resources.resources
+D:\ajit\rnd\PostToUrl\PostToUrl\obj\x86\Debug\PostToUrl.exe
+D:\ajit\rnd\PostToUrl\PostToUrl\obj\x86\Debug\PostToUrl.pdb
+D:\ajit\rnd\PostToUrl\PostToUrl\obj\x86\Debug\PostToUrl.ReadDealStarApi.resources
+D:\ajit\rnd\PostToUrl\PostToUrl\bin\Debug\Newtonsoft.Json.dll
+D:\ajit\rnd\PostToUrl\PostToUrl\bin\Debug\Newtonsoft.Json.xml
+D:\ajit\rnd\PostToUrl\PostToUrl\obj\x86\Debug\PostToUrl.testForm.resources
+D:\ajit\rnd\PostToUrl\PostToUrl\bin\Debug\MyTests.Business.dll
+D:\ajit\rnd\PostToUrl\PostToUrl\bin\Debug\MyTests.Business.pdb
+D:\ajit\rnd\PostToUrl\PostToUrl\obj\x86\Debug\PostToUrl.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\PostToUrl\PostToUrl\obj\x86\Debug\PostToUrl.csproj.GenerateResource.Cache

@@ -1,0 +1,5 @@
+D:\ajit\rnd\WebServiceToCsv.UI\WebServiceToCsv.Contracts\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\WebServiceToCsv.UI\WebServiceToCsv.Contracts\bin\Debug\WebServiceToCsv.Contracts.dll
+D:\ajit\rnd\WebServiceToCsv.UI\WebServiceToCsv.Contracts\bin\Debug\WebServiceToCsv.Contracts.pdb
+D:\ajit\rnd\WebServiceToCsv.UI\WebServiceToCsv.Contracts\obj\Debug\WebServiceToCsv.Contracts.dll
+D:\ajit\rnd\WebServiceToCsv.UI\WebServiceToCsv.Contracts\obj\Debug\WebServiceToCsv.Contracts.pdb

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://api.autoscout24.com/ssg/wsdl/Search.svc?serviceoid=227442735&amp;servdocoid=8667037697" filename="Search.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://api.autoscout24.com/ssg/wsdl/Search.svc?serviceoid=227442735&amp;servdocoid=8667037696" filename="Search0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://api.autoscout24.com/AS24_WS_Search?wsdl" filename="ArticleSearchFacade.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://api.autoscout24.com/ssg/wsdl/Search.svc?serviceoid=227442735&amp;servdocoid=8667037698" filename="Search1.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

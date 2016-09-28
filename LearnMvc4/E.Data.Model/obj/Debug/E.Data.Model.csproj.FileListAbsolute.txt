@@ -1,0 +1,10 @@
+d:\ajit\rnd\LearnMvc4\E.Data.Model\obj\Debug\E.Data.Model.csprojResolveAssemblyReference.cache
+d:\ajit\rnd\LearnMvc4\E.Data.Model\bin\Debug\E.Data.Model.dll.config
+d:\ajit\rnd\LearnMvc4\E.Data.Model\bin\Debug\E.Data.Model.dll
+d:\ajit\rnd\LearnMvc4\E.Data.Model\bin\Debug\E.Data.Model.pdb
+d:\ajit\rnd\LearnMvc4\E.Data.Model\bin\Debug\EntityFramework.dll
+d:\ajit\rnd\LearnMvc4\E.Data.Model\bin\Debug\EntityFramework.SqlServer.dll
+d:\ajit\rnd\LearnMvc4\E.Data.Model\bin\Debug\EntityFramework.xml
+d:\ajit\rnd\LearnMvc4\E.Data.Model\bin\Debug\EntityFramework.SqlServer.xml
+d:\ajit\rnd\LearnMvc4\E.Data.Model\obj\Debug\E.Data.Model.dll
+d:\ajit\rnd\LearnMvc4\E.Data.Model\obj\Debug\E.Data.Model.pdb

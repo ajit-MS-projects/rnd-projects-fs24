@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="89A5E768-7C01-4DAD-86B4-1284DA3A60AD" ModuleId="WCF_TCP" />
+  <Module PersistentId="FFE6B2AE-3941-489A-A7C9-2A1E7C3D63B7" ModuleId="Wcf_TCP_Host" />
+</Modules>

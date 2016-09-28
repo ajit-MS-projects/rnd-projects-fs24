@@ -1,0 +1,58 @@
+﻿@model As24WebServicesTest.Controllers.VehicleInfoModel
+
+<div>
+    <h4>VehicleInfoModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dd>
+            <img src="@Model.LargeImage"/>
+        </dd>
+        <dd>
+            <img src="@Model.SmallImage"/>
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kilometers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kilometers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstRegistration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstRegistration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KiloWatt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KiloWatt)
+        </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustomerType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

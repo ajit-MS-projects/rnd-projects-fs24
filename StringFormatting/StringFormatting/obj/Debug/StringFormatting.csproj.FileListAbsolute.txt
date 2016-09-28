@@ -1,0 +1,9 @@
+D:\ajit\rnd\StringFormatting\StringFormatting\bin\Debug\StringFormatting.exe.config
+D:\ajit\rnd\StringFormatting\StringFormatting\bin\Debug\StringFormatting.exe
+D:\ajit\rnd\StringFormatting\StringFormatting\bin\Debug\StringFormatting.pdb
+D:\ajit\rnd\StringFormatting\StringFormatting\obj\Debug\StringFormatting.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\StringFormatting\StringFormatting\obj\Debug\StringFormatting.Form1.resources
+D:\ajit\rnd\StringFormatting\StringFormatting\obj\Debug\StringFormatting.Properties.Resources.resources
+D:\ajit\rnd\StringFormatting\StringFormatting\obj\Debug\StringFormatting.csproj.GenerateResource.Cache
+D:\ajit\rnd\StringFormatting\StringFormatting\obj\Debug\StringFormatting.exe
+D:\ajit\rnd\StringFormatting\StringFormatting\obj\Debug\StringFormatting.pdb

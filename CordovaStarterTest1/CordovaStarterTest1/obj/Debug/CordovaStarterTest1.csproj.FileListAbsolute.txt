@@ -1,0 +1,14 @@
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\Bin\Debug\ApplicationIcon.png
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\Bin\Debug\Background.png
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\Bin\Debug\CordovaStarterTest1.dll
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\Bin\Debug\CordovaStarterTest1.pdb
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\Bin\Debug\AppManifest.xaml
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\Bin\Debug\CordovaStarterTest1.xap
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\Bin\Debug\WP7CordovaClassLib.dll
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\obj\Debug\App.g.i.cs
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\obj\Debug\MainPage.g.i.cs
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\obj\Debug\CordovaStarterTest1.g.resources
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\obj\Debug\CordovaStarterTest1.dll
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\obj\Debug\CordovaStarterTest1.pdb
+D:\ajit\rnd\CordovaStarterTest1\CordovaStarterTest1\obj\Debug\XapCacheFile.xml

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d26e24a1-74f1-456c-a6e4-60a08deab361" name="achahal@S24S104 2012-10-01 10:59:15" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0d33e25a-afb8-41e4-bb28-a41606500ef1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\ajit\rnd\WinServiceInstallerTest\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="achahal_S24S104 2012-10-01 10_59_15">
+      <DeploymentItem filename="D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\bin\Debug\WinServiceInstallerTest.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-01T10:59:15.9099309+02:00" queuing="2012-10-01T10:59:15.9769309+02:00" start="2012-10-01T10:59:15.9979309+02:00" finish="2012-10-01T10:59:16.2239309+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="S24S104" outcome="Warning" timestamp="2012-10-01T10:59:15.9769309+02:00">
+        <Text>Deployment is currently disabled. The deployment item 'WinServiceInstallerTest.exe' on test 'TestProject1.Service1Test.timer1_TickTest' was not deployed.</Text>
+      </RunInfo>
+      <RunInfo computerName="S24S104" outcome="Error" timestamp="2012-10-01T10:59:16.1959309+02:00">
+        <Text>One of the background threads threw exception: 
+System.IO.IOException: The process cannot access the file 'd:\date.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at WinServiceInstallerTest.Service1.timer1_Tick(Object sender) in D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\Service1.cs:line 31
+   at System.Threading._TimerCallback.TimerCallback_Context(Object state)
+   at System.Threading.ExecutionContext.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading._TimerCallback.PerformTimerCallback(Object state)</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="timer1_TickTest" storage="d:\ajit\rnd\winserviceinstallertest\testproject1\bin\debug\testproject1.dll" id="26b6276e-df2d-f317-1a38-781c6f9824db">
+      <DeploymentItems>
+        <DeploymentItem filename="WinServiceInstallerTest.exe" />
+      </DeploymentItems>
+      <Execution id="cb416bf3-fe32-4cbf-ac3a-1f9c86d7f5bc" />
+      <TestMethod codeBase="D:/ajit/rnd/WinServiceInstallerTest/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Service1Test, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="timer1_TickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="26b6276e-df2d-f317-1a38-781c6f9824db" executionId="cb416bf3-fe32-4cbf-ac3a-1f9c86d7f5bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cb416bf3-fe32-4cbf-ac3a-1f9c86d7f5bc" testId="26b6276e-df2d-f317-1a38-781c6f9824db" testName="timer1_TickTest" computerName="S24S104" duration="00:00:00.0189447" startTime="2012-10-01T10:59:16.0039309+02:00" endTime="2012-10-01T10:59:16.2059309+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb416bf3-fe32-4cbf-ac3a-1f9c86d7f5bc">
+    </UnitTestResult>
+  </Results>
+</TestRun>

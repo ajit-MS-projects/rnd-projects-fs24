@@ -1,0 +1,11 @@
+d:\ajit\rnd\LearnMvc4\Data.Model\bin\Debug\Data.Model.dll
+d:\ajit\rnd\LearnMvc4\Data.Model\bin\Debug\Data.Model.pdb
+d:\ajit\rnd\LearnMvc4\Data.Model\obj\Debug\Data.Model.csprojResolveAssemblyReference.cache
+d:\ajit\rnd\LearnMvc4\Data.Model\obj\Debug\Data.Model.dll
+d:\ajit\rnd\LearnMvc4\Data.Model\obj\Debug\Data.Model.pdb
+d:\ajit\rnd\LearnMvc4\Data.Model\bin\Debug\Data.Model.dll.config
+d:\ajit\rnd\LearnMvc4\Data.Model\bin\Debug\Iesi.Collections.dll
+d:\ajit\rnd\LearnMvc4\Data.Model\bin\Debug\NHibernate.dll
+d:\ajit\rnd\LearnMvc4\Data.Model\bin\Debug\NhibernatePersistenceHelper.dll
+d:\ajit\rnd\LearnMvc4\Data.Model\bin\Debug\Iesi.Collections.xml
+d:\ajit\rnd\LearnMvc4\Data.Model\bin\Debug\NHibernate.xml

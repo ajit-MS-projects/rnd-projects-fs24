@@ -1,0 +1,5 @@
+D:\ajit\rnd\AspPost\AspPost\bin\AspPost.dll
+D:\ajit\rnd\AspPost\AspPost\bin\AspPost.pdb
+D:\ajit\rnd\AspPost\AspPost\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\AspPost\AspPost\obj\Debug\AspPost.dll
+D:\ajit\rnd\AspPost\AspPost\obj\Debug\AspPost.pdb

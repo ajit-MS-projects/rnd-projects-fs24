@@ -1,0 +1,10 @@
+D:\ajit\rnd\PostToUrl\ReflectionForms\bin\Debug\ReflectionForms.exe
+D:\ajit\rnd\PostToUrl\ReflectionForms\bin\Debug\ReflectionForms.pdb
+D:\ajit\rnd\PostToUrl\ReflectionForms\obj\x86\Debug\ReflectionForms.Properties.Resources.resources
+D:\ajit\rnd\PostToUrl\ReflectionForms\obj\x86\Debug\ReflectionForms.exe
+D:\ajit\rnd\PostToUrl\ReflectionForms\obj\x86\Debug\ReflectionForms.pdb
+D:\ajit\rnd\PostToUrl\ReflectionForms\obj\x86\Debug\ReflectionForms.Form1.resources
+D:\ajit\rnd\PostToUrl\ReflectionForms\bin\Debug\Newtonsoft.Json.dll
+D:\ajit\rnd\PostToUrl\ReflectionForms\bin\Debug\Newtonsoft.Json.xml
+D:\ajit\rnd\PostToUrl\ReflectionForms\obj\x86\Debug\ReflectionForms.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\PostToUrl\ReflectionForms\obj\x86\Debug\ReflectionForms.csproj.GenerateResource.Cache

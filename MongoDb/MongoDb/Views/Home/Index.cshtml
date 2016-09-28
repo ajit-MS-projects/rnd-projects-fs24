@@ -1,0 +1,35 @@
+﻿@model MongoDb.Controllers.ProductViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<fieldset>
+    <legend>ProductViewModel</legend>
+	    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Id)
+    </div>
+    <div class="display-field">
+        @Model.Id.ToString()
+    </div>
+
+	<div class="display-label">
+         @Html.DisplayNameFor(model => model.ArticleNum)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ArticleNum)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Title)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Title)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

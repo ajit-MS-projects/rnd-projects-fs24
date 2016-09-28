@@ -1,0 +1,4 @@
+D:\ajit\rnd\DeployTestFromPrj\SetupProject1\bin\Debug\SetupProject1.msi
+D:\ajit\rnd\DeployTestFromPrj\SetupProject1\bin\Debug\SetupProject1.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\Product.Generated.wixobj

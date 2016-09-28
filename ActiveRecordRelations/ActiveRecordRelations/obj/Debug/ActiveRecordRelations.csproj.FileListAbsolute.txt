@@ -1,0 +1,7 @@
+D:\ajit\rnd\ActiveRecordRelations\ActiveRecordRelations\bin\ActiveRecordRelations.dll
+D:\ajit\rnd\ActiveRecordRelations\ActiveRecordRelations\bin\ActiveRecordRelations.pdb
+D:\ajit\rnd\ActiveRecordRelations\ActiveRecordRelations\bin\EntityFramework.dll
+D:\ajit\rnd\ActiveRecordRelations\ActiveRecordRelations\bin\EntityFramework.xml
+D:\ajit\rnd\ActiveRecordRelations\ActiveRecordRelations\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\ActiveRecordRelations\ActiveRecordRelations\obj\Debug\ActiveRecordRelations.dll
+D:\ajit\rnd\ActiveRecordRelations\ActiveRecordRelations\obj\Debug\ActiveRecordRelations.pdb

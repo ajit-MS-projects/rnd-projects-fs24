@@ -1,0 +1,9 @@
+D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\bin\Debug\WinServiceInstallerTest.exe
+D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\bin\Debug\WinServiceInstallerTest.pdb
+D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\obj\x86\Debug\WinServiceInstallerTest.ProjectInstaller.resources
+D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\obj\x86\Debug\WinServiceInstallerTest.Service1.resources
+D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\obj\x86\Debug\WinServiceInstallerTest.exe
+D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\obj\x86\Debug\WinServiceInstallerTest.pdb

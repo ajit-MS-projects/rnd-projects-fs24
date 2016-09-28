@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+	<?define ProductName          = "Ajit Ip detect service" ?>
+	<?define UpgradeCode          = "857AFD8F-DC05-4826-85DD-400BE3C1AA91" ?>
+	<?define Manufacturer         = "www.Ajitchahal.de" ?>
+
+	<?define ARPCOMMENTS        = "any comments" ?>
+	<?define ARPCONTACT         = "contact info" ?>
+	<?define ARPHELPLINK        = "URL for technical support" ?>
+	<?define ARPURLINFOABOUT    = "URL for general info about the product" ?>
+	<?define ARPURLUPDATEINFO   = "URL for product updates" ?>
+	<?define ARPHELPTELEPHONE   = "URL for technical support" ?>
+	<?define ARPREADME          = "path" ?>
+
+	<?define ServiceGUID        = "674802A6-AA19-47ED-9213-DA7277D8C01D" ?>
+	<?define ServiceName        = "AjitIpDetectService"?>
+	<?define ServiceDisplayName = "Ajit Ip Detect Service"?>
+	<?define ServiceDescription = "Detects Ip and synchs to skydrive" ?>
+	
+	<!-- ProductCode und Version muessen immer gemeinsam geaendert werden. -->
+	<?define ProductVersion       = "1.0.1" ?>
+	<?define ProductCode          = "E57EA7B2-3530-4DCB-AACE-757EFD1A0AD9" ?>
+</Include>

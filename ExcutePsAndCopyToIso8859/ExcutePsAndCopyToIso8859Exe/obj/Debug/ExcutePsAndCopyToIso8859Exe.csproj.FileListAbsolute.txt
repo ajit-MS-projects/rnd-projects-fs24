@@ -1,0 +1,5 @@
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859Exe\bin\Debug\ExcutePsAndCopyToIso8859Exe.exe.config
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859Exe\bin\Debug\ExcutePsAndCopyToIso8859Exe.exe
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859Exe\bin\Debug\ExcutePsAndCopyToIso8859Exe.pdb
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859Exe\obj\Debug\ExcutePsAndCopyToIso8859Exe.exe
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859Exe\obj\Debug\ExcutePsAndCopyToIso8859Exe.pdb

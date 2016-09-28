@@ -1,0 +1,7 @@
+D:\ajit\rnd\ImageMerge\ImageMerge\bin\ImageMerge.dll
+D:\ajit\rnd\ImageMerge\ImageMerge\bin\ImageMerge.pdb
+D:\ajit\rnd\ImageMerge\ImageMerge\bin\EntityFramework.dll
+D:\ajit\rnd\ImageMerge\ImageMerge\bin\EntityFramework.xml
+D:\ajit\rnd\ImageMerge\ImageMerge\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\ImageMerge\ImageMerge\obj\Debug\ImageMerge.dll
+D:\ajit\rnd\ImageMerge\ImageMerge\obj\Debug\ImageMerge.pdb

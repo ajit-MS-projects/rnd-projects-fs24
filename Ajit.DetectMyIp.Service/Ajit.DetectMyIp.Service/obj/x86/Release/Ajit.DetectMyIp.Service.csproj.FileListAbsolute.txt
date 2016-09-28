@@ -1,0 +1,11 @@
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service\bin\Release\Ajit.DetectMyIp.Service.exe
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service\bin\Release\Ajit.DetectMyIp.Service.pdb
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service\bin\Release\Ajit.DetectMyIp.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service\bin\Release\Newtonsoft.Json.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service\bin\Release\System.Net.Http.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service\bin\Release\Ajit.DetectMyIp.pdb
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service\bin\Release\Newtonsoft.Json.xml
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service\bin\Release\System.Net.Http.xml
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service\obj\x86\Release\Ajit.DetectMyIp.Service.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service\obj\x86\Release\Ajit.DetectMyIp.Service.exe
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service\obj\x86\Release\Ajit.DetectMyIp.Service.pdb

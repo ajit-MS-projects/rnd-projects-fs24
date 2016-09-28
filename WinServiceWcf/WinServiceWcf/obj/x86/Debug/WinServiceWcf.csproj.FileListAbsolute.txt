@@ -1,0 +1,5 @@
+D:\ajit\rnd\WinServiceWcf\WinServiceWcf\bin\Debug\WinServiceWcf.exe.config
+D:\ajit\rnd\WinServiceWcf\WinServiceWcf\bin\Debug\WinServiceWcf.exe
+D:\ajit\rnd\WinServiceWcf\WinServiceWcf\bin\Debug\WinServiceWcf.pdb
+D:\ajit\rnd\WinServiceWcf\WinServiceWcf\obj\x86\Debug\WinServiceWcf.exe
+D:\ajit\rnd\WinServiceWcf\WinServiceWcf\obj\x86\Debug\WinServiceWcf.pdb

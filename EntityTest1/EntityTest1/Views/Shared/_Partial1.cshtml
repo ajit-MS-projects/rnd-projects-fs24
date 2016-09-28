@@ -1,0 +1,33 @@
+﻿@model IEnumerable<EntityTest1.Models.Land>
+
+<p>
+	<h2>Lands</h2>
+	@using (Html.BeginForm("AddLand","Home", FormMethod.Post))
+	{
+		<fieldset>
+			<span>New Land:</span>
+			<input type="text" name="land" id="land"/>
+			<p>
+				<input type="submit" value="Add new land" />
+			</p>
+		</fieldset>
+	}
+	<table>
+    <tr>
+		<th>ID</th>
+		<th>Name</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+		<td>
+           @item.Id
+		</td>
+		<td>
+           @item.Name
+        </td>
+    </tr>
+}
+
+</table>
+</p>

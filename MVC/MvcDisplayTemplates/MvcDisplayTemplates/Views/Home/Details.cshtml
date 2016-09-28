@@ -1,0 +1,24 @@
+﻿@using MvcDisplayTemplates.Models
+@model MvcDisplayTemplates.Models.Contact
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+aaaaggggeee:@Html.Display("FirstName")<br/>
+<br/>
+    @Html.DisplayForModel()
+<br/>
+--------------------------------------------------------------------
+<br/>
+@Html.EditorForModel()
+<br/>
+@Html.DropDownList("Catsa", new SelectList(Enum.GetValues(typeof(Category))))
+@Html.DropDownListFor(m => Model.Cats,new SelectList(Enum.GetValues(typeof(Category))) , "")
+<br/>
+@Html.ListBox("catsaa",  new SelectList(Enum.GetValues(typeof(Category))))
+
+@Html.ListBoxFor(m => m.SelectedCats1, Model.CategoriesList)
+
+@*@Html.EnumListBoxFor(m=>m.Cats)*@

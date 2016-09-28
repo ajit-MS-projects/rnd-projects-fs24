@@ -1,0 +1,9 @@
+D:\ajit\rnd\PatroneManager\PatroneServices\bin\Debug\Patrone.Services.dll
+D:\ajit\rnd\PatroneManager\PatroneServices\bin\Debug\Patrone.Services.pdb
+D:\ajit\rnd\PatroneManager\PatroneServices\bin\Debug\Patrone.Contracts.dll
+D:\ajit\rnd\PatroneManager\PatroneServices\bin\Debug\Patrone.Data.dll
+D:\ajit\rnd\PatroneManager\PatroneServices\bin\Debug\Patrone.Contracts.pdb
+D:\ajit\rnd\PatroneManager\PatroneServices\bin\Debug\Patrone.Data.pdb
+D:\ajit\rnd\PatroneManager\PatroneServices\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\PatroneManager\PatroneServices\obj\Debug\Patrone.Services.dll
+D:\ajit\rnd\PatroneManager\PatroneServices\obj\Debug\Patrone.Services.pdb

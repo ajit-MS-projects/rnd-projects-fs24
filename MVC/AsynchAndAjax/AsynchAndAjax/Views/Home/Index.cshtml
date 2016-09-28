@@ -1,0 +1,92 @@
+﻿@using AsynchAndAjax.Models
+@{
+	ViewBag.Title = "Index";
+}
+<script src="../../Scripts/jquery-1.5.1.js" type="text/javascript"></script>
+<script src="../../Scripts/json2.js" type="text/javascript"></script>
+<script type="text/javascript">
+//	function GetJsonFromString(s) {
+//		var retObj = { };
+//		var props = s.split("&");
+//		for (var i = 0; i < props.length; i++) {
+//			var nameValue = props[i].split("=");
+//			retObj[nameValue[0]] = nameValue[1];
+//		}
+//		return retObj;
+//	}
+
+//	//	personObj = { firstname: "John", lastname: "Doe", age: 50, eyecolor: "blue" };
+//	//	var x = {}; x["nameProperty"] = "John";
+
+//	var s = "id=1&Title=This is title";
+//	var myObject = GetJsonFromString(s);
+//	var jsonString = JSON.stringify(myObject);
+//	//alert(jsonString);
+//	//---------------------------------------------------------------------------------------
+
+	var productViewModel = {
+		id:1111,
+		title:"from ajax"
+	};
+	$.ajax({
+		url: '/Home/ShowProduct',
+		type: 'POST',
+		data: "id=1&Title=This is title",
+		error: function (xhr) {
+			alert('Error: ' + xhr.statusText);
+		},
+		success: function (result) {
+			//alert(result);
+			$('#contentDiv').html(result);
+		},
+		async: true,
+		processData: false
+	});
+
+	//----------------------------
+	$.ajax({
+		url: '/Home/ShowProductJson',
+		type: 'POST',
+		data: JSON.stringify(productViewModel),
+				dataType: 'json',
+				contentType: 'application/json; charset=utf-8',
+		error: function (xhr) {
+			alert('Error: ' + xhr.statusText);
+		},
+		success: function (result) {
+//			alert(result);
+//			alert(result.Title);
+		},
+		async: true,
+		processData: false
+	});	
+
+</script>
+	<script type="text/javascript">
+
+$(function() {
+
+
+    $('form#ajaxForm').find('a.submit-link').click( function() {
+    	alert("test");
+    	//$('form#ajaxForm').submit();
+    	$('form#ajaxForm').trigger('submit');
+	});
+    	
+
+  }
+)
+</script>
+<h2>Index</h2>
+<div id="contentDiv"></div>
+
+<div>
+	
+	@using (Ajax.BeginForm("ShowProduct", "Home", null, new AjaxOptions { UpdateTargetId = "contentDiv", HttpMethod = "post" }, new { id = "ajaxForm" })) 
+	{
+   @Html.TextBox("Title","SDfrsf") 
+	  <input type="submit" value="Ajax PsBk Click" />   
+   <a href="#" class="submit-link">Save</a> 
+	}
+</div>
+

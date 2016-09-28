@@ -1,0 +1,8 @@
+D:\ajit\rnd\UpdateFileServiceForDeploymentTest\UpdateFileServiceForDeploymentTest\bin\Debug\UpdateFileServiceForDeploymentTest.exe
+D:\ajit\rnd\UpdateFileServiceForDeploymentTest\UpdateFileServiceForDeploymentTest\bin\Debug\UpdateFileServiceForDeploymentTest.pdb
+D:\ajit\rnd\UpdateFileServiceForDeploymentTest\UpdateFileServiceForDeploymentTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\UpdateFileServiceForDeploymentTest\UpdateFileServiceForDeploymentTest\obj\x86\Debug\UpdateFileServiceForDeploymentTest.ProjectInstaller.resources
+D:\ajit\rnd\UpdateFileServiceForDeploymentTest\UpdateFileServiceForDeploymentTest\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\ajit\rnd\UpdateFileServiceForDeploymentTest\UpdateFileServiceForDeploymentTest\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\ajit\rnd\UpdateFileServiceForDeploymentTest\UpdateFileServiceForDeploymentTest\obj\x86\Debug\UpdateFileServiceForDeploymentTest.exe
+D:\ajit\rnd\UpdateFileServiceForDeploymentTest\UpdateFileServiceForDeploymentTest\obj\x86\Debug\UpdateFileServiceForDeploymentTest.pdb

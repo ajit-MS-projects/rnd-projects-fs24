@@ -1,0 +1,62 @@
+﻿@model CmsSearchClient.Models.SearchResponseModel
+
+@{
+    ViewBag.Title = "Search";
+    var cmsSearch = Model.SearchResponse.CmsItems.FirstOrDefault();
+}
+<div class="SearchResult">
+    <h3>FinanceScout24 Search</h3>
+    <hr />
+    @using (Html.BeginForm("Search", "SearchResultsViewer", FormMethod.Post, new { @class = "ajaxSubmit" }))
+    {@Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        <div id="SearchResults">
+
+        <div class="ui-widget">
+            <label for="searchTerm">Search: </label>
+            @Html.TextBoxFor(item => item.SearchTerm, new { autocomplete = "off" })
+            @Html.ActionLink("Clear Search", "Search")
+        </div>
+        <hr />
+        
+            @Html.Partial("Shared/DidYouMean", Model.SearchResponse.DidYouMeanTexts)
+
+            <div class="breadCrumbs">
+                @foreach (var facet in Model.SearchResponse.Facets)
+                {
+                    <table>
+                        <tr style="background-color: white">
+                            <td style="width: 100px">
+                                <span class="breadCrumbgroup">
+                                    <b>@facet.FacetField:</b>
+                                </span>
+                            </td>
+                            <td>
+                                @foreach (var facetValue in facet.FacetValues)
+                                {
+                                    <span class="breadCrumb">
+                                        @*<a class="facetValue" href="">@facetValue.FacetValueName</a>*@
+                                        @Html.ActionLink(facetValue.FacetValueName, "Search", new { FacetField = facet.FacetField, FacetValue = facetValue.FacetValueName })
+                                        : @facetValue.FacetValueCount
+                                    </span>
+                                }<br />
+                            </td>
+                        </tr>
+                    </table>
+                }
+            </div>
+
+            <hr />
+            @foreach (var item in Model.SearchResponse.CmsItems)
+            {
+                <div class="resultTitle">
+                    <a href="http://www.financescout24.dev/@Html.DisplayFor(modelItem => item.Url)">@Html.Raw(item.PageTitle)</a>
+                </div>
+                <div class="resultDescription">
+                    @Html.DisplayFor(modelItem => item.Description)
+                </div>
+            }
+        </div>
+    }
+
+</div>

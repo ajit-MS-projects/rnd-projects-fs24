@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>AmazedSaint.ElasticObject</id>
+    <version>1.2.0</version>
+    <title>AmazedSaint.ElasticObject</title>
+    <authors>anoopm</authors>
+    <owners>anoopm</owners>
+    <projectUrl>http://elasticobject.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An fluid, dynamic way to work with data types like XML</description>
+    <releaseNotes>Packaged for Nuget - Feb 16th</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <language />
+    <tags>C# Dynamic</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

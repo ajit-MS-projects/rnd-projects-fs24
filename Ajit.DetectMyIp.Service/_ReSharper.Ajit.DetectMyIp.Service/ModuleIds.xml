@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="38662C90-1EAC-4A9E-BCD2-0F6E1B3EA8C5" ModuleId="Ajit.DetectMyIp" />
+  <Module PersistentId="89461EF6-518F-4898-8BD6-E53398C67ED4" ModuleId="Ajit.DetectMyIp.Service" />
+  <Module PersistentId="EC26B937-0F52-44E0-B989-AEB7B5DC4009" ModuleId="Ajit.DetectMyIp.Test" />
+</Modules>

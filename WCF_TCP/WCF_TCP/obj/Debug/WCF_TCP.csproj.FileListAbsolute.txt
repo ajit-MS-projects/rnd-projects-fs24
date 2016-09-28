@@ -1,0 +1,4 @@
+D:\ajit\rnd\WCF_TCP\WCF_TCP\bin\WCF_TCP.dll
+D:\ajit\rnd\WCF_TCP\WCF_TCP\bin\WCF_TCP.pdb
+D:\ajit\rnd\WCF_TCP\WCF_TCP\obj\Debug\WCF_TCP.dll
+D:\ajit\rnd\WCF_TCP\WCF_TCP\obj\Debug\WCF_TCP.pdb

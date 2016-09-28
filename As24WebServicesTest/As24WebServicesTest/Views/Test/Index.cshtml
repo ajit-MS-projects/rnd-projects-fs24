@@ -1,0 +1,22 @@
+﻿@model As24WebServicesTest.As24.GetArticleDetailsResponse
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<img src="@Model.root_paths.images_small@Model.vehicle.media.images[0].uri"/>
+
+@Html.Partial("_vehicle", Model.vehicle)
+
+@foreach (var price in Model.vehicle.prices)
+{
+    @Html.Partial("_price", price)
+}
+
+@Html.Partial("_consumption", Model.vehicle.consumption)
+
+
+@Html.Partial("_equipments", Model.vehicle.equipments)
+

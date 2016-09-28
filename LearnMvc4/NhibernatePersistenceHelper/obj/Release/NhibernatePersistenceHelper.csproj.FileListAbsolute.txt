@@ -1,0 +1,12 @@
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\bin\Release\App.config
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\bin\Release\packages.config
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\bin\Release\NhibernatePersistenceHelper.dll.config
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\bin\Release\NhibernatePersistenceHelper.dll
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\bin\Release\NhibernatePersistenceHelper.pdb
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\bin\Release\Iesi.Collections.dll
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\bin\Release\NHibernate.dll
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\bin\Release\Iesi.Collections.xml
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\bin\Release\NHibernate.xml
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\obj\Release\NhibernatePersistenceHelper.dll
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\obj\Release\NhibernatePersistenceHelper.pdb
+d:\ajit\rnd\LearnMvc4\NhibernatePersistenceHelper\bin\Release\Emp.hbm.xml

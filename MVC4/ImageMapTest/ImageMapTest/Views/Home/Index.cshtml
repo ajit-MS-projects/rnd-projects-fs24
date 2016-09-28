@@ -1,0 +1,69 @@
+﻿@using System.Drawing
+@using ImageMapTest.Helpers
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<img src="http://static.sparacuda.loc/file/getcommunityboximage?maxColumns=11&amp;maxRows=3&amp;borderWidth=1&amp;borderColorHex=ffffff" alt="Community members" usemap="#menumap">
+<br/>
+@Html.Image("menu", null, "~/content/images/ball.jpg", 686,100, 0, "#menumap", "", null)
+
+@{
+	var circleShape = new CircleHotSpot
+	{
+		Action = "Index1",
+		AlternateText = "Alternate Text c",
+		Controller = "Home",
+		Title = "Titlec",
+		Center = new Point(10, 10),
+		Radius = 20
+	};
+ 
+var rectShape = new RectangleHotSpot
+    {
+		Action = "Index1",
+        AlternateText = "Alternate Text",
+		Controller = "Home",
+        Title = "Titler",
+        TopLeft = new Point(0, 0),
+        BottomRight = new Point(50, 50)
+    };
+
+var rectShape1 = new RectangleHotSpot
+{
+	Action = "Index1",
+	AlternateText = "Alternate Text",
+	Controller = "Home",
+	Title = "Title2",
+	TopLeft = new Point(50, 0),
+	BottomRight = new Point(100, 50)
+};
+var rectShape2 = new RectangleHotSpot
+{
+	Action = "Index1",
+	AlternateText = "Alternate Text",
+	Controller = "Home",
+	Title = "Title3",
+	TopLeft = new Point(0, 50),
+	BottomRight = new Point(50, 100)
+};
+                         
+//var polyShape = new PolygonHotSpot
+//    {
+//        Action = "Index1",
+//        Controller = "Home",
+//        AlternateText = "Alternate Text",
+//        Title = "Titlep",
+//        Coordinates = new[]
+//                        {
+//                        new Point(6, 30),
+//                        new Point(144, 18),
+//                        new Point(154, 133),
+//                        new Point(16, 145),
+//                        new Point(6, 30)
+//                        }
+//    };
+}
+
+@Html.ActionLink(new ImageMap { ID = "menumap", Name = "menumap", Shapes = new ImageMapHotSpot[] { rectShape, rectShape1, rectShape2, circleShape } })

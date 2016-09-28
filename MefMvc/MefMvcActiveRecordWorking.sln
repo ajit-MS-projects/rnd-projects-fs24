@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MefMvcActiveRecordWorking", "MefMvcActiveRecordWorking\MefMvcActiveRecordWorking.csproj", "{857B02E0-4CF3-4481-9477-B52706E194E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductContracts", "MefMvcActiveRecordWorking\ProductContracts\ProductContracts.csproj", "{9973513E-456B-4207-AB89-0E92AE0B26F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductBusiness", "MefMvcActiveRecordWorking\ProductBusiness\ProductBusiness.csproj", "{DB7AE0FD-172E-47D7-9D03-66B5EA0EFA1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A818DC62-71DC-41E2-AFBA-E0BEDD03EE96}"
+	ProjectSection(SolutionItems) = preProject
+		Shared\Castle.ActiveRecord.dll = Shared\Castle.ActiveRecord.dll
+		Shared\Castle.ActiveRecord.Web.dll = Shared\Castle.ActiveRecord.Web.dll
+		Shared\Castle.ActiveRecord.xml = Shared\Castle.ActiveRecord.xml
+		Shared\Castle.Components.Validator.dll = Shared\Castle.Components.Validator.dll
+		Shared\Castle.Core.dll = Shared\Castle.Core.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{857B02E0-4CF3-4481-9477-B52706E194E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857B02E0-4CF3-4481-9477-B52706E194E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857B02E0-4CF3-4481-9477-B52706E194E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857B02E0-4CF3-4481-9477-B52706E194E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9973513E-456B-4207-AB89-0E92AE0B26F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9973513E-456B-4207-AB89-0E92AE0B26F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9973513E-456B-4207-AB89-0E92AE0B26F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9973513E-456B-4207-AB89-0E92AE0B26F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB7AE0FD-172E-47D7-9D03-66B5EA0EFA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7AE0FD-172E-47D7-9D03-66B5EA0EFA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7AE0FD-172E-47D7-9D03-66B5EA0EFA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7AE0FD-172E-47D7-9D03-66B5EA0EFA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

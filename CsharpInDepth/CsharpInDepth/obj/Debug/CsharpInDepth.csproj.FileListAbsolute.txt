@@ -1,0 +1,6 @@
+D:\ajit\rnd\CsharpInDepth\CsharpInDepth\bin\Debug\CsharpInDepth.exe.config
+D:\ajit\rnd\CsharpInDepth\CsharpInDepth\bin\Debug\CsharpInDepth.exe
+D:\ajit\rnd\CsharpInDepth\CsharpInDepth\bin\Debug\CsharpInDepth.pdb
+D:\ajit\rnd\CsharpInDepth\CsharpInDepth\obj\Debug\CsharpInDepth.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\CsharpInDepth\CsharpInDepth\obj\Debug\CsharpInDepth.exe
+D:\ajit\rnd\CsharpInDepth\CsharpInDepth\obj\Debug\CsharpInDepth.pdb

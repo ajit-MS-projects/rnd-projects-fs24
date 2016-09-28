@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="82a3096a-2ce9-4440-af13-f88d3b75c974" name="achahal@S24S104 2013-01-25 14:26:49" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ba7c3b81-89d2-4976-b032-f712b6ba6f57">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2013-01-25 14_26_49">
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest - Copy\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest - Copy\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest - Copy\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest - Copy\packages\Castle.Activerecord.3.0.0.1\lib\Net40\NHibernate.Search.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest - Copy\packages\Castle.Core.3.0.0.4001\lib\net40-client\Castle.Core.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest - Copy\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest - Copy\packages\Castle.Components.Validator.2.5.0\lib\NET40\Castle.Components.Validator.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest - Copy\CastleActiveRecordTest\bin\CastleActiveRecordTest.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest - Copy\packages\System.Linq.Dynamic.1.0.0\lib\net40\System.Linq.Dynamic.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest - Copy\packages\Castle.Activerecord.3.0.0.1\lib\Net40\Castle.ActiveRecord.Web.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-01-25T14:26:49.1565378+01:00" queuing="2013-01-25T14:26:51.1727394+01:00" start="2013-01-25T14:26:51.2167438+01:00" finish="2013-01-25T14:27:02.3608581+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="S24S104" outcome="Error" timestamp="2013-01-25T14:27:02.3598580+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ReportsGetTest" storage="d:\ajit\rnd\castleactiverecordtest - copy\newtest\bin\debug\newtest.dll" id="86c34846-de0b-cb7e-2f91-fd69d9afb818">
+      <Execution id="894d555e-492c-4bee-8db6-20eb92f62a43" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest - Copy/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReportsGetTest" />
+    </UnitTest>
+    <UnitTest name="AddProductTest" storage="d:\ajit\rnd\castleactiverecordtest - copy\newtest\bin\debug\newtest.dll" id="48ddeb23-cc7d-070d-b64a-c9f720ce568c">
+      <Execution id="96289098-1994-4540-bda1-59e41ddc8373" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest - Copy/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddProductTest" />
+    </UnitTest>
+    <UnitTest name="AddProductTest2" storage="d:\ajit\rnd\castleactiverecordtest - copy\newtest\bin\debug\newtest.dll" id="cbd6ff1b-cf0b-6864-eced-241af830b4c6">
+      <Execution id="316cb1fe-af22-4db8-a9e3-e7cc160127e4" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest - Copy/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddProductTest2" />
+    </UnitTest>
+    <UnitTest name="ReportsTest" storage="d:\ajit\rnd\castleactiverecordtest - copy\newtest\bin\debug\newtest.dll" id="03d270b5-d083-8190-2451-084ac855050e">
+      <Execution id="9761bc51-3bac-4dbf-9ad4-8fd5ec96d7df" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest - Copy/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReportsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="03d270b5-d083-8190-2451-084ac855050e" executionId="9761bc51-3bac-4dbf-9ad4-8fd5ec96d7df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48ddeb23-cc7d-070d-b64a-c9f720ce568c" executionId="96289098-1994-4540-bda1-59e41ddc8373" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86c34846-de0b-cb7e-2f91-fd69d9afb818" executionId="894d555e-492c-4bee-8db6-20eb92f62a43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbd6ff1b-cf0b-6864-eced-241af830b4c6" executionId="316cb1fe-af22-4db8-a9e3-e7cc160127e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9761bc51-3bac-4dbf-9ad4-8fd5ec96d7df" testId="03d270b5-d083-8190-2451-084ac855050e" testName="ReportsTest" computerName="S24S104" duration="00:00:11.1021101" startTime="2013-01-25T14:26:51.2577479+01:00" endTime="2013-01-25T14:27:02.3598580+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9761bc51-3bac-4dbf-9ad4-8fd5ec96d7df">
+    </UnitTestResult>
+    <UnitTestResult executionId="96289098-1994-4540-bda1-59e41ddc8373" testId="48ddeb23-cc7d-070d-b64a-c9f720ce568c" testName="AddProductTest" computerName="S24S104" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96289098-1994-4540-bda1-59e41ddc8373">
+    </UnitTestResult>
+    <UnitTestResult executionId="894d555e-492c-4bee-8db6-20eb92f62a43" testId="86c34846-de0b-cb7e-2f91-fd69d9afb818" testName="ReportsGetTest" computerName="S24S104" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="894d555e-492c-4bee-8db6-20eb92f62a43">
+    </UnitTestResult>
+    <UnitTestResult executionId="316cb1fe-af22-4db8-a9e3-e7cc160127e4" testId="cbd6ff1b-cf0b-6864-eced-241af830b4c6" testName="AddProductTest2" computerName="S24S104" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="316cb1fe-af22-4db8-a9e3-e7cc160127e4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

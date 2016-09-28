@@ -1,0 +1,4 @@
+D:\ajit\rnd\test\WindowsFormsApplication2\WindowsServiceUtils\bin\Debug\SolarSchmiede.WindowsServiceUtils.dll
+D:\ajit\rnd\test\WindowsFormsApplication2\WindowsServiceUtils\bin\Debug\SolarSchmiede.WindowsServiceUtils.pdb
+D:\ajit\rnd\test\WindowsFormsApplication2\WindowsServiceUtils\obj\Debug\SolarSchmiede.WindowsServiceUtils.dll
+D:\ajit\rnd\test\WindowsFormsApplication2\WindowsServiceUtils\obj\Debug\SolarSchmiede.WindowsServiceUtils.pdb

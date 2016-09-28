@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name = "format-detection" content = "telephone=no"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Hello Cordova</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Apache Cordova ajit</h1>
+            <div id="deviceready">
+                <p class="status pending blink">Connecting to Device</p>
+                <p class="status complete blink hide">Device is Ready</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova-2.0.0.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    	<script type="text/javascript">
+	    	app.initialize();
+	    	document.addEventListener("deviceready", onDeviceReady, false);
+
+	    	function onDeviceReady(parameters) {
+	    		alert("This is a message...!");
+	    		$("#content").innerHtml = "<h1>test title</h1>";
+	    	}
+	    </script>
+		<div id="content"></div>
+    </body>
+</html>

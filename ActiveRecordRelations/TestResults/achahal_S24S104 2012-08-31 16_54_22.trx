@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="851e4751-cb29-4ec9-99b2-60892cb65b00" name="achahal@S24S104 2012-08-31 16:54:22" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5069fc2f-3c19-48d3-ac04-26a734c6588f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\ajit\rnd\ActiveRecordRelations\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="achahal_S24S104 2012-08-31 16_54_22">
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\ARR.Business.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\packages\Iesi.Collections.3.1.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.Components.Validator.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.Core.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\NHibernate.ByteCode.Castle.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-31T16:54:22.1653534+02:00" queuing="2012-08-31T16:54:22.2013570+02:00" start="2012-08-31T16:54:22.2043573+02:00" finish="2012-08-31T16:54:22.7924161+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NewCategoryTest" storage="d:\ajit\rnd\activerecordrelations\testproject1\bin\debug\testproject1.dll" id="b110b622-d327-6282-a428-c10841ecf18f">
+      <Execution id="1e5bfc39-1e58-4187-80cd-a228ea3ddd35" />
+      <TestMethod codeBase="D:/ajit/rnd/ActiveRecordRelations/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProductTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewCategoryTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b110b622-d327-6282-a428-c10841ecf18f" executionId="1e5bfc39-1e58-4187-80cd-a228ea3ddd35" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1e5bfc39-1e58-4187-80cd-a228ea3ddd35" testId="b110b622-d327-6282-a428-c10841ecf18f" testName="NewCategoryTest" computerName="S24S104" startTime="2012-08-31T16:54:22.2063575+02:00" endTime="2012-08-31T16:54:22.7834152+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e5bfc39-1e58-4187-80cd-a228ea3ddd35">
+      <Output>
+        <ErrorInfo>
+          <Message>Class Initialization method TestProject1.ProductTest.MyClassInitialize threw exception. Castle.ActiveRecord.Framework.ActiveRecordException: Castle.ActiveRecord.Framework.ActiveRecordException: A type must declare a primary key. Check type ARR.Business.Entitiy.Order.</Message>
+          <StackTrace>    at Castle.ActiveRecord.Framework.Internal.SemanticVerifierVisitor.AssertHasValidKey(ActiveRecordModel model)
+   at Castle.ActiveRecord.Framework.Internal.SemanticVerifierVisitor.VisitModel(ActiveRecordModel model)
+   at Castle.ActiveRecord.Framework.Internal.ActiveRecordModel.Accept(IVisitor visitor)
+   at Castle.ActiveRecord.Framework.Internal.AbstractDepthFirstVisitor.VisitNodes(IEnumerable nodes)
+   at Castle.ActiveRecord.ActiveRecordStarter.RegisterTypes(ISessionFactoryHolder holder, IConfigurationSource source, IEnumerable`1 types, Boolean ignoreProblematicTypes)
+   at Castle.ActiveRecord.ActiveRecordStarter.Initialize(IConfigurationSource source, Type[] types)
+   at Castle.ActiveRecord.ActiveRecordStarter.Initialize(Assembly[] assemblies, IConfigurationSource source, Type[] additionalTypes)
+   at Castle.ActiveRecord.ActiveRecordStarter.Initialize(Assembly assembly, IConfigurationSource source)
+   at ARR.Business.PersistenceHelper.Initialize() in D:\ajit\rnd\ActiveRecordRelations\ARR.Business\PersistenceHelper.cs:line 19
+   at TestProject1.ProductTest.MyClassInitialize(TestContext testContext) in D:\ajit\rnd\ActiveRecordRelations\TestProject1\ProductTest.cs:line 66
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

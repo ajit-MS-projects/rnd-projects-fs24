@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a163eef4-9cab-4b2c-9cac-6f0d704ae504" name="achahal@S24S104 2012-08-30 17:14:21" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5069fc2f-3c19-48d3-ac04-26a734c6588f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2012-08-30 17_14_21">
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\ARR.Business.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\packages\Iesi.Collections.3.1.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.Components.Validator.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.Core.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\NHibernate.ByteCode.Castle.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-30T17:14:21.9805719+02:00" queuing="2012-08-30T17:14:22.0205759+02:00" start="2012-08-30T17:14:22.0245763+02:00" finish="2012-08-30T17:14:23.1366875+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NewProductTest" storage="d:\ajit\rnd\activerecordrelations\testproject1\bin\debug\testproject1.dll" id="319d5af7-16c1-e654-f047-b7bc517e16ee">
+      <Execution id="d44928e4-dd88-4ac3-94f4-43c3a1b61143" />
+      <TestMethod codeBase="D:/ajit/rnd/ActiveRecordRelations/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProductTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewProductTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="319d5af7-16c1-e654-f047-b7bc517e16ee" executionId="d44928e4-dd88-4ac3-94f4-43c3a1b61143" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d44928e4-dd88-4ac3-94f4-43c3a1b61143" testId="319d5af7-16c1-e654-f047-b7bc517e16ee" testName="NewProductTest" computerName="S24S104" duration="00:00:00.3628131" startTime="2012-08-30T17:14:22.0305769+02:00" endTime="2012-08-30T17:14:23.1246863+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d44928e4-dd88-4ac3-94f4-43c3a1b61143">
+    </UnitTestResult>
+  </Results>
+</TestRun>

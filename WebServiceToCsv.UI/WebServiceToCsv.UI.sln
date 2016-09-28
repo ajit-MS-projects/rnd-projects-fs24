@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceToCsv.UI", "WebServiceToCsv.UI\WebServiceToCsv.UI.csproj", "{678611C1-0191-43E7-9691-F2B77CB14D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceToCsv.Contracts", "WebServiceToCsv.Contracts\WebServiceToCsv.Contracts.csproj", "{9DE06DFB-BD4B-4DE3-98EA-C898745F09E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceToCsv.Services", "WebServiceToCsv.Services\WebServiceToCsv.Services.csproj", "{85E482C5-332C-4D39-B709-D6A94680B976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceToCsv.Data", "WebServiceToCsv.Data\WebServiceToCsv.Data.csproj", "{B03D6023-BE34-49B4-A5DC-3A2B7DA44EE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5E6C33DE-56AF-4206-8B50-641562C35787}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WebServiceToCsv.UI.vsmdi = WebServiceToCsv.UI.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{B8BDB583-DD1D-40A8-9535-0DDD05D35C83}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WebServiceToCsv.UI.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{678611C1-0191-43E7-9691-F2B77CB14D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678611C1-0191-43E7-9691-F2B77CB14D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678611C1-0191-43E7-9691-F2B77CB14D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678611C1-0191-43E7-9691-F2B77CB14D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE06DFB-BD4B-4DE3-98EA-C898745F09E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE06DFB-BD4B-4DE3-98EA-C898745F09E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE06DFB-BD4B-4DE3-98EA-C898745F09E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE06DFB-BD4B-4DE3-98EA-C898745F09E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85E482C5-332C-4D39-B709-D6A94680B976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E482C5-332C-4D39-B709-D6A94680B976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E482C5-332C-4D39-B709-D6A94680B976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E482C5-332C-4D39-B709-D6A94680B976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03D6023-BE34-49B4-A5DC-3A2B7DA44EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03D6023-BE34-49B4-A5DC-3A2B7DA44EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03D6023-BE34-49B4-A5DC-3A2B7DA44EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03D6023-BE34-49B4-A5DC-3A2B7DA44EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BDB583-DD1D-40A8-9535-0DDD05D35C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BDB583-DD1D-40A8-9535-0DDD05D35C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BDB583-DD1D-40A8-9535-0DDD05D35C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BDB583-DD1D-40A8-9535-0DDD05D35C83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

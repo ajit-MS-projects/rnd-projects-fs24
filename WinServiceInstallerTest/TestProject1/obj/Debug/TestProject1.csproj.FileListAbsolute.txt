@@ -1,0 +1,9 @@
+D:\ajit\rnd\WinServiceInstallerTest\TestProject1\bin\Debug\TestProject1.dll
+D:\ajit\rnd\WinServiceInstallerTest\TestProject1\bin\Debug\TestProject1.pdb
+D:\ajit\rnd\WinServiceInstallerTest\TestProject1\bin\Debug\WinServiceInstallerTest.exe
+D:\ajit\rnd\WinServiceInstallerTest\TestProject1\bin\Debug\WinServiceInstallerTest.pdb
+D:\ajit\rnd\WinServiceInstallerTest\TestProject1\bin\Debug\WinServiceInstallerTest_Accessor.exe
+D:\ajit\rnd\WinServiceInstallerTest\TestProject1\bin\Debug\WinServiceInstallerTest_Accessor.pdb
+D:\ajit\rnd\WinServiceInstallerTest\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\WinServiceInstallerTest\TestProject1\obj\Debug\TestProject1.dll
+D:\ajit\rnd\WinServiceInstallerTest\TestProject1\obj\Debug\TestProject1.pdb

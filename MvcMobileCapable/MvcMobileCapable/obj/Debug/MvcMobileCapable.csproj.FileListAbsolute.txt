@@ -1,0 +1,11 @@
+D:\ajit\rnd\MvcMobileCapable\MvcMobileCapable\bin\MvcMobileCapable.dll
+D:\ajit\rnd\MvcMobileCapable\MvcMobileCapable\bin\MvcMobileCapable.pdb
+D:\ajit\rnd\MvcMobileCapable\MvcMobileCapable\bin\EntityFramework.dll
+D:\ajit\rnd\MvcMobileCapable\MvcMobileCapable\bin\EntityFramework.xml
+D:\ajit\rnd\MvcMobileCapable\MvcMobileCapable\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\MvcMobileCapable\MvcMobileCapable\obj\Debug\MvcMobileCapable.dll
+D:\ajit\rnd\MvcMobileCapable\MvcMobileCapable\obj\Debug\MvcMobileCapable.pdb
+D:\ajit\rnd\MvcMobileCapable\MvcMobileCapable\bin\Microsoft.Web.Infrastructure.dll
+D:\ajit\rnd\MvcMobileCapable\MvcMobileCapable\bin\WebActivator.dll
+D:\ajit\rnd\MvcMobileCapable\MvcMobileCapable\bin\Wurfl.Aspnet.Extensions.dll
+D:\ajit\rnd\MvcMobileCapable\MvcMobileCapable\bin\Wurfl.dll

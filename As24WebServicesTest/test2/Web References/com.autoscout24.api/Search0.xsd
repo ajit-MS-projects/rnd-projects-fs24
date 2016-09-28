@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://www.autoscout24.com/webapi/" elementFormDefault="qualified" targetNamespace="http://www.autoscout24.com/webapi/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://api.autoscout24.com/ssg/wsdl/Search.svc?serviceoid=227442735&amp;servdocoid=8667037697" namespace="http://www.autoscout24.com/webapi/data/" />
+  <xs:element name="FindArticles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://www.autoscout24.com/webapi/data/" minOccurs="0" name="request" nillable="true" type="q1:FindArticlesRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FindArticlesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://www.autoscout24.com/webapi/data/" minOccurs="0" name="response" nillable="true" type="q2:FindArticlesResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArticleDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://www.autoscout24.com/webapi/data/" minOccurs="0" name="request" nillable="true" type="q3:GetArticleDetailsRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArticleDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://www.autoscout24.com/webapi/data/" minOccurs="0" name="response" nillable="true" type="q4:GetArticleDetailsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomerArticleList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://www.autoscout24.com/webapi/data/" minOccurs="0" name="request" nillable="true" type="q5:GetCustomerArticleListRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomerArticleListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://www.autoscout24.com/webapi/data/" minOccurs="0" name="response" nillable="true" type="q6:GetCustomerArticleListResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomerArticleDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://www.autoscout24.com/webapi/data/" minOccurs="0" name="request" nillable="true" type="q7:GetCustomerArticleDetailsRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCustomerArticleDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://www.autoscout24.com/webapi/data/" minOccurs="0" name="response" nillable="true" type="q8:GetCustomerArticleDetailsResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendContactMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://www.autoscout24.com/webapi/data/" minOccurs="0" name="request" nillable="true" type="q9:SendContactMessageRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendContactMessageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://www.autoscout24.com/webapi/data/" minOccurs="0" name="response" nillable="true" type="q10:SendContactMessageResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

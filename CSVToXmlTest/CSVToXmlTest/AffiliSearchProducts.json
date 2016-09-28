@@ -1,0 +1,731 @@
+﻿{
+  "ProductsSummary": {
+    "Records": 10,
+    "TotalRecords": 43,
+    "TotalPages": 5,
+    "CurrentPage": 1
+  },
+  "Products": [
+    {
+      "LastShopUpdate": "\/Date(1357751640000+0100)\/",
+      "LastProductChange": "\/Date(1329499620000+0100)\/",
+      "Score": 1.5264516,
+      "ProductId": 580858750,
+      "ArticleNumber": "ABCD_000156",
+      "ShopId": 1748,
+      "ShopTitle": "affilinet ShowCase",
+      "ProductName": "Jeans trousers ´Montpellier´, Camel",
+      "Description": "dolor hendrerit dolor illum liber augue iriure eu et sit At erat sit quod odio dolore at wisi Lorem sadipscing sed amet, iusto magna iusto esse labore facilisis possim et odio est culpa qui nostrud eleifend eum in",
+      "DescriptionShort": "nonumy odio placerat eirmod et dolor in Duis augue magna eos veniam, Duis obcaecat ipsum sanctus consequat, officia ea",
+      "ShopCategoryId": 34758781,
+      "AffilinetCategoryId": 14,
+      "ShopCategoryPath": "Women > Trousers > Jeans",
+      "AffilinetCategoryPath": "Kleidung & Accessoires",
+      "Availability": null,
+      "DeliveryTime": null,
+      "Deeplink1": "http://being.successfultogether.co.uk/click.asp?ref=580442&site=8991&type=text&tnb=1&diurl=http://www.affili.net/en/Agencies/Overview.aspx",
+      "Deeplink2": "",
+      "Brand": "Aber, Cromby & Fich",
+      "Manufacturer": null,
+      "Distributor": null,
+      "EAN": "3572311215262",
+      "Keywords": "velit justo",
+      "PriceInformation": {
+        "Currency": "GBP",
+        "DisplayPrice": " 5.95 GBP (see description)",
+        "DisplayShipping": "starting from 3.95 GBP (see description)",
+        "DisplayBasePrice": null,
+        "PriceDetails": {
+          "PriceOld": 5.95,
+          "PricePrefix": null,
+          "Price": 5.95,
+          "PriceSuffix": "(see description)"
+        },
+        "ShippingDetails": {
+          "ShippingPrefix": "starting from",
+          "Shipping": 3.95,
+          "ShippingSuffix": "(see description)"
+        },
+        "BasePriceDetails": {
+          "BasePricePrefix": null,
+          "BasePrice": null,
+          "BasePriceSuffix": null
+        }
+      },
+      "Images": [
+        []
+      ],
+      "Logos": [],
+      "Properties": [
+        {
+          "PropertyName": "Condition",
+          "PropertyValue": "New"
+        },
+        {
+          "PropertyName": "Colour",
+          "PropertyValue": "Camel"
+        },
+        {
+          "PropertyName": "Origin",
+          "PropertyValue": "Made in Gemany"
+        },
+        {
+          "PropertyName": "Material",
+          "PropertyValue": "Cotton"
+        }
+      ],
+      "ProgramId": 8991,
+      "ShopCategoryIdPath": "34758754 > 34758778 > 34758781",
+      "AffilinetCategoryIdPath": "14"
+    },
+    {
+      "LastShopUpdate": "\/Date(1357751640000+0100)\/",
+      "LastProductChange": "\/Date(1329499620000+0100)\/",
+      "Score": 1.5264516,
+      "ProductId": 580858760,
+      "ArticleNumber": "ABCD_000166",
+      "ShopId": 1748,
+      "ShopTitle": "affilinet ShowCase",
+      "ProductName": "Jeans ´Rio´, Blue",
+      "Description": "iusto labore amet. feugiat commodo zzril rebum. eros eu dignissim nisi dolor consectetuer iusto ex eirmod nibh erat. amet, quis elitr, labore aliquyam blandit vel delenit dolore nonummy velit praesent eirmod dolore justo erat et Stet nibh sed facilisis. euismod kasd hendrerit praesent dolore",
+      "DescriptionShort": "accusam amet. qui Quis eros iure iure qui dolore ea consetetur erat, amet, laboris veniam, in Stet nulla euismod vel nisl Stet",
+      "ShopCategoryId": 34758781,
+      "AffilinetCategoryId": 14,
+      "ShopCategoryPath": "Women > Trousers > Jeans",
+      "AffilinetCategoryPath": "Kleidung & Accessoires",
+      "Availability": null,
+      "DeliveryTime": null,
+      "Deeplink1": "http://being.successfultogether.co.uk/click.asp?ref=580442&site=8991&type=text&tnb=1&diurl=http://www.affili.net/en/advertiser/overview.aspx",
+      "Deeplink2": "",
+      "Brand": "Connvers",
+      "Manufacturer": null,
+      "Distributor": null,
+      "EAN": "6858150416602",
+      "Keywords": "vero ullamco sanctus",
+      "PriceInformation": {
+        "Currency": "GBP",
+        "DisplayPrice": "starting from 232.95 GBP ",
+        "DisplayShipping": "starting from 4.99 GBP (see description)",
+        "DisplayBasePrice": null,
+        "PriceDetails": {
+          "PriceOld": 232.95,
+          "PricePrefix": "starting from",
+          "Price": 232.95,
+          "PriceSuffix": null
+        },
+        "ShippingDetails": {
+          "ShippingPrefix": "starting from",
+          "Shipping": 4.99,
+          "ShippingSuffix": "(see description)"
+        },
+        "BasePriceDetails": {
+          "BasePricePrefix": null,
+          "BasePrice": null,
+          "BasePriceSuffix": null
+        }
+      },
+      "Images": [
+        []
+      ],
+      "Logos": [],
+      "Properties": [
+        {
+          "PropertyName": "Condition",
+          "PropertyValue": "New"
+        },
+        {
+          "PropertyName": "Colour",
+          "PropertyValue": "Blue"
+        },
+        {
+          "PropertyName": "Origin",
+          "PropertyValue": "Made in Gemany"
+        },
+        {
+          "PropertyName": "Material",
+          "PropertyValue": ""
+        }
+      ],
+      "ProgramId": 8991,
+      "ShopCategoryIdPath": "34758754 > 34758778 > 34758781",
+      "AffilinetCategoryIdPath": "14"
+    },
+    {
+      "LastShopUpdate": "\/Date(1357751640000+0100)\/",
+      "LastProductChange": "\/Date(1329499620000+0100)\/",
+      "Score": 1.5264516,
+      "ProductId": 580858762,
+      "ArticleNumber": "ABCD_000168",
+      "ShopId": 1748,
+      "ShopTitle": "affilinet ShowCase",
+      "ProductName": "Jeans ´Frankfurt´, Camel",
+      "Description": "vel sea consequat, elitr, euismod voluptua. et tempor vel vel iusto blandit soluta ut magna vero iure dolor nonumy consequat, in dolor vel wisi dolor et quod nihil vero erat, iriure takimata te ut sadipscing sed sed",
+      "DescriptionShort": "erat commodo in nihil dolor eu cum ut Lorem sed elitr, Lorem consetetur dolore est dolore vero delenit erat ipsum ex",
+      "ShopCategoryId": 34758781,
+      "AffilinetCategoryId": 14,
+      "ShopCategoryPath": "Women > Trousers > Jeans",
+      "AffilinetCategoryPath": "Kleidung & Accessoires",
+      "Availability": null,
+      "DeliveryTime": null,
+      "Deeplink1": "http://being.successfultogether.co.uk/click.asp?ref=580442&site=8991&type=text&tnb=1&diurl=http://www.affili.net/en/advertiser/overview.aspx",
+      "Deeplink2": "",
+      "Brand": "Chux",
+      "Manufacturer": null,
+      "Distributor": null,
+      "EAN": "9370284944700",
+      "Keywords": "aliquam liber invidunt",
+      "PriceInformation": {
+        "Currency": "GBP",
+        "DisplayPrice": " 61.95 GBP (see description)",
+        "DisplayShipping": "starting from 4.95 GBP ",
+        "DisplayBasePrice": null,
+        "PriceDetails": {
+          "PriceOld": 154.95,
+          "PricePrefix": null,
+          "Price": 61.95,
+          "PriceSuffix": "(see description)"
+        },
+        "ShippingDetails": {
+          "ShippingPrefix": "starting from",
+          "Shipping": 4.95,
+          "ShippingSuffix": null
+        },
+        "BasePriceDetails": {
+          "BasePricePrefix": null,
+          "BasePrice": null,
+          "BasePriceSuffix": null
+        }
+      },
+      "Images": [
+        []
+      ],
+      "Logos": [],
+      "Properties": [
+        {
+          "PropertyName": "Condition",
+          "PropertyValue": "Used"
+        },
+        {
+          "PropertyName": "Colour",
+          "PropertyValue": "Camel"
+        },
+        {
+          "PropertyName": "Origin",
+          "PropertyValue": "Made in Bangladesh"
+        },
+        {
+          "PropertyName": "Material",
+          "PropertyValue": ""
+        }
+      ],
+      "ProgramId": 8991,
+      "ShopCategoryIdPath": "34758754 > 34758778 > 34758781",
+      "AffilinetCategoryIdPath": "14"
+    },
+    {
+      "LastShopUpdate": "\/Date(1357751640000+0100)\/",
+      "LastProductChange": "\/Date(1329499620000+0100)\/",
+      "Score": 1.5264516,
+      "ProductId": 580858764,
+      "ArticleNumber": "ABCD_000170",
+      "ShopId": 1748,
+      "ShopTitle": "affilinet ShowCase",
+      "ProductName": "Jeans trousers ´Rothenburg´, Blue",
+      "Description": "diam facilisi. sanctus clita Ut dolor Duis vero suscipit takimata dolore nulla justo dolore diam feugait amet. feugiat nibh possim veniam, vel diam consequat. et delenit et quis hendrerit quis voluptate vero sed iriure aliqua. ea dolor ipsum magna eirmod",
+      "DescriptionShort": "adipiscing consequat, blandit dignissim amet. qui facilisi. luptatum commodo et ipsum culpa diam minim facer cum Ut",
+      "ShopCategoryId": 34758781,
+      "AffilinetCategoryId": 14,
+      "ShopCategoryPath": "Women > Trousers > Jeans",
+      "AffilinetCategoryPath": "Kleidung & Accessoires",
+      "Availability": null,
+      "DeliveryTime": null,
+      "Deeplink1": "http://being.successfultogether.co.uk/click.asp?ref=580442&site=8991&type=text&tnb=1&diurl=http://developer.affili.net/desktopdefault.aspx/tabid-67",
+      "Deeplink2": "",
+      "Brand": "Connvers",
+      "Manufacturer": null,
+      "Distributor": null,
+      "EAN": "9646635465295",
+      "Keywords": "obcaecat",
+      "PriceInformation": {
+        "Currency": "GBP",
+        "DisplayPrice": " 11.95 GBP ",
+        "DisplayShipping": " 2.95 GBP ",
+        "DisplayBasePrice": null,
+        "PriceDetails": {
+          "PriceOld": 242.99,
+          "PricePrefix": null,
+          "Price": 11.95,
+          "PriceSuffix": null
+        },
+        "ShippingDetails": {
+          "ShippingPrefix": null,
+          "Shipping": 2.95,
+          "ShippingSuffix": null
+        },
+        "BasePriceDetails": {
+          "BasePricePrefix": null,
+          "BasePrice": null,
+          "BasePriceSuffix": null
+        }
+      },
+      "Images": [
+        []
+      ],
+      "Logos": [],
+      "Properties": [
+        {
+          "PropertyName": "Condition",
+          "PropertyValue": ""
+        },
+        {
+          "PropertyName": "Colour",
+          "PropertyValue": "Blue"
+        },
+        {
+          "PropertyName": "Origin",
+          "PropertyValue": "Made in U.K."
+        },
+        {
+          "PropertyName": "Material",
+          "PropertyValue": ""
+        }
+      ],
+      "ProgramId": 8991,
+      "ShopCategoryIdPath": "34758754 > 34758778 > 34758781",
+      "AffilinetCategoryIdPath": "14"
+    },
+    {
+      "LastShopUpdate": "\/Date(1357751640000+0100)\/",
+      "LastProductChange": "\/Date(1329499620000+0100)\/",
+      "Score": 1.5264516,
+      "ProductId": 580858766,
+      "ArticleNumber": "ABCD_000172",
+      "ShopId": 1748,
+      "ShopTitle": "affilinet ShowCase",
+      "ProductName": "Jeans ´Madrid´, Brown",
+      "Description": "sit clita reprehenderit exerci cum elit, commodo suscipit cillum kasd kasd ex dolor eu dolor sit adipiscing nonumy nonummy dolor diam eos labore quis dolore diam takimata sanctus ut facilisis tempor dolor illum dolor no kasd et eros",
+      "DescriptionShort": "ipsum duo sadipscing veniam, dolores ea ipsum elit, ipsum eum dolores ullamco dolore dolore in invidunt minim",
+      "ShopCategoryId": 34758781,
+      "AffilinetCategoryId": 14,
+      "ShopCategoryPath": "Women > Trousers > Jeans",
+      "AffilinetCategoryPath": "Kleidung & Accessoires",
+      "Availability": null,
+      "DeliveryTime": null,
+      "Deeplink1": "http://being.successfultogether.co.uk/click.asp?ref=580442&site=8991&type=text&tnb=1&diurl=http://www.affili.net/en/Homepage.aspx",
+      "Deeplink2": "",
+      "Brand": "Meat of the Room",
+      "Manufacturer": null,
+      "Distributor": null,
+      "EAN": "2820465413694",
+      "Keywords": "sea veniam,",
+      "PriceInformation": {
+        "Currency": "GBP",
+        "DisplayPrice": "starting from 205.95 GBP (see description)",
+        "DisplayShipping": " 4.99 GBP (see description)",
+        "DisplayBasePrice": null,
+        "PriceDetails": {
+          "PriceOld": 205.95,
+          "PricePrefix": "starting from",
+          "Price": 205.95,
+          "PriceSuffix": "(see description)"
+        },
+        "ShippingDetails": {
+          "ShippingPrefix": null,
+          "Shipping": 4.99,
+          "ShippingSuffix": "(see description)"
+        },
+        "BasePriceDetails": {
+          "BasePricePrefix": null,
+          "BasePrice": null,
+          "BasePriceSuffix": null
+        }
+      },
+      "Images": [
+        []
+      ],
+      "Logos": [],
+      "Properties": [
+        {
+          "PropertyName": "Condition",
+          "PropertyValue": "Used Look"
+        },
+        {
+          "PropertyName": "Colour",
+          "PropertyValue": "Brown"
+        },
+        {
+          "PropertyName": "Origin",
+          "PropertyValue": "Made in Gemany"
+        },
+        {
+          "PropertyName": "Material",
+          "PropertyValue": ""
+        }
+      ],
+      "ProgramId": 8991,
+      "ShopCategoryIdPath": "34758754 > 34758778 > 34758781",
+      "AffilinetCategoryIdPath": "14"
+    },
+    {
+      "LastShopUpdate": "\/Date(1357751640000+0100)\/",
+      "LastProductChange": "\/Date(1329499620000+0100)\/",
+      "Score": 1.5264516,
+      "ProductId": 580858878,
+      "ArticleNumber": "ABCD_000284",
+      "ShopId": 1748,
+      "ShopTitle": "affilinet ShowCase",
+      "ProductName": "Jeans ´Budapest´, Camouflage",
+      "Description": "dolore sed nostrud exerci ut eos eu consetetur accusam et vero est eros et diam nonummy gubergren, ipsum esse invidunt labore magna sed vulputate luptatum ea te et feugait eos diam et incidunt takimata",
+      "DescriptionShort": "tempor ut Stet dolor quis no est esse et tincidunt luptatum iure consectetuer hendrerit elit, ex labore minim ut cum facilisi.",
+      "ShopCategoryId": 34758803,
+      "AffilinetCategoryId": 14,
+      "ShopCategoryPath": "Men > Trousers > Jeans",
+      "AffilinetCategoryPath": "Kleidung & Accessoires",
+      "Availability": null,
+      "DeliveryTime": null,
+      "Deeplink1": "http://being.successfultogether.co.uk/click.asp?ref=580442&site=8991&type=text&tnb=1&diurl=http://www.affili.net/en/Homepage.aspx",
+      "Deeplink2": "",
+      "Brand": "Häglofs",
+      "Manufacturer": null,
+      "Distributor": null,
+      "EAN": "5002732328180",
+      "Keywords": "anim",
+      "PriceInformation": {
+        "Currency": "GBP",
+        "DisplayPrice": "starting from 60.95 GBP ",
+        "DisplayShipping": "starting from 1.95 GBP (see description)",
+        "DisplayBasePrice": null,
+        "PriceDetails": {
+          "PriceOld": 60.95,
+          "PricePrefix": "starting from",
+          "Price": 60.95,
+          "PriceSuffix": null
+        },
+        "ShippingDetails": {
+          "ShippingPrefix": "starting from",
+          "Shipping": 1.95,
+          "ShippingSuffix": "(see description)"
+        },
+        "BasePriceDetails": {
+          "BasePricePrefix": null,
+          "BasePrice": null,
+          "BasePriceSuffix": null
+        }
+      },
+      "Images": [
+        []
+      ],
+      "Logos": [],
+      "Properties": [
+        {
+          "PropertyName": "Condition",
+          "PropertyValue": "Used Look"
+        },
+        {
+          "PropertyName": "Colour",
+          "PropertyValue": "Camouflage"
+        },
+        {
+          "PropertyName": "Origin",
+          "PropertyValue": "Made in France"
+        },
+        {
+          "PropertyName": "Material",
+          "PropertyValue": "Cotton"
+        }
+      ],
+      "ProgramId": 8991,
+      "ShopCategoryIdPath": "34758784 > 34758800 > 34758803",
+      "AffilinetCategoryIdPath": "14"
+    },
+    {
+      "LastShopUpdate": "\/Date(1357751640000+0100)\/",
+      "LastProductChange": "\/Date(1329499620000+0100)\/",
+      "Score": 1.5264516,
+      "ProductId": 580858886,
+      "ArticleNumber": "ABCD_000292",
+      "ShopId": 1748,
+      "ShopTitle": "affilinet ShowCase",
+      "ProductName": "Jeans ´Rothenburg´, Light gray",
+      "Description": "tincidunt erat amet, nisl consetetur erat no elit, diam Nam vero facilisi. kasd tempor iusto et illum eos velit laboris ex velit accusam delenit vero eum amet. et vero takimata aliqua. clita molestie in tempor duo dolore in clita consetetur tempor blandit",
+      "DescriptionShort": "feugait aliquid eiusmod delenit Lorem voluptua. amet. rebum. vel minim aliquyam no aliquip Lorem ea labore feugiat sed ut consequat.",
+      "ShopCategoryId": 34758803,
+      "AffilinetCategoryId": 14,
+      "ShopCategoryPath": "Men > Trousers > Jeans",
+      "AffilinetCategoryPath": "Kleidung & Accessoires",
+      "Availability": null,
+      "DeliveryTime": null,
+      "Deeplink1": "http://being.successfultogether.co.uk/click.asp?ref=580442&site=8991&type=text&tnb=1&diurl=http://www.affili.net/en/Agencies/Overview.aspx",
+      "Deeplink2": "",
+      "Brand": "Connvers",
+      "Manufacturer": null,
+      "Distributor": null,
+      "EAN": "2792146542766",
+      "Keywords": "est",
+      "PriceInformation": {
+        "Currency": "GBP",
+        "DisplayPrice": " 129.99 GBP ",
+        "DisplayShipping": " 0.99 GBP ",
+        "DisplayBasePrice": null,
+        "PriceDetails": {
+          "PriceOld": 129.99,
+          "PricePrefix": null,
+          "Price": 129.99,
+          "PriceSuffix": null
+        },
+        "ShippingDetails": {
+          "ShippingPrefix": null,
+          "Shipping": 0.99,
+          "ShippingSuffix": null
+        },
+        "BasePriceDetails": {
+          "BasePricePrefix": null,
+          "BasePrice": null,
+          "BasePriceSuffix": null
+        }
+      },
+      "Images": [
+        []
+      ],
+      "Logos": [],
+      "Properties": [
+        {
+          "PropertyName": "Condition",
+          "PropertyValue": "New"
+        },
+        {
+          "PropertyName": "Colour",
+          "PropertyValue": "Light gray"
+        },
+        {
+          "PropertyName": "Origin",
+          "PropertyValue": "Made in Bangladesh"
+        },
+        {
+          "PropertyName": "Material",
+          "PropertyValue": ""
+        }
+      ],
+      "ProgramId": 8991,
+      "ShopCategoryIdPath": "34758784 > 34758800 > 34758803",
+      "AffilinetCategoryIdPath": "14"
+    },
+    {
+      "LastShopUpdate": "\/Date(1357751640000+0100)\/",
+      "LastProductChange": "\/Date(1329499620000+0100)\/",
+      "Score": 1.5249783,
+      "ProductId": 580858749,
+      "ArticleNumber": "ABCD_000155",
+      "ShopId": 1748,
+      "ShopTitle": "affilinet ShowCase",
+      "ProductName": "Jeans trousers ´Irapetra´, Gray",
+      "Description": "no molestie magna zzril ipsum hendrerit nostrud hendrerit iusto sit in et non commodi odio iusto pariatur. amet, gubergren, invidunt hendrerit in minim sea minim esse veniam, erat gubergren, Stet dolore tation magna eleifend ipsum nibh est sed",
+      "DescriptionShort": "et ex invidunt vel consequat, consequat, ex tempor et volutpat. cum sed ipsum magna adipiscing",
+      "ShopCategoryId": 34758781,
+      "AffilinetCategoryId": 14,
+      "ShopCategoryPath": "Women > Trousers > Jeans",
+      "AffilinetCategoryPath": "Kleidung & Accessoires",
+      "Availability": null,
+      "DeliveryTime": null,
+      "Deeplink1": "http://being.successfultogether.co.uk/click.asp?ref=580442&site=8991&type=text&tnb=1&diurl=http://www.affili.net/en/Publishers/Overview.aspx",
+      "Deeplink2": "",
+      "Brand": "James Sheepskin",
+      "Manufacturer": null,
+      "Distributor": null,
+      "EAN": "3150881634204",
+      "Keywords": "vero ipsum dolore",
+      "PriceInformation": {
+        "Currency": "GBP",
+        "DisplayPrice": "starting from 33.95 GBP ",
+        "DisplayShipping": " 3.99 GBP ",
+        "DisplayBasePrice": null,
+        "PriceDetails": {
+          "PriceOld": 33.95,
+          "PricePrefix": "starting from",
+          "Price": 33.95,
+          "PriceSuffix": null
+        },
+        "ShippingDetails": {
+          "ShippingPrefix": null,
+          "Shipping": 3.99,
+          "ShippingSuffix": null
+        },
+        "BasePriceDetails": {
+          "BasePricePrefix": null,
+          "BasePrice": null,
+          "BasePriceSuffix": null
+        }
+      },
+      "Images": [
+        []
+      ],
+      "Logos": [],
+      "Properties": [
+        {
+          "PropertyName": "Condition",
+          "PropertyValue": "Used Look"
+        },
+        {
+          "PropertyName": "Colour",
+          "PropertyValue": "Gray"
+        },
+        {
+          "PropertyName": "Origin",
+          "PropertyValue": "Made in U.K."
+        },
+        {
+          "PropertyName": "Material",
+          "PropertyValue": "Cotton"
+        }
+      ],
+      "ProgramId": 8991,
+      "ShopCategoryIdPath": "34758754 > 34758778 > 34758781",
+      "AffilinetCategoryIdPath": "14"
+    },
+    {
+      "LastShopUpdate": "\/Date(1357751640000+0100)\/",
+      "LastProductChange": "\/Date(1329499620000+0100)\/",
+      "Score": 1.5249783,
+      "ProductId": 580858755,
+      "ArticleNumber": "ABCD_000161",
+      "ShopId": 1748,
+      "ShopTitle": "affilinet ShowCase",
+      "ProductName": "Jeans trousers ´Irapetra´, Brown",
+      "Description": "consectetuer duo tempor Quis dolore nulla erat Duis sea soluta et magna et velit ipsum duo invidunt nobis vel magna voluptate consetetur esse elit, magna Lorem vel duo nonumy invidunt esse dignissim dolor dolore soluta erat labore Excepteur et vel in iriure sed cupiditat",
+      "DescriptionShort": "Lorem zzril proident, kasd molestie nisi aliquid nulla esse sed sanctus magna veniam, At dolor esse illum gubergren, sea",
+      "ShopCategoryId": 34758781,
+      "AffilinetCategoryId": 14,
+      "ShopCategoryPath": "Women > Trousers > Jeans",
+      "AffilinetCategoryPath": "Kleidung & Accessoires",
+      "Availability": null,
+      "DeliveryTime": null,
+      "Deeplink1": "http://being.successfultogether.co.uk/click.asp?ref=580442&site=8991&type=text&tnb=1&diurl=http://www.affili.net/en/advertiser/overview.aspx",
+      "Deeplink2": "",
+      "Brand": "James Sheepskin",
+      "Manufacturer": null,
+      "Distributor": null,
+      "EAN": "4572546504357",
+      "Keywords": "elitr,",
+      "PriceInformation": {
+        "Currency": "GBP",
+        "DisplayPrice": "starting from 77.95 GBP ",
+        "DisplayShipping": "starting from 4.95 GBP ",
+        "DisplayBasePrice": null,
+        "PriceDetails": {
+          "PriceOld": 77.95,
+          "PricePrefix": "starting from",
+          "Price": 77.95,
+          "PriceSuffix": null
+        },
+        "ShippingDetails": {
+          "ShippingPrefix": "starting from",
+          "Shipping": 4.95,
+          "ShippingSuffix": null
+        },
+        "BasePriceDetails": {
+          "BasePricePrefix": null,
+          "BasePrice": null,
+          "BasePriceSuffix": null
+        }
+      },
+      "Images": [
+        []
+      ],
+      "Logos": [],
+      "Properties": [
+        {
+          "PropertyName": "Condition",
+          "PropertyValue": "Used Look"
+        },
+        {
+          "PropertyName": "Colour",
+          "PropertyValue": "Brown"
+        },
+        {
+          "PropertyName": "Origin",
+          "PropertyValue": "Made in Gemany"
+        },
+        {
+          "PropertyName": "Material",
+          "PropertyValue": "Cotton"
+        }
+      ],
+      "ProgramId": 8991,
+      "ShopCategoryIdPath": "34758754 > 34758778 > 34758781",
+      "AffilinetCategoryIdPath": "14"
+    },
+    {
+      "LastShopUpdate": "\/Date(1357751640000+0100)\/",
+      "LastProductChange": "\/Date(1329499620000+0100)\/",
+      "Score": 1.5249783,
+      "ProductId": 580858759,
+      "ArticleNumber": "ABCD_000165",
+      "ShopId": 1748,
+      "ShopTitle": "affilinet ShowCase",
+      "ProductName": "Jeans ´Milano´, Dark blue",
+      "Description": "obcaecat iriure quis ut nulla autem consequat. magna dolor ad vel eos et ea duo justo feugiat consectetur nisi rebum. lobortis ex elit, doming consequat. kasd et sed consectetur nonummy consectetuer nisi ut eu ullamcorper in vulputate zzril ex imperdiet facilisis amet.",
+      "DescriptionShort": "dolore nostrud eos amet, accumsan quis vulputate magna sed eu elit, cupiditat ut dolores labore eu accusam et hendrerit",
+      "ShopCategoryId": 34758781,
+      "AffilinetCategoryId": 14,
+      "ShopCategoryPath": "Women > Trousers > Jeans",
+      "AffilinetCategoryPath": "Kleidung & Accessoires",
+      "Availability": null,
+      "DeliveryTime": null,
+      "Deeplink1": "http://being.successfultogether.co.uk/click.asp?ref=580442&site=8991&type=text&tnb=1&diurl=http://www.affilinet-inside.de/",
+      "Deeplink2": "",
+      "Brand": "Chux",
+      "Manufacturer": null,
+      "Distributor": null,
+      "EAN": "58925820008",
+      "Keywords": null,
+      "PriceInformation": {
+        "Currency": "GBP",
+        "DisplayPrice": "starting from 90.99 GBP ",
+        "DisplayShipping": "starting from 3.95 GBP ",
+        "DisplayBasePrice": null,
+        "PriceDetails": {
+          "PriceOld": 90.99,
+          "PricePrefix": "starting from",
+          "Price": 90.99,
+          "PriceSuffix": null
+        },
+        "ShippingDetails": {
+          "ShippingPrefix": "starting from",
+          "Shipping": 3.95,
+          "ShippingSuffix": null
+        },
+        "BasePriceDetails": {
+          "BasePricePrefix": null,
+          "BasePrice": null,
+          "BasePriceSuffix": null
+        }
+      },
+      "Images": [
+        []
+      ],
+      "Logos": [],
+      "Properties": [
+        {
+          "PropertyName": "Condition",
+          "PropertyValue": "Used"
+        },
+        {
+          "PropertyName": "Colour",
+          "PropertyValue": "Dark blue"
+        },
+        {
+          "PropertyName": "Origin",
+          "PropertyValue": "Made in France"
+        },
+        {
+          "PropertyName": "Material",
+          "PropertyValue": ""
+        }
+      ],
+      "ProgramId": 8991,
+      "ShopCategoryIdPath": "34758754 > 34758778 > 34758781",
+      "AffilinetCategoryIdPath": "14"
+    }
+  ],
+  "Facets": []
+}

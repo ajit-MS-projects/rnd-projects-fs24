@@ -1,0 +1,2 @@
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service.Setup\bin\Release\Ajit.DetectMyIp.Service.Setup.msi
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Service.Setup\bin\Release\Ajit.DetectMyIp.Service.Setup.wixpdb

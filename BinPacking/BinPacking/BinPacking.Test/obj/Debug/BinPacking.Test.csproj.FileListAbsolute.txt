@@ -1,0 +1,7 @@
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking.Test\bin\Debug\BinPacking.Test.dll
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking.Test\bin\Debug\BinPacking.Test.pdb
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking.Test\bin\Debug\BinPacking.exe
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking.Test\bin\Debug\BinPacking.pdb
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking.Test\obj\Debug\BinPacking.Test.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking.Test\obj\Debug\BinPacking.Test.dll
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking.Test\obj\Debug\BinPacking.Test.pdb

@@ -1,0 +1,12 @@
+﻿@model List<string>
+
+@{
+    if (Model != null && Model.Count>0)
+    {
+        <span>Did you mean:</span>
+        foreach (var str in Model)
+        {
+            <span>@Html.ActionLink(str, "Search", new{searchterm=str})</span> 
+        }
+    }
+}

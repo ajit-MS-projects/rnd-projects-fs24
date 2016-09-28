@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0379af7a-519a-4787-b63b-9351d44b4269" name="achahal@S24S104 2012-08-20 10:29:24" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="365262e3-2d06-410b-9b5f-36283d5f038b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2012-08-20 10_29_24">
+      <DeploymentItem filename="D:\ajit\rnd\WebServiceToCsv.UI\WebServiceToCsv.Data\bin\Debug\WebServiceToCsv.Data.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\WebServiceToCsv.UI\Shared\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\WebServiceToCsv.UI\Shared\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\WebServiceToCsv.UI\WebServiceToCsv.Contracts\bin\Debug\WebServiceToCsv.Contracts.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\WebServiceToCsv.UI\WebServiceToCsv.Services\bin\Debug\WebServiceToCsv.Services.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\WebServiceToCsv.UI\Shared\Castle.Core.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\WebServiceToCsv.UI\Shared\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\WebServiceToCsv.UI\Shared\Castle.Components.Validator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-20T10:29:24.5251032+02:00" queuing="2012-08-20T10:29:24.6431150+02:00" start="2012-08-20T10:29:24.6641171+02:00" finish="2012-08-20T10:29:25.7142221+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="S24S104" outcome="Warning" timestamp="2012-08-20T10:29:24.5561063+02:00">
+        <Text>Deployment is currently disabled. The deployment item 'WebServiceToCsv.Services.dll' on test 'TestProject1.TyresExportServiceTest.TransformDataLineIntoCsvTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TransformDataLineIntoCsvTest" storage="d:\ajit\rnd\webservicetocsv.ui\testproject1\bin\debug\testproject1.dll" id="7c44d2e1-fef2-276e-3daa-9a7dec3eb602">
+      <DeploymentItems>
+        <DeploymentItem filename="WebServiceToCsv.Services.dll" />
+      </DeploymentItems>
+      <Execution id="ff1ee32c-31eb-42d5-9669-0b89ae81904c" />
+      <TestMethod codeBase="D:/ajit/rnd/WebServiceToCsv.UI/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.TyresExportServiceTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TransformDataLineIntoCsvTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7c44d2e1-fef2-276e-3daa-9a7dec3eb602" executionId="ff1ee32c-31eb-42d5-9669-0b89ae81904c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ff1ee32c-31eb-42d5-9669-0b89ae81904c" testId="7c44d2e1-fef2-276e-3daa-9a7dec3eb602" testName="TransformDataLineIntoCsvTest" computerName="S24S104" duration="00:00:00.7957526" startTime="2012-08-20T10:29:24.6701177+02:00" endTime="2012-08-20T10:29:25.6442151+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff1ee32c-31eb-42d5-9669-0b89ae81904c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.TyresExportServiceTest.TransformDataLineIntoCsvTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>   at WebServiceToCsv.Services.TyresExportService_Accessor.TransformDataLineIntoCsv(IExportSettings settings, List`1 mappings, List`1 savedSearches)
+   at TestProject1.TyresExportServiceTest.TransformDataLineIntoCsvTest() in D:\ajit\rnd\WebServiceToCsv.UI\TestProject1\TyresExportServiceTest.cs:line 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

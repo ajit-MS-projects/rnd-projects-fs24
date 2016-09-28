@@ -1,0 +1,9 @@
+D:\ajit\rnd\test\WindowsFormsApplication1\TestProject1\bin\Debug\TestProject1.dll
+D:\ajit\rnd\test\WindowsFormsApplication1\TestProject1\bin\Debug\TestProject1.pdb
+D:\ajit\rnd\test\WindowsFormsApplication1\TestProject1\bin\Debug\WindowsFormsApplication1.exe
+D:\ajit\rnd\test\WindowsFormsApplication1\TestProject1\bin\Debug\WindowsFormsApplication1.pdb
+D:\ajit\rnd\test\WindowsFormsApplication1\TestProject1\obj\Debug\TestProject1.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\test\WindowsFormsApplication1\TestProject1\obj\Debug\TestProject1.dll
+D:\ajit\rnd\test\WindowsFormsApplication1\TestProject1\obj\Debug\TestProject1.pdb
+D:\ajit\rnd\test\WindowsFormsApplication1\TestProject1\bin\Debug\ClassLibrary1.dll
+D:\ajit\rnd\test\WindowsFormsApplication1\TestProject1\bin\Debug\ClassLibrary1.pdb

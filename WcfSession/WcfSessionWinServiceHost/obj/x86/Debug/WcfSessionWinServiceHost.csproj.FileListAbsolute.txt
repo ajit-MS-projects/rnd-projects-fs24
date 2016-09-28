@@ -1,0 +1,8 @@
+D:\ajit\rnd\WcfSession\WcfSessionWinServiceHost\obj\x86\Debug\WcfSessionWinServiceHost.ProjectInstaller.resources
+D:\ajit\rnd\WcfSession\WcfSessionWinServiceHost\obj\x86\Debug\WcfSessionWinServiceHost.csproj.GenerateResource.Cache
+D:\ajit\rnd\WcfSession\WcfSessionWinServiceHost\bin\Debug\WcfSessionWinServiceHost.exe
+D:\ajit\rnd\WcfSession\WcfSessionWinServiceHost\bin\Debug\WcfSessionWinServiceHost.pdb
+D:\ajit\rnd\WcfSession\WcfSessionWinServiceHost\bin\Debug\WcfSession.dll
+D:\ajit\rnd\WcfSession\WcfSessionWinServiceHost\bin\Debug\WcfSession.pdb
+D:\ajit\rnd\WcfSession\WcfSessionWinServiceHost\obj\x86\Debug\WcfSessionWinServiceHost.exe
+D:\ajit\rnd\WcfSession\WcfSessionWinServiceHost\obj\x86\Debug\WcfSessionWinServiceHost.pdb

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateFileServiceForDeploymentTest", "UpdateFileServiceForDeploymentTest\UpdateFileServiceForDeploymentTest.csproj", "{1E0045BB-060F-44FA-9C6C-4A8DD30B0BB3}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ServiceSetup", "ServiceSetup\ServiceSetup.vdproj", "{8141BC30-28C7-4223-BF9A-E46E48DF8EFB}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "SetupWix", "SetupWix\SetupWix.wixproj", "{A096E221-B19D-4742-B0A0-C2062F7C368D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E0045BB-060F-44FA-9C6C-4A8DD30B0BB3}.Debug|x86.ActiveCfg = Debug|x86
+		{1E0045BB-060F-44FA-9C6C-4A8DD30B0BB3}.Debug|x86.Build.0 = Debug|x86
+		{1E0045BB-060F-44FA-9C6C-4A8DD30B0BB3}.Release|x86.ActiveCfg = Release|x86
+		{1E0045BB-060F-44FA-9C6C-4A8DD30B0BB3}.Release|x86.Build.0 = Release|x86
+		{8141BC30-28C7-4223-BF9A-E46E48DF8EFB}.Debug|x86.ActiveCfg = Debug
+		{8141BC30-28C7-4223-BF9A-E46E48DF8EFB}.Release|x86.ActiveCfg = Release
+		{A096E221-B19D-4742-B0A0-C2062F7C368D}.Debug|x86.ActiveCfg = Debug|x86
+		{A096E221-B19D-4742-B0A0-C2062F7C368D}.Debug|x86.Build.0 = Debug|x86
+		{A096E221-B19D-4742-B0A0-C2062F7C368D}.Release|x86.ActiveCfg = Release|x86
+		{A096E221-B19D-4742-B0A0-C2062F7C368D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

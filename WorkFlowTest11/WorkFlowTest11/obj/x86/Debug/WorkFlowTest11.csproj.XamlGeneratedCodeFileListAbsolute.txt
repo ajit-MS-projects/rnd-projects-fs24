@@ -1,0 +1,4 @@
+obj\x86\Debug\_WorkFlowTest11.g.cs
+obj\x86\Debug\Workflow1.g.cs
+obj\x86\Debug\WorkFlowTest11_Workflow1_BeforeInitializeComponentHelper.cs
+D:\ajit\rnd\WorkFlowTest11\WorkFlowTest11\obj\x86\Debug\WorkFlowTest11_Workflow1_CompiledExpressionRoot.cs

@@ -1,0 +1,37 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wed Nov 19 16:44:22 2014
+
+   Source : D:\ajit\rnd\test2013Umbraco\test2013Umbraco\bin\
+     Dest : D:\ajit\rnd\test2013Umbraco\test2013Umbraco\App_Data\NuGetBackup\20141119-164421\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   6	D:\ajit\rnd\test2013Umbraco\test2013Umbraco\bin\
+	    New File  		  139976	System.Web.Helpers.dll  0%   93%  100%  
+	    New File  		  565448	System.Web.Mvc.dll  0%   46%   92%  100%  
+	    New File  		  272072	System.Web.Razor.dll  0%   48%   96%  100%  
+	    New File  		   41680	System.Web.Webpages.Deployment.dll  0%  100%  
+	    New File  		  211656	System.Web.Webpages.dll  0%   61%  100%  
+	    New File  		   39624	System.Web.Webpages.Razor.dll  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         1         0         0         0
+   Files :         6         6         0         0         0         0
+   Bytes :    1.21 m    1.21 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             6582673 Bytes/sec.
+   Speed :             376.663 MegaBytes/min.
+
+   Ended : Wed Nov 19 16:44:22 2014

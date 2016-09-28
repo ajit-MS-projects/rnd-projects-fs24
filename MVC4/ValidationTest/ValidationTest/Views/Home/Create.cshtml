@@ -1,0 +1,45 @@
+﻿@using System.Web.Optimization
+@model ValidationTest.Models.UserTipViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm("Create", "Home", FormMethod.Post,new{id="CreateForm"}))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>UserTipViewModel</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Title)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Title)
+            @Html.ValidationMessageFor(model => model.Title)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ValidTo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ValidTo)
+            @Html.ValidationMessageFor(model => model.ValidTo)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+

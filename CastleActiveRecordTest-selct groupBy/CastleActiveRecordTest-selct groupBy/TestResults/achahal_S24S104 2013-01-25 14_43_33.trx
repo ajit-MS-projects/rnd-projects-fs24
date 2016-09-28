@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b63d836c-1780-416d-bb61-6a0ba137d9af" name="achahal@S24S104 2013-01-25 14:43:33" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ba7c3b81-89d2-4976-b032-f712b6ba6f57">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2013-01-25 14_43_33">
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\bin\CastleActiveRecordTest.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.Core.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest-selct groupBy\packages\Iesi.Collections.3.1.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest-selct groupBy\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest-selct groupBy\NewTest\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest-selct groupBy\CastleActiveRecordTest\shared\Castle.Components.Validator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-01-25T14:43:33.1819303+01:00" queuing="2013-01-25T14:43:34.1320253+01:00" start="2013-01-25T14:43:34.2860407+01:00" finish="2013-01-25T14:43:44.9121032+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="S24S104" outcome="Error" timestamp="2013-01-25T14:43:44.9111031+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ReportsGetTest" storage="d:\ajit\rnd\castleactiverecordtest-selct groupby\castleactiverecordtest-selct groupby\newtest\bin\debug\newtest.dll" id="86c34846-de0b-cb7e-2f91-fd69d9afb818">
+      <Execution id="06634aa9-c525-46de-9e08-deba3b45c505" />
+      <TestMethod codeBase="D:/ajit/rnd/CastleActiveRecordTest-selct groupBy/CastleActiveRecordTest-selct groupBy/NewTest/bin/Debug/NewTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NewTest.MvcApplicationTest, NewTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReportsGetTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="86c34846-de0b-cb7e-2f91-fd69d9afb818" executionId="06634aa9-c525-46de-9e08-deba3b45c505" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="06634aa9-c525-46de-9e08-deba3b45c505" testId="86c34846-de0b-cb7e-2f91-fd69d9afb818" testName="ReportsGetTest" computerName="S24S104" duration="00:00:10.4850484" startTime="2013-01-25T14:43:34.4270548+01:00" endTime="2013-01-25T14:43:44.9121032+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06634aa9-c525-46de-9e08-deba3b45c505">
+    </UnitTestResult>
+  </Results>
+</TestRun>

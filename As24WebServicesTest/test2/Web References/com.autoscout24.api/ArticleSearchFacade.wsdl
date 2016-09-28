@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://www.autoscout24.com/webapi/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ArticleSearchFacade" targetNamespace="http://www.autoscout24.com/webapi/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.autoscout24.com/webapi/Imports">
+      <xsd:import schemaLocation="http://api.autoscout24.com/ssg/wsdl/Search.svc?serviceoid=227442735&amp;servdocoid=8667037696" namespace="http://www.autoscout24.com/webapi/" />
+      <xsd:import schemaLocation="http://api.autoscout24.com/ssg/wsdl/Search.svc?serviceoid=227442735&amp;servdocoid=8667037698" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://api.autoscout24.com/ssg/wsdl/Search.svc?serviceoid=227442735&amp;servdocoid=8667037697" namespace="http://www.autoscout24.com/webapi/data/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IArticleSearch_FindArticles_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindArticles" />
+  </wsdl:message>
+  <wsdl:message name="IArticleSearch_FindArticles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindArticlesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IArticleSearch_GetArticleDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetArticleDetails" />
+  </wsdl:message>
+  <wsdl:message name="IArticleSearch_GetArticleDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetArticleDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IArticleSearch_GetCustomerArticleList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomerArticleList" />
+  </wsdl:message>
+  <wsdl:message name="IArticleSearch_GetCustomerArticleList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomerArticleListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IArticleSearch_GetCustomerArticleDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomerArticleDetails" />
+  </wsdl:message>
+  <wsdl:message name="IArticleSearch_GetCustomerArticleDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCustomerArticleDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IArticleSearch_SendContactMessage_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendContactMessage" />
+  </wsdl:message>
+  <wsdl:message name="IArticleSearch_SendContactMessage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendContactMessageResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IArticleSearch">
+    <wsdl:operation name="FindArticles">
+      <wsdl:input wsaw:Action="http://www.autoscout24.com/webapi/IArticleSearch/FindArticles" message="tns:IArticleSearch_FindArticles_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.autoscout24.com/webapi/IArticleSearch/FindArticlesResponse" message="tns:IArticleSearch_FindArticles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetArticleDetails">
+      <wsdl:input wsaw:Action="http://www.autoscout24.com/webapi/IArticleSearch/GetArticleDetails" message="tns:IArticleSearch_GetArticleDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.autoscout24.com/webapi/IArticleSearch/GetArticleDetailsResponse" message="tns:IArticleSearch_GetArticleDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerArticleList">
+      <wsdl:input wsaw:Action="http://www.autoscout24.com/webapi/IArticleSearch/GetCustomerArticleList" message="tns:IArticleSearch_GetCustomerArticleList_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.autoscout24.com/webapi/IArticleSearch/GetCustomerArticleListResponse" message="tns:IArticleSearch_GetCustomerArticleList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerArticleDetails">
+      <wsdl:input wsaw:Action="http://www.autoscout24.com/webapi/IArticleSearch/GetCustomerArticleDetails" message="tns:IArticleSearch_GetCustomerArticleDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.autoscout24.com/webapi/IArticleSearch/GetCustomerArticleDetailsResponse" message="tns:IArticleSearch_GetCustomerArticleDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendContactMessage">
+      <wsdl:input wsaw:Action="http://www.autoscout24.com/webapi/IArticleSearch/SendContactMessage" message="tns:IArticleSearch_SendContactMessage_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.autoscout24.com/webapi/IArticleSearch/SendContactMessageResponse" message="tns:IArticleSearch_SendContactMessage_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IArticleSearch" type="tns:IArticleSearch">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FindArticles">
+      <soap:operation soapAction="http://www.autoscout24.com/webapi/IArticleSearch/FindArticles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetArticleDetails">
+      <soap:operation soapAction="http://www.autoscout24.com/webapi/IArticleSearch/GetArticleDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerArticleList">
+      <soap:operation soapAction="http://www.autoscout24.com/webapi/IArticleSearch/GetCustomerArticleList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerArticleDetails">
+      <soap:operation soapAction="http://www.autoscout24.com/webapi/IArticleSearch/GetCustomerArticleDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendContactMessage">
+      <soap:operation soapAction="http://www.autoscout24.com/webapi/IArticleSearch/SendContactMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ArticleSearchFacade">
+    <wsdl:port name="BasicHttpBinding_IArticleSearch" binding="tns:BasicHttpBinding_IArticleSearch">
+      <soap:address location="http://api.autoscout24.com/AS24_WS_Search" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

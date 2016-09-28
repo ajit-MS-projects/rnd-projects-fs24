@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ac0fa80-6c5c-4322-920c-3434fbb83af3" name="achahal@S24S104 2012-10-01 10:58:30" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0d33e25a-afb8-41e4-bb28-a41606500ef1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\ajit\rnd\WinServiceInstallerTest\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="achahal_S24S104 2012-10-01 10_58_30">
+      <DeploymentItem filename="D:\ajit\rnd\WinServiceInstallerTest\WinServiceInstallerTest\bin\Debug\WinServiceInstallerTest.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-01T10:58:30.0409309+02:00" queuing="2012-10-01T10:58:30.0949309+02:00" start="2012-10-01T10:58:30.1229309+02:00" finish="2012-10-01T10:58:30.3839309+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="S24S104" outcome="Warning" timestamp="2012-10-01T10:58:30.0939309+02:00">
+        <Text>Deployment is currently disabled. The deployment item 'WinServiceInstallerTest.exe' on test 'TestProject1.Service1Test.timer1_TickTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="timer1_TickTest" storage="d:\ajit\rnd\winserviceinstallertest\testproject1\bin\debug\testproject1.dll" id="26b6276e-df2d-f317-1a38-781c6f9824db">
+      <DeploymentItems>
+        <DeploymentItem filename="WinServiceInstallerTest.exe" />
+      </DeploymentItems>
+      <Execution id="93cdb884-da8e-4f4e-bf5f-4a7204bd96c1" />
+      <TestMethod codeBase="D:/ajit/rnd/WinServiceInstallerTest/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Service1Test, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="timer1_TickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="26b6276e-df2d-f317-1a38-781c6f9824db" executionId="93cdb884-da8e-4f4e-bf5f-4a7204bd96c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="93cdb884-da8e-4f4e-bf5f-4a7204bd96c1" testId="26b6276e-df2d-f317-1a38-781c6f9824db" testName="timer1_TickTest" computerName="S24S104" duration="00:00:00.0289668" startTime="2012-10-01T10:58:30.1289309+02:00" endTime="2012-10-01T10:58:30.3409309+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93cdb884-da8e-4f4e-bf5f-4a7204bd96c1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.Service1Test.timer1_TickTest threw exception: 
+System.IO.IOException: The process cannot access the file 'd:\date.txt' because it is being used by another process.</Message>
+          <StackTrace>   at WinServiceInstallerTest.Service1_Accessor.timer1_Tick(Object sender)
+   at TestProject1.Service1Test.timer1_TickTest() in D:\ajit\rnd\WinServiceInstallerTest\TestProject1\Service1Test.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

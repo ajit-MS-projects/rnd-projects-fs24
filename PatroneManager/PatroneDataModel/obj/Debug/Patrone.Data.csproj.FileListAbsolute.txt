@@ -1,0 +1,7 @@
+D:\ajit\rnd\PatroneManager\PatroneDataModel\bin\Debug\Patrone.Data.dll
+D:\ajit\rnd\PatroneManager\PatroneDataModel\bin\Debug\Patrone.Data.pdb
+D:\ajit\rnd\PatroneManager\PatroneDataModel\bin\Debug\Patrone.Contracts.dll
+D:\ajit\rnd\PatroneManager\PatroneDataModel\bin\Debug\Patrone.Contracts.pdb
+D:\ajit\rnd\PatroneManager\PatroneDataModel\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\PatroneManager\PatroneDataModel\obj\Debug\Patrone.Data.dll
+D:\ajit\rnd\PatroneManager\PatroneDataModel\obj\Debug\Patrone.Data.pdb

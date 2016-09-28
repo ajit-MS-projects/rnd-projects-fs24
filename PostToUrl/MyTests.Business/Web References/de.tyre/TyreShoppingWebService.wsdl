@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://80.237.192.156/tyre-shopping/webservice/20101201/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://80.237.192.156/tyre-shopping/webservice/20101201/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://80.237.192.156/tyre-shopping/webservice/20101201/">
+      <xs:complexType name="tyreList">
+        <xs:sequence>
+          <xs:element minOccurs="1" name="itemId" type="xs:nonNegativeInteger" />
+          <xs:element minOccurs="0" name="description" type="xs:string" />
+          <xs:element minOccurs="0" name="description1" type="xs:string" />
+          <xs:element minOccurs="0" name="price" type="xs:float" />
+          <xs:element minOccurs="0" name="org_price" type="xs:float" />
+          <xs:element minOccurs="0" name="stock" type="xs:nonNegativeInteger" />
+          <xs:element minOccurs="0" name="kbprice" type="xs:float" />
+          <xs:element minOccurs="0" name="discount" type="xs:float" />
+          <xs:element minOccurs="1" name="text_de" type="xs:string" />
+          <xs:element minOccurs="0" name="pic" type="xs:string" />
+          <xs:element minOccurs="0" name="pic_t24" type="xs:string" />
+          <xs:element minOccurs="0" name="date_de" type="xs:string" />
+          <xs:element minOccurs="0" name="source_de" type="xs:string" />
+          <xs:element minOccurs="0" name="feedback_de" type="xs:string" />
+          <xs:element minOccurs="1" name="itemText" type="xs:string" />
+          <xs:element minOccurs="0" name="itemDate" type="xs:string" />
+          <xs:element minOccurs="0" name="itemSource" type="xs:string" />
+          <xs:element minOccurs="0" name="shortFeedback" type="xs:string" />
+          <xs:element minOccurs="0" name="pr_description" type="xs:string" />
+          <xs:element minOccurs="0" name="manufacturer_description" type="xs:string" />
+          <xs:element minOccurs="0" name="type" type="xs:string" />
+          <xs:element minOccurs="0" name="matchcode" type="xs:string" />
+          <xs:element minOccurs="0" name="ean_number" type="xs:string" />
+          <xs:element minOccurs="0" name="manufacturer_item_number" type="xs:string" />
+          <xs:element minOccurs="0" name="imageUrl" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="1" name="weight" type="xs:float" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="RimType">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="id" type="xs:nonNegativeInteger" />
+          <xs:element minOccurs="0" name="manufacturer" type="xs:string" />
+          <xs:element minOccurs="0" name="workmanship" type="xs:string" />
+          <xs:element minOccurs="0" name="type" type="xs:string" />
+          <xs:element minOccurs="0" name="ezFrom" type="xs:string" />
+          <xs:element minOccurs="0" name="size" type="xs:string" />
+          <xs:element minOccurs="0" name="connection" type="xs:string" />
+          <xs:element minOccurs="0" name="ET" type="xs:string" />
+          <xs:element minOccurs="0" name="alcar" type="xs:string" />
+          <xs:element minOccurs="0" name="description" type="xs:string" />
+          <xs:element minOccurs="0" name="typeDescription" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="alloyRim">
+        <xs:sequence>
+          <xs:element minOccurs="1" name="id" type="xs:nonNegativeInteger" />
+          <xs:element minOccurs="1" name="manufacturer" type="xs:string" />
+          <xs:element minOccurs="1" name="description" type="xs:string" />
+          <xs:element minOccurs="1" name="connectingDimensions" type="xs:string" />
+          <xs:element minOccurs="1" name="type" type="xs:string" />
+          <xs:element minOccurs="1" name="price" type="xs:float" />
+          <xs:element minOccurs="1" name="stock" type="xs:nonNegativeInteger" />
+          <xs:element minOccurs="0" name="pic_t24" type="xs:string" />
+          <xs:element minOccurs="0" name="imageUrl" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getRimTypesForRimManufacturerResponseType">
+        <xs:sequence>
+          <xs:element name="type" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="tyreIDWithAlias">
+        <xs:sequence>
+          <xs:element name="reifenid" type="xs:string" />
+          <xs:element name="artikelnummer" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="priceAndStock">
+        <xs:sequence>
+          <xs:element name="id" type="xs:string" />
+          <xs:element name="price" type="xs:float" />
+          <xs:element name="stock" type="xs:nonNegativeInteger" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="manufacturerListWithQualityRating">
+        <xs:sequence>
+          <xs:element name="name" type="xs:string" />
+          <xs:element name="lowQuality" type="xs:nonNegativeInteger" />
+          <xs:element name="middleQuality" type="xs:nonNegativeInteger" />
+          <xs:element name="highQuality" type="xs:nonNegativeInteger" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="glossaryItem">
+        <xs:sequence>
+          <xs:element name="id" type="xs:string" />
+          <xs:element name="title" type="xs:string" />
+          <xs:element name="text" type="xs:string" />
+          <xs:element name="cat_title" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="glossaryCategories">
+        <xs:sequence>
+          <xs:element name="id" type="xs:string" />
+          <xs:element name="title" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="alloyRimCarBrand">
+        <xs:sequence>
+          <xs:element minOccurs="1" name="brandID" type="xs:nonNegativeInteger" />
+          <xs:element minOccurs="1" name="brand" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="alloyRimCarModel">
+        <xs:sequence>
+          <xs:element minOccurs="1" name="modelID" type="xs:nonNegativeInteger" />
+          <xs:element minOccurs="1" name="model" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="alloyRimCarType">
+        <xs:sequence>
+          <xs:element minOccurs="1" name="carID" type="xs:nonNegativeInteger" />
+          <xs:element minOccurs="1" name="carType" type="xs:string" />
+          <xs:element minOccurs="1" name="carTypeDesc" type="xs:string" />
+          <xs:element minOccurs="1" name="manufactureYear" type="xs:string" />
+          <xs:element minOccurs="1" name="carComment" type="xs:string" />
+          <xs:element minOccurs="0" name="carPic" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="alloyRimAttachment">
+        <xs:sequence>
+          <xs:element minOccurs="1" name="alloyRimFrontDiameter" type="xs:nonNegativeInteger" />
+          <xs:element minOccurs="1" name="alloyRimRearDiameter" type="xs:nonNegativeInteger" />
+          <xs:element minOccurs="1" name="alloyRimFrontWidth" type="xs:string" />
+          <xs:element minOccurs="1" name="alloyRimRearWidth" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="alloyRimManufacturer">
+        <xs:sequence>
+          <xs:element minOccurs="1" name="manufacturerID" type="xs:nonNegativeInteger" />
+          <xs:element minOccurs="1" name="manufacturer" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="comfortAlloyRim">
+        <xs:sequence>
+          <xs:element name="alloyRimFrontID" type="xs:nonNegativeInteger" />
+          <xs:element name="alloyRimFrontPrice" type="xs:string" />
+          <xs:element name="alloyRimFrontStock" type="xs:nonNegativeInteger" />
+          <xs:element name="alloyRimFrontDescription" type="xs:string" />
+          <xs:element name="alloyRimFrontWidth" type="xs:string" />
+          <xs:element name="alloyRimFrontDiameter" type="xs:nonNegativeInteger" />
+          <xs:element name="alloyRimFrontET" type="xs:string" />
+          <xs:element name="alloyRimFrontLochzahl" type="xs:nonNegativeInteger" />
+          <xs:element name="alloyRimFrontLochkreis" type="xs:nonNegativeInteger" />
+          <xs:element name="alloyRimFrontHubHole" type="xs:string" />
+          <xs:element name="alloyRimRearID" type="xs:nonNegativeInteger" />
+          <xs:element name="alloyRimRearPrice" type="xs:string" />
+          <xs:element name="alloyRimRearStock" type="xs:nonNegativeInteger" />
+          <xs:element name="alloyRimRearDescription" type="xs:string" />
+          <xs:element name="alloyRimRearWidth" type="xs:string" />
+          <xs:element name="alloyRimRearDiameter" type="xs:nonNegativeInteger" />
+          <xs:element name="alloyRimRearET" type="xs:string" />
+          <xs:element name="alloyRimRearLochzahl" type="xs:nonNegativeInteger" />
+          <xs:element name="alloyRimRearLochkreis" type="xs:nonNegativeInteger" />
+          <xs:element name="alloyRimRearHubHole" type="xs:string" />
+          <xs:element name="manufacturer" type="xs:string" />
+          <xs:element name="type" type="xs:string" />
+          <xs:element name="typeName" type="xs:string" />
+          <xs:element name="typeColor" type="xs:string" />
+          <xs:element name="typeConstruction" type="xs:string" />
+          <xs:element name="imageUrl" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="getRims">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="rimManufacturer" type="xs:string" />
+            <xs:element minOccurs="0" name="rimType" type="xs:string" />
+            <xs:element minOccurs="0" name="rimWorkmanship" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="rimList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="items" type="tns:RimType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTyres">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="searchString" type="xs:string" />
+            <xs:element minOccurs="0" name="manufacturer" type="xs:string" />
+            <xs:element minOccurs="0" name="manufacturerName" type="xs:string" />
+            <xs:element minOccurs="0" name="page" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="userPrice" type="xs:float" />
+            <xs:element minOccurs="1" name="minAvailability" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="order" type="xs:string" />
+            <xs:element minOccurs="0" name="ownStock" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="priceList" type="xs:string" />
+            <xs:element minOccurs="0" name="dealerToken" type="xs:string" />
+            <xs:element minOccurs="0" name="showOldItems" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="imageWidth" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="imageHeight" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTyresResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="items" type="tns:tyreList" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getRimManufacturers">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="rimManufacturerList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="rimManufacturer" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getRimTypesForRimManufacturer">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="rimManufacturer" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="rimTypeList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="rimType" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getRimWorkmanshipForRimType">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="rimType" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="rimWorkmanshipList">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="rimWorkmanship" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDetails">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="itemId" type="xs:string" />
+            <xs:element minOccurs="0" name="minAvailability" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="wholesalerID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="ownStock" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="imageWidth" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="imageHeight" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="detailPage">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="1" name="id" type="xs:nonNegativeInteger" />
+            <xs:element maxOccurs="1" name="description" type="xs:string" />
+            <xs:element maxOccurs="1" name="description1" type="xs:string" />
+            <xs:element maxOccurs="1" name="price" type="xs:float" />
+            <xs:element maxOccurs="1" name="text_de" type="xs:string" />
+            <xs:element maxOccurs="1" name="pic_t24" type="xs:string" />
+            <xs:element maxOccurs="1" name="date_de" type="xs:string" />
+            <xs:element maxOccurs="1" name="source_de" type="xs:string" />
+            <xs:element maxOccurs="1" name="shortFeedback_de" type="xs:string" />
+            <xs:element minOccurs="1" name="itemText" type="xs:string" />
+            <xs:element minOccurs="1" name="itemDate" type="xs:string" />
+            <xs:element minOccurs="1" name="itemSource" type="xs:string" />
+            <xs:element minOccurs="1" name="shortFeedback" type="xs:string" />
+            <xs:element maxOccurs="1" name="type" type="xs:string" />
+            <xs:element maxOccurs="1" name="org_price" type="xs:float" />
+            <xs:element maxOccurs="1" name="stock" type="xs:nonNegativeInteger" />
+            <xs:element maxOccurs="1" name="longFeedback_de" type="xs:string" />
+            <xs:element maxOccurs="1" name="longFeedback" type="xs:string" />
+            <xs:element maxOccurs="1" name="wholesalerId" type="xs:nonNegativeInteger" />
+            <xs:element maxOccurs="1" name="pr_description" type="xs:string" />
+            <xs:element maxOccurs="1" name="manufacturer_description" type="xs:string" />
+            <xs:element maxOccurs="1" name="matchcode" type="xs:string" />
+            <xs:element maxOccurs="1" name="ean_number" type="xs:string" />
+            <xs:element maxOccurs="1" name="manufacturer_item_number" type="xs:string" />
+            <xs:element maxOccurs="1" name="imageUrl" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="weight" type="xs:float" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getItem">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="0" name="itemID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alcar" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="shopSearch" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="minAvailability" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="wholesalerID" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getItemResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="itemID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alcar" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="stock" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="price" type="xs:float" />
+            <xs:element minOccurs="0" name="description" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTyreSizeForRim">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="alcar" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTyreSizeForRimResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="tyreSize" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getOwnArticleId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="ghid" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="1" name="id" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ownArticleId">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="ownArticleId" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="authenticate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="userId" type="xs:string" />
+            <xs:element minOccurs="0" name="password" type="xs:string" />
+            <xs:element minOccurs="0" name="token" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="securityToken">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="expires" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="searchRims">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="0" name="alcar" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="1" name="minAvailability" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="shopSearch" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="rimItem">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="shopID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="1" name="searchString" type="xs:string" />
+            <xs:element minOccurs="0" name="manufacturer" type="xs:string" />
+            <xs:element minOccurs="0" name="page" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="userPrice" type="xs:float" />
+            <xs:element minOccurs="0" name="minAvailability" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="showOldItems" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="order" type="xs:string" />
+            <xs:element minOccurs="0" name="ownStock" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="t24DealerID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="1" name="shopSearch" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="rimSearch" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="wholesalerID" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="searchRimsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="items" type="tns:tyreList" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="endConsumerCalculation">
+        <xs:sequence>
+          <xs:element minOccurs="1" name="tyreMarkup" type="xs:float" />
+          <xs:element minOccurs="1" name="tyrePercentMarkup" type="xs:float" />
+          <xs:element minOccurs="1" name="steelRimMarkup" type="xs:float" />
+          <xs:element minOccurs="1" name="steelRimPercentMarkup" type="xs:float" />
+          <xs:element minOccurs="1" name="aluRimMarkup" type="xs:float" />
+          <xs:element minOccurs="1" name="aluRimPercentMarkup" type="xs:float" />
+          <xs:element minOccurs="1" name="tax" type="xs:float" />
+          <xs:element minOccurs="1" name="rounding" type="xs:float" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="dealerCalculation">
+        <xs:sequence>
+          <xs:element minOccurs="1" name="tyreMarkup" type="xs:float" />
+          <xs:element minOccurs="1" name="tyrePercentMarkup" type="xs:float" />
+          <xs:element minOccurs="1" name="steelRimMarkup" type="xs:float" />
+          <xs:element minOccurs="1" name="steelRimPercentMarkup" type="xs:float" />
+          <xs:element minOccurs="1" name="aluRimMarkup" type="xs:float" />
+          <xs:element minOccurs="1" name="aluRimPercentMarkup" type="xs:float" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="getEndConsumerCalculation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getEndConsumerCalculationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="endConsumerCalculation" type="tns:endConsumerCalculation" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDealerCalculation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="priceList" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDealerCalculationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="dealerCalculation" type="tns:dealerCalculation" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCalculation">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCalculationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="endConsumer" type="tns:endConsumerCalculation" />
+            <xs:element name="priceList1" type="tns:dealerCalculation" />
+            <xs:element name="priceList2" type="tns:dealerCalculation" />
+            <xs:element name="priceList3" type="tns:dealerCalculation" />
+            <xs:element name="priceList4" type="tns:dealerCalculation" />
+            <xs:element name="priceList5" type="tns:dealerCalculation" />
+            <xs:element name="priceList6" type="tns:dealerCalculation" />
+            <xs:element name="priceList7" type="tns:dealerCalculation" />
+            <xs:element name="priceList8" type="tns:dealerCalculation" />
+            <xs:element name="priceList9" type="tns:dealerCalculation" />
+            <xs:element name="priceList10" type="tns:dealerCalculation" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getBulkDiscount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getBulkDiscountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="stockNeededForPriceList1" type="xs:nonNegativeInteger" />
+            <xs:element name="stockNeededForPriceList2" type="xs:nonNegativeInteger" />
+            <xs:element name="stockNeededForPriceList3" type="xs:nonNegativeInteger" />
+            <xs:element name="stockNeededForPriceList4" type="xs:nonNegativeInteger" />
+            <xs:element name="stockNeededForPriceList5" type="xs:nonNegativeInteger" />
+            <xs:element name="stockNeededForPriceList6" type="xs:nonNegativeInteger" />
+            <xs:element name="stockNeededForPriceList7" type="xs:nonNegativeInteger" />
+            <xs:element name="stockNeededForPriceList8" type="xs:nonNegativeInteger" />
+            <xs:element name="stockNeededForPriceList9" type="xs:nonNegativeInteger" />
+            <xs:element name="stockNeededForPriceList10" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRimBindings">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRimBindingsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="alloyRimBinding" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRimDiameters">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="minAvailability" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alloyRimBinding" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRimDiametersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="alloyRimDiameter" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRimManufacturers">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="minAvailability" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alloyRimBinding" type="xs:string" />
+            <xs:element minOccurs="0" name="alloyRimDiameter" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRimManufacturersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="alloyRimManufacturer" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRimTypes">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="minAvailability" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alloyRimBinding" type="xs:string" />
+            <xs:element minOccurs="0" name="alloyRimDiameter" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="1" name="alloyRimManufacturer" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRimTypesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="alloyRimType" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRims">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="minAvailability" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alloyRimBinding" type="xs:string" />
+            <xs:element minOccurs="0" name="alloyRimDiameter" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alloyRimManufacturer" type="xs:string" />
+            <xs:element minOccurs="0" name="alloyRimType" type="xs:string" />
+            <xs:element minOccurs="0" name="imageWidth" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="imageHeight" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRimsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="alloyRim" type="tns:alloyRim" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRimDetails">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="minAvailability" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="1" name="alloyRimId" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="imageWidth" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="imageHeight" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAlloyRimDetailsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="id" type="xs:nonNegativeInteger" />
+            <xs:element name="manufacturer" type="xs:string" />
+            <xs:element name="description" type="xs:string" />
+            <xs:element name="connectingDimensions" type="xs:string" />
+            <xs:element name="alloyRimDescription" type="xs:string" />
+            <xs:element name="alloyManufacturerDescription" type="xs:string" />
+            <xs:element name="price" type="xs:float" />
+            <xs:element name="stock" type="xs:string" />
+            <xs:element name="pic_t24" type="xs:string" />
+            <xs:element minOccurs="0" name="imageUrl" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="authenticateDealer">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="token" type="xs:string" />
+            <xs:element minOccurs="0" name="dealerToken" type="xs:string" />
+            <xs:element minOccurs="0" name="dealerId" type="xs:string" />
+            <xs:element minOccurs="0" name="dealerPassword" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDealerDetails">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="token" type="xs:string" />
+            <xs:element minOccurs="0" name="dealerToken" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDealerDetailsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="title" type="xs:string" />
+            <xs:element minOccurs="0" name="name" type="xs:string" />
+            <xs:element minOccurs="0" name="additive" type="xs:string" />
+            <xs:element minOccurs="0" name="address" type="xs:string" />
+            <xs:element minOccurs="0" name="post_code" type="xs:string" />
+            <xs:element minOccurs="0" name="city" type="xs:string" />
+            <xs:element minOccurs="0" name="country" type="xs:string" />
+            <xs:element minOccurs="0" name="tel" type="xs:string" />
+            <xs:element minOccurs="0" name="fax" type="xs:string" />
+            <xs:element minOccurs="0" name="email" type="xs:string" />
+            <xs:element minOccurs="0" name="status" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="pricelist" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDealerBasket">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="token" type="xs:string" />
+            <xs:element minOccurs="0" name="dealerToken" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getDealerBasketResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="basketId" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCompleteWheelDetails">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="tyreId" type="xs:string" />
+            <xs:element minOccurs="1" name="rimId" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getCompleteWheelDetailsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="sql" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTreadAndRatingText">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="profileID" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getTreadAndRatingTextResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="treadText" type="xs:string" />
+            <xs:element minOccurs="1" name="ratingText" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getProfileID">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="tyreID" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getProfileIDResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="profileID" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPriceByID">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="tyreID" type="xs:string" />
+            <xs:element minOccurs="0" name="minAvailability" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPriceByIDResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="price" type="xs:float" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getImageID">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="profileID" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getImageIDResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="imageID" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getIDOverAlias">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="articleID" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getIDOverAliasResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="tyreID" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAllTyreIDsOverAlias">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="articleID" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getAllTyreIDsOverAliasResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="tyreIDs" type="tns:tyreIDWithAlias" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPriceAndStock">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element name="articleID" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getPriceAndStockResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="articleInformation" type="tns:priceAndStock" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getManufacturersWithQualityRating">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getManufacturersWithQualityRatingResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="manufacturerList" type="tns:manufacturerListWithQualityRating" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGlossaryItem">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element name="countryID" type="xs:string" />
+            <xs:element name="categoryID" type="xs:string" />
+            <xs:element name="searchString" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGlossaryItemResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="glossaryList" type="tns:glossaryItem" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGlossaryCategories">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element name="countryID" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGlossaryCategoriesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="glossaryCategories" type="tns:glossaryCategories" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGlossaryCategoriesIDByTitle">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element name="categoriesTitle" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getGlossaryCategoriesIDByTitleResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="glossaryCategoriesID" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimCarBrands">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="0" name="showMain" type="xs:boolean" />
+            <xs:element minOccurs="0" name="showNormal" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimCarBrandsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="alloyRimCarBrandsList" type="tns:alloyRimCarBrand" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimCarModels">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="brandID" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimCarModelsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="alloyRimCarModelsList" type="tns:alloyRimCarModel" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimCarTypes">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="brandID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="1" name="modelID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="carPicWidth" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="carPicHeight" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimCarTypesResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="alloyRimCarTypesList" type="tns:alloyRimCarType" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimDiameters">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="carID" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimDiametersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="alloyRimDiameter" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimCarInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="carID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="carPicWidth" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="carPicHeight" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimCarInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="carManufacturer" type="xs:string" />
+            <xs:element name="carModel" type="xs:string" />
+            <xs:element name="carType" type="xs:string" />
+            <xs:element minOccurs="1" name="carTypeDesc" type="xs:string" />
+            <xs:element name="manufactureYear" type="xs:string" />
+            <xs:element name="holeNumber" type="xs:nonNegativeInteger" />
+            <xs:element name="holeCircle" type="xs:string" />
+            <xs:element name="hubHole" type="xs:string" />
+            <xs:element name="permitNumber" type="xs:string" />
+            <xs:element name="carComment" type="xs:string" />
+            <xs:element minOccurs="0" name="carPic" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimAttachments">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="carID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="1" name="alloyRimDiameter" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimAttachmentsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="alloyRimAttachmentsList" type="tns:alloyRimAttachment" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimManufacturers">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="carID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="1" name="alloyRimFrontDiameter" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alloyRimRearDiameter" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alloyRimFrontWidth" type="xs:decimal" />
+            <xs:element minOccurs="0" name="alloyRimRearWidth" type="xs:decimal" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimManufacturersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="alloyRimManufacturersList" type="tns:alloyRimManufacturer" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRims">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="carID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="1" name="alloyRimFrontDiameter" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alloyRimRearDiameter" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alloyRimFrontWidth" type="xs:decimal" />
+            <xs:element minOccurs="0" name="alloyRimRearWidth" type="xs:decimal" />
+            <xs:element minOccurs="0" name="manufacturerID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="imageWidth" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="imageHeight" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="comfortAlloyRimsList" type="tns:comfortAlloyRim" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimDetails">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="1" name="token" type="xs:string" />
+            <xs:element minOccurs="1" name="alloyRimFrontID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="alloyRimRearID" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="imageWidth" type="xs:nonNegativeInteger" />
+            <xs:element minOccurs="0" name="imageHeight" type="xs:nonNegativeInteger" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getComfortAlloyRimDetailsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="alloyRimFrontPrice" type="xs:string" />
+            <xs:element name="alloyRimFrontStock" type="xs:nonNegativeInteger" />
+            <xs:element name="alloyRimFrontDescription" type="xs:string" />
+            <xs:element name="alloyRimFrontWidth" type="xs:string" />
+            <xs:element name="alloyRimFrontDiameter" type="xs:nonNegativeInteger" />
+            <xs:element name="alloyRimFrontET" type="xs:string" />
+            <xs:element name="alloyRimFrontLochzahl" type="xs:nonNegativeInteger" />
+            <xs:element name="alloyRimFrontLochkreis" type="xs:nonNegativeInteger" />
+            <xs:element name="alloyRimFrontHubHole" type="xs:string" />
+            <xs:element name="alloyRimRearPrice" type="xs:string" />
+            <xs:element name="alloyRimRearStock" type="xs:nonNegativeInteger" />
+            <xs:element name="alloyRimRearDescription" type="xs:string" />
+            <xs:element name="alloyRimRearWidth" type="xs:string" />
+            <xs:element name="alloyRimRearDiameter" type="xs:nonNegativeInteger" />
+            <xs:element name="alloyRimRearET" type="xs:string" />
+            <xs:element name="alloyRimRearLochzahl" type="xs:nonNegativeInteger" />
+            <xs:element name="alloyRimRearLochkreis" type="xs:nonNegativeInteger" />
+            <xs:element name="alloyRimRearHubHole" type="xs:string" />
+            <xs:element name="manufacturer" type="xs:string" />
+            <xs:element name="type" type="xs:string" />
+            <xs:element name="typeName" type="xs:string" />
+            <xs:element name="typeColor" type="xs:string" />
+            <xs:element name="typeConstruction" type="xs:string" />
+            <xs:element name="imageUrl" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </types>
+  <message name="getTyresRequestMsg">
+    <part name="body" element="tns:getTyres" />
+  </message>
+  <message name="getTyresResponseMsg">
+    <part name="body" element="tns:getTyresResponse" />
+  </message>
+  <message name="getRimsRequestMsg">
+    <part name="body" element="tns:getRims" />
+  </message>
+  <message name="getRimsResponseMsg">
+    <part name="body" element="tns:rimList" />
+  </message>
+  <message name="getRimManufacturersRequestMsg">
+    <part name="body" element="tns:getRimManufacturers" />
+  </message>
+  <message name="getRimManufacturersResponseMsg">
+    <part name="body" element="tns:rimManufacturerList" />
+  </message>
+  <message name="getRimTypesForRimManufacturerRequestMsg">
+    <part name="body" element="tns:getRimTypesForRimManufacturer" />
+  </message>
+  <message name="getRimTypesForRimManufacturerResponseMsg">
+    <part name="body" element="tns:rimTypeList" />
+  </message>
+  <message name="getRimWorkmanshipForRimTypeRequestMsg">
+    <part name="body" element="tns:getRimWorkmanshipForRimType" />
+  </message>
+  <message name="getRimWorkmanshipForRimTypeResponseMsg">
+    <part name="body" element="tns:rimWorkmanshipList" />
+  </message>
+  <message name="getDetailsRequestMsg">
+    <part name="body" element="tns:getDetails" />
+  </message>
+  <message name="getDetailsResponseMsg">
+    <part name="body" element="tns:detailPage" />
+  </message>
+  <message name="getItemRequestMsg">
+    <part name="body" element="tns:getItem" />
+  </message>
+  <message name="getItemResponseMsg">
+    <part name="body" element="tns:getItemResponse" />
+  </message>
+  <message name="getTyreSizeForRimRequestMsg">
+    <part name="body" element="tns:getTyreSizeForRim" />
+  </message>
+  <message name="getTyreSizeForRimResponseMsg">
+    <part name="body" element="tns:getTyreSizeForRimResponse" />
+  </message>
+  <message name="getOwnArticleIdRequestMsg">
+    <part name="body" element="tns:getOwnArticleId" />
+  </message>
+  <message name="getOwnArticleIdResponseMsg">
+    <part name="body" element="tns:ownArticleId" />
+  </message>
+  <message name="authenticateRequestMsg">
+    <part name="body" element="tns:authenticate" />
+  </message>
+  <message name="authenticateResponseMsg">
+    <part name="body" element="tns:securityToken" />
+  </message>
+  <message name="searchRimsRequestMsg">
+    <part name="body" element="tns:searchRims" />
+  </message>
+  <message name="searchRimsResponseMsg">
+    <part name="body" element="tns:searchRimsResponse" />
+  </message>
+  <message name="getEndConsumerCalculationRequestMsg">
+    <part name="body" element="tns:getEndConsumerCalculation" />
+  </message>
+  <message name="getEndConsumerCalculationResponseMsg">
+    <part name="body" element="tns:getEndConsumerCalculationResponse" />
+  </message>
+  <message name="getDealerCalculationRequestMsg">
+    <part name="body" element="tns:getDealerCalculation" />
+  </message>
+  <message name="getDealerCalculationResponseMsg">
+    <part name="body" element="tns:getDealerCalculationResponse" />
+  </message>
+  <message name="getCalculationRequestMsg">
+    <part name="body" element="tns:getCalculation" />
+  </message>
+  <message name="getCalculationResponseMsg">
+    <part name="body" element="tns:getCalculationResponse" />
+  </message>
+  <message name="getBulkDiscountRequestMsg">
+    <part name="body" element="tns:getBulkDiscount" />
+  </message>
+  <message name="getBulkDiscountResponseMsg">
+    <part name="body" element="tns:getBulkDiscountResponse" />
+  </message>
+  <message name="getAlloyRimBindingsRequestMsg">
+    <part name="body" element="tns:getAlloyRimBindings" />
+  </message>
+  <message name="getAlloyRimBindingsResponseMsg">
+    <part name="body" element="tns:getAlloyRimBindingsResponse" />
+  </message>
+  <message name="getAlloyRimDiametersRequestMsg">
+    <part name="body" element="tns:getAlloyRimDiameters" />
+  </message>
+  <message name="getAlloyRimDiametersResponseMsg">
+    <part name="body" element="tns:getAlloyRimDiametersResponse" />
+  </message>
+  <message name="getAlloyRimManufacturersRequestMsg">
+    <part name="body" element="tns:getAlloyRimManufacturers" />
+  </message>
+  <message name="getAlloyRimManufacturersResponseMsg">
+    <part name="body" element="tns:getAlloyRimManufacturersResponse" />
+  </message>
+  <message name="getAlloyRimTypesRequestMsg">
+    <part name="body" element="tns:getAlloyRimTypes" />
+  </message>
+  <message name="getAlloyRimTypesResponseMsg">
+    <part name="body" element="tns:getAlloyRimTypesResponse" />
+  </message>
+  <message name="getAlloyRimsRequestMsg">
+    <part name="body" element="tns:getAlloyRims" />
+  </message>
+  <message name="getAlloyRimsResponseMsg">
+    <part name="body" element="tns:getAlloyRimsResponse" />
+  </message>
+  <message name="getAlloyRimDetailsRequestMsg">
+    <part name="body" element="tns:getAlloyRimDetails" />
+  </message>
+  <message name="getAlloyRimDetailsResponseMsg">
+    <part name="body" element="tns:getAlloyRimDetailsResponse" />
+  </message>
+  <message name="authenticateDealerRequestMsg">
+    <part name="body" element="tns:authenticateDealer" />
+  </message>
+  <message name="authenticateDealerResponseMsg">
+    <part name="body" element="tns:securityToken" />
+  </message>
+  <message name="getDealerDetailsRequestMsg">
+    <part name="body" element="tns:getDealerDetails" />
+  </message>
+  <message name="getDealerDetailsResponseMsg">
+    <part name="body" element="tns:getDealerDetailsResponse" />
+  </message>
+  <message name="getDealerBasketRequestMsg">
+    <part name="body" element="tns:getDealerBasket" />
+  </message>
+  <message name="getDealerBasketResponseMsg">
+    <part name="body" element="tns:getDealerBasketResponse" />
+  </message>
+  <message name="getCompleteWheelDetailsRequestMsg">
+    <part name="body" element="tns:getCompleteWheelDetails" />
+  </message>
+  <message name="getCompleteWheelDetailsResponseMsg">
+    <part name="body" element="tns:getCompleteWheelDetailsResponse" />
+  </message>
+  <message name="getTreadAndRatingTextRequestMsg">
+    <part name="body" element="tns:getTreadAndRatingText" />
+  </message>
+  <message name="getTreadAndRatingTextResponseMsg">
+    <part name="body" element="tns:getTreadAndRatingTextResponse" />
+  </message>
+  <message name="getProfileIDRequestMsg">
+    <part name="body" element="tns:getProfileID" />
+  </message>
+  <message name="getProfileIDResponseMsg">
+    <part name="body" element="tns:getProfileIDResponse" />
+  </message>
+  <message name="getPriceByIDRequestMsg">
+    <part name="body" element="tns:getPriceByID" />
+  </message>
+  <message name="getPriceByIDResponseMsg">
+    <part name="body" element="tns:getPriceByIDResponse" />
+  </message>
+  <message name="getImageIDRequestMsg">
+    <part name="body" element="tns:getImageID" />
+  </message>
+  <message name="getImageIDResponseMsg">
+    <part name="body" element="tns:getImageIDResponse" />
+  </message>
+  <message name="getIDOverAliasRequestMsg">
+    <part name="body" element="tns:getIDOverAlias" />
+  </message>
+  <message name="getIDOverAliasResponseMsg">
+    <part name="body" element="tns:getIDOverAliasResponse" />
+  </message>
+  <message name="getAllTyreIDsOverAliasRequestMsg">
+    <part name="body" element="tns:getAllTyreIDsOverAlias" />
+  </message>
+  <message name="getAllTyreIDsOverAliasResponseMsg">
+    <part name="body" element="tns:getAllTyreIDsOverAliasResponse" />
+  </message>
+  <message name="getPriceAndStockRequestMsg">
+    <part name="body" element="tns:getPriceAndStock" />
+  </message>
+  <message name="getPriceAndStockResponseMsg">
+    <part name="body" element="tns:getPriceAndStockResponse" />
+  </message>
+  <message name="getManufacturersWithQualityRatingRequestMsg">
+    <part name="body" element="tns:getManufacturersWithQualityRating" />
+  </message>
+  <message name="getManufacturersWithQualityRatingResponseMsg">
+    <part name="body" element="tns:getManufacturersWithQualityRatingResponse" />
+  </message>
+  <message name="getGlossaryItemRequestMsg">
+    <part name="body" element="tns:getGlossaryItem" />
+  </message>
+  <message name="getGlossaryItemResponseMsg">
+    <part name="body" element="tns:getGlossaryItemResponse" />
+  </message>
+  <message name="getGlossaryCategoriesRequestMsg">
+    <part name="body" element="tns:getGlossaryCategories" />
+  </message>
+  <message name="getGlossaryCategoriesResponseMsg">
+    <part name="body" element="tns:getGlossaryCategoriesResponse" />
+  </message>
+  <message name="getGlossaryCategoriesIDByTitleRequestMsg">
+    <part name="body" element="tns:getGlossaryCategoriesIDByTitle" />
+  </message>
+  <message name="getGlossaryCategoriesIDByTitleResponseMsg">
+    <part name="body" element="tns:getGlossaryCategoriesIDByTitleResponse" />
+  </message>
+  <message name="getComfortAlloyRimCarBrandsRequestMsg">
+    <part name="body" element="tns:getComfortAlloyRimCarBrands" />
+  </message>
+  <message name="getComfortAlloyRimCarBrandsResponseMsg">
+    <part name="body" element="tns:getComfortAlloyRimCarBrandsResponse" />
+  </message>
+  <message name="getComfortAlloyRimCarModelsRequestMsg">
+    <part name="body" element="tns:getComfortAlloyRimCarModels" />
+  </message>
+  <message name="getComfortAlloyRimCarModelsResponseMsg">
+    <part name="body" element="tns:getComfortAlloyRimCarModelsResponse" />
+  </message>
+  <message name="getComfortAlloyRimCarTypesRequestMsg">
+    <part name="body" element="tns:getComfortAlloyRimCarTypes" />
+  </message>
+  <message name="getComfortAlloyRimCarTypesResponseMsg">
+    <part name="body" element="tns:getComfortAlloyRimCarTypesResponse" />
+  </message>
+  <message name="getComfortAlloyRimDiametersRequestMsg">
+    <part name="body" element="tns:getComfortAlloyRimDiameters" />
+  </message>
+  <message name="getComfortAlloyRimDiametersResponseMsg">
+    <part name="body" element="tns:getComfortAlloyRimDiametersResponse" />
+  </message>
+  <message name="getComfortAlloyRimCarInfoRequestMsg">
+    <part name="body" element="tns:getComfortAlloyRimCarInfo" />
+  </message>
+  <message name="getComfortAlloyRimCarInfoResponseMsg">
+    <part name="body" element="tns:getComfortAlloyRimCarInfoResponse" />
+  </message>
+  <message name="getComfortAlloyRimAttachmentsRequestMsg">
+    <part name="body" element="tns:getComfortAlloyRimAttachments" />
+  </message>
+  <message name="getComfortAlloyRimAttachmentsResponseMsg">
+    <part name="body" element="tns:getComfortAlloyRimAttachmentsResponse" />
+  </message>
+  <message name="getComfortAlloyRimManufacturersRequestMsg">
+    <part name="body" element="tns:getComfortAlloyRimManufacturers" />
+  </message>
+  <message name="getComfortAlloyRimManufacturersResponseMsg">
+    <part name="body" element="tns:getComfortAlloyRimManufacturersResponse" />
+  </message>
+  <message name="getComfortAlloyRimsRequestMsg">
+    <part name="body" element="tns:getComfortAlloyRims" />
+  </message>
+  <message name="getComfortAlloyRimsResponseMsg">
+    <part name="body" element="tns:getComfortAlloyRimsResponse" />
+  </message>
+  <message name="getComfortAlloyRimDetailsRequestMsg">
+    <part name="body" element="tns:getComfortAlloyRimDetails" />
+  </message>
+  <message name="getComfortAlloyRimDetailsResponseMsg">
+    <part name="body" element="tns:getComfortAlloyRimDetailsResponse" />
+  </message>
+  <portType name="TyreShoppingWebServicePortType">
+    <operation name="getTyres">
+      <input message="tns:getTyresRequestMsg" />
+      <output message="tns:getTyresResponseMsg" />
+    </operation>
+    <operation name="getRims">
+      <input message="tns:getRimsRequestMsg" />
+      <output message="tns:getRimsResponseMsg" />
+    </operation>
+    <operation name="getRimManufacturers">
+      <input message="tns:getRimManufacturersRequestMsg" />
+      <output message="tns:getRimManufacturersResponseMsg" />
+    </operation>
+    <operation name="getRimTypesForRimManufacturer">
+      <input message="tns:getRimTypesForRimManufacturerRequestMsg" />
+      <output message="tns:getRimTypesForRimManufacturerResponseMsg" />
+    </operation>
+    <operation name="getRimWorkmanshipForRimType">
+      <input message="tns:getRimWorkmanshipForRimTypeRequestMsg" />
+      <output message="tns:getRimWorkmanshipForRimTypeResponseMsg" />
+    </operation>
+    <operation name="getDetails">
+      <input message="tns:getDetailsRequestMsg" />
+      <output message="tns:getDetailsResponseMsg" />
+    </operation>
+    <operation name="getItem">
+      <input message="tns:getItemRequestMsg" />
+      <output message="tns:getItemResponseMsg" />
+    </operation>
+    <operation name="getTyreSizeForRim">
+      <input message="tns:getTyreSizeForRimRequestMsg" />
+      <output message="tns:getTyreSizeForRimResponseMsg" />
+    </operation>
+    <operation name="getOwnArticleId">
+      <input message="tns:getOwnArticleIdRequestMsg" />
+      <output message="tns:getOwnArticleIdResponseMsg" />
+    </operation>
+    <operation name="authenticate">
+      <input message="tns:authenticateRequestMsg" />
+      <output message="tns:authenticateResponseMsg" />
+    </operation>
+    <operation name="searchRims">
+      <input message="tns:searchRimsRequestMsg" />
+      <output message="tns:searchRimsResponseMsg" />
+    </operation>
+    <operation name="getEndConsumerCalculation">
+      <input message="tns:getEndConsumerCalculationRequestMsg" />
+      <output message="tns:getEndConsumerCalculationResponseMsg" />
+    </operation>
+    <operation name="getDealerCalculation">
+      <input message="tns:getDealerCalculationRequestMsg" />
+      <output message="tns:getDealerCalculationResponseMsg" />
+    </operation>
+    <operation name="getCalculation">
+      <input message="tns:getCalculationRequestMsg" />
+      <output message="tns:getCalculationResponseMsg" />
+    </operation>
+    <operation name="getBulkDiscount">
+      <input message="tns:getBulkDiscountRequestMsg" />
+      <output message="tns:getBulkDiscountResponseMsg" />
+    </operation>
+    <operation name="getAlloyRimBindings">
+      <input message="tns:getAlloyRimBindingsRequestMsg" />
+      <output message="tns:getAlloyRimBindingsResponseMsg" />
+    </operation>
+    <operation name="getAlloyRimDiameters">
+      <input message="tns:getAlloyRimDiametersRequestMsg" />
+      <output message="tns:getAlloyRimDiametersResponseMsg" />
+    </operation>
+    <operation name="getAlloyRimManufacturers">
+      <input message="tns:getAlloyRimManufacturersRequestMsg" />
+      <output message="tns:getAlloyRimManufacturersResponseMsg" />
+    </operation>
+    <operation name="getAlloyRimTypes">
+      <input message="tns:getAlloyRimTypesRequestMsg" />
+      <output message="tns:getAlloyRimTypesResponseMsg" />
+    </operation>
+    <operation name="getAlloyRims">
+      <input message="tns:getAlloyRimsRequestMsg" />
+      <output message="tns:getAlloyRimsResponseMsg" />
+    </operation>
+    <operation name="getAlloyRimDetails">
+      <input message="tns:getAlloyRimDetailsRequestMsg" />
+      <output message="tns:getAlloyRimDetailsResponseMsg" />
+    </operation>
+    <operation name="authenticateDealer">
+      <input message="tns:authenticateDealerRequestMsg" />
+      <output message="tns:authenticateDealerResponseMsg" />
+    </operation>
+    <operation name="getDealerDetails">
+      <input message="tns:getDealerDetailsRequestMsg" />
+      <output message="tns:getDealerDetailsResponseMsg" />
+    </operation>
+    <operation name="getDealerBasket">
+      <input message="tns:getDealerBasketRequestMsg" />
+      <output message="tns:getDealerBasketResponseMsg" />
+    </operation>
+    <operation name="getCompleteWheelDetails">
+      <input message="tns:getCompleteWheelDetailsRequestMsg" />
+      <output message="tns:getCompleteWheelDetailsResponseMsg" />
+    </operation>
+    <operation name="getTreadAndRatingText">
+      <input message="tns:getTreadAndRatingTextRequestMsg" />
+      <output message="tns:getTreadAndRatingTextResponseMsg" />
+    </operation>
+    <operation name="getProfileID">
+      <input message="tns:getProfileIDRequestMsg" />
+      <output message="tns:getProfileIDResponseMsg" />
+    </operation>
+    <operation name="getPriceByID">
+      <input message="tns:getPriceByIDRequestMsg" />
+      <output message="tns:getPriceByIDResponseMsg" />
+    </operation>
+    <operation name="getImageID">
+      <input message="tns:getImageIDRequestMsg" />
+      <output message="tns:getImageIDResponseMsg" />
+    </operation>
+    <operation name="getIDOverAlias">
+      <input message="tns:getIDOverAliasRequestMsg" />
+      <output message="tns:getIDOverAliasResponseMsg" />
+    </operation>
+    <operation name="getAllTyreIDsOverAlias">
+      <input message="tns:getAllTyreIDsOverAliasRequestMsg" />
+      <output message="tns:getAllTyreIDsOverAliasResponseMsg" />
+    </operation>
+    <operation name="getPriceAndStock">
+      <input message="tns:getPriceAndStockRequestMsg" />
+      <output message="tns:getPriceAndStockResponseMsg" />
+    </operation>
+    <operation name="getManufacturersWithQualityRating">
+      <input message="tns:getManufacturersWithQualityRatingRequestMsg" />
+      <output message="tns:getManufacturersWithQualityRatingResponseMsg" />
+    </operation>
+    <operation name="getGlossaryItem">
+      <input message="tns:getGlossaryItemRequestMsg" />
+      <output message="tns:getGlossaryItemResponseMsg" />
+    </operation>
+    <operation name="getGlossaryCategories">
+      <input message="tns:getGlossaryCategoriesRequestMsg" />
+      <output message="tns:getGlossaryCategoriesResponseMsg" />
+    </operation>
+    <operation name="getGlossaryCategoriesIDByTitle">
+      <input message="tns:getGlossaryCategoriesIDByTitleRequestMsg" />
+      <output message="tns:getGlossaryCategoriesIDByTitleResponseMsg" />
+    </operation>
+    <operation name="getComfortAlloyRimCarBrands">
+      <input message="tns:getComfortAlloyRimCarBrandsRequestMsg" />
+      <output message="tns:getComfortAlloyRimCarBrandsResponseMsg" />
+    </operation>
+    <operation name="getComfortAlloyRimCarModels">
+      <input message="tns:getComfortAlloyRimCarModelsRequestMsg" />
+      <output message="tns:getComfortAlloyRimCarModelsResponseMsg" />
+    </operation>
+    <operation name="getComfortAlloyRimCarTypes">
+      <input message="tns:getComfortAlloyRimCarTypesRequestMsg" />
+      <output message="tns:getComfortAlloyRimCarTypesResponseMsg" />
+    </operation>
+    <operation name="getComfortAlloyRimDiameters">
+      <input message="tns:getComfortAlloyRimDiametersRequestMsg" />
+      <output message="tns:getComfortAlloyRimDiametersResponseMsg" />
+    </operation>
+    <operation name="getComfortAlloyRimCarInfo">
+      <input message="tns:getComfortAlloyRimCarInfoRequestMsg" />
+      <output message="tns:getComfortAlloyRimCarInfoResponseMsg" />
+    </operation>
+    <operation name="getComfortAlloyRimAttachments">
+      <input message="tns:getComfortAlloyRimAttachmentsRequestMsg" />
+      <output message="tns:getComfortAlloyRimAttachmentsResponseMsg" />
+    </operation>
+    <operation name="getComfortAlloyRimManufacturers">
+      <input message="tns:getComfortAlloyRimManufacturersRequestMsg" />
+      <output message="tns:getComfortAlloyRimManufacturersResponseMsg" />
+    </operation>
+    <operation name="getComfortAlloyRims">
+      <input message="tns:getComfortAlloyRimsRequestMsg" />
+      <output message="tns:getComfortAlloyRimsResponseMsg" />
+    </operation>
+    <operation name="getComfortAlloyRimDetails">
+      <input message="tns:getComfortAlloyRimDetailsRequestMsg" />
+      <output message="tns:getComfortAlloyRimDetailsResponseMsg" />
+    </operation>
+  </portType>
+  <binding name="TyreShoppingWebServiceBinding" type="tns:TyreShoppingWebServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getTyres">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRims">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRimManufacturers">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRimTypesForRimManufacturer">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getRimWorkmanshipForRimType">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getDetails">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getItem">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getTyreSizeForRim">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getOwnArticleId">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="authenticate">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="searchRims">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getEndConsumerCalculation">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getDealerCalculation">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCalculation">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getBulkDiscount">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getAlloyRimBindings">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getAlloyRimDiameters">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getAlloyRimManufacturers">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getAlloyRimTypes">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getAlloyRims">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getAlloyRimDetails">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="authenticateDealer">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getDealerDetails">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getDealerBasket">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCompleteWheelDetails">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getTreadAndRatingText">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getProfileID">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPriceByID">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getImageID">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getIDOverAlias">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getAllTyreIDsOverAlias">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getPriceAndStock">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getManufacturersWithQualityRating">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getGlossaryItem">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getGlossaryCategories">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getGlossaryCategoriesIDByTitle">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getComfortAlloyRimCarBrands">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getComfortAlloyRimCarModels">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getComfortAlloyRimCarTypes">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getComfortAlloyRimDiameters">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getComfortAlloyRimCarInfo">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getComfortAlloyRimAttachments">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getComfortAlloyRimManufacturers">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getComfortAlloyRims">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getComfortAlloyRimDetails">
+      <soap:operation soapAction="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="TyreShoppingWebService">
+    <port name="TyreShoppingWebServicePort" binding="tns:TyreShoppingWebServiceBinding">
+      <soap:address location="http://80.237.192.156/tyre-shopping/webservice/20101201/" />
+    </port>
+  </service>
+</definitions>

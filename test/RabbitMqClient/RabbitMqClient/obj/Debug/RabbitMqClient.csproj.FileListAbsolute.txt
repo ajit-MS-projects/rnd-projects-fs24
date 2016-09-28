@@ -1,0 +1,13 @@
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\bin\Debug\RabbitMqClient.exe.config
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\bin\Debug\RabbitMqClient.exe
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\bin\Debug\RabbitMqClient.pdb
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\bin\Debug\RabbitMQ.Client.dll
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\bin\Debug\RabbitMQ.Client.xml
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\obj\Debug\RabbitMqClient.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\obj\Debug\RabbitMqClient.frmQueuer.resources
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\obj\Debug\RabbitMqClient.Properties.Resources.resources
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\obj\Debug\RabbitMqClient.csproj.GenerateResource.Cache
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\obj\Debug\RabbitMqClient.exe
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\obj\Debug\RabbitMqClient.pdb
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\bin\Debug\Newtonsoft.Json.dll
+D:\ajit\rnd\test\RabbitMqClient\RabbitMqClient\bin\Debug\Newtonsoft.Json.xml

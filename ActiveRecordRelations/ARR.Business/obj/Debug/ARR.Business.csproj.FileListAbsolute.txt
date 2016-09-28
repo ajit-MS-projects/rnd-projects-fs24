@@ -1,0 +1,13 @@
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\obj\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\ARR.Business.dll
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\ARR.Business.pdb
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\Castle.ActiveRecord.dll
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\Castle.ActiveRecord.Web.dll
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\Castle.Components.Validator.dll
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\Castle.Core.dll
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\Iesi.Collections.dll
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\NHibernate.dll
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\Castle.ActiveRecord.xml
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\obj\Debug\ARR.Business.dll
+D:\ajit\rnd\ActiveRecordRelations\ARR.Business\obj\Debug\ARR.Business.pdb

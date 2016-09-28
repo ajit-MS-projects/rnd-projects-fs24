@@ -1,0 +1,9 @@
+D:\ajit\rnd\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\ajit\rnd\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\ajit\rnd\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\ajit\rnd\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\ajit\rnd\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\ajit\rnd\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\ajit\rnd\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\ajit\rnd\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+D:\ajit\rnd\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache

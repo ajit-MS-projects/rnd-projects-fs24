@@ -1,0 +1,5 @@
+d:\ajit\rnd\delete\virtualPathUtilityTest\virtualPathUtilityTest\bin\virtualPathUtilityTest.dll
+d:\ajit\rnd\delete\virtualPathUtilityTest\virtualPathUtilityTest\bin\virtualPathUtilityTest.pdb
+d:\ajit\rnd\delete\virtualPathUtilityTest\virtualPathUtilityTest\obj\Debug\ResolveAssemblyReference.cache
+d:\ajit\rnd\delete\virtualPathUtilityTest\virtualPathUtilityTest\obj\Debug\virtualPathUtilityTest.dll
+d:\ajit\rnd\delete\virtualPathUtilityTest\virtualPathUtilityTest\obj\Debug\virtualPathUtilityTest.pdb

@@ -1,0 +1,6 @@
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking\bin\Debug\BinPacking.exe.config
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking\obj\Debug\BinPacking.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking\bin\Debug\BinPacking.exe
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking\bin\Debug\BinPacking.pdb
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking\obj\Debug\BinPacking.exe
+D:\ajit\rnd\BinPacking\BinPacking\BinPacking\obj\Debug\BinPacking.pdb

@@ -1,0 +1,19 @@
+﻿@model As24WebServicesTest.As24.equipments
+
+<div>
+    <h4>equipments ids</h4>
+    <hr />
+    <div class="dl-horizontal">
+        
+        @foreach (var x in Model)
+        {
+            <ul>
+                <li>@x</li>
+            </ul>
+        }
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

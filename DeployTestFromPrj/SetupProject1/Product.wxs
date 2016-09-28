@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="bd14638c-172f-4dbe-9637-5f55f56c53c8" Name="Ajits Setup Project1" Language="1033" Version="1.0.0.0" Manufacturer="Ajit" UpgradeCode="458b96b1-425c-4159-8421-10ae0526ed3e">
+		<Package InstallerVersion="200" Compressed="yes" />
+
+		<Media Id="1" Cabinet="media1.cab" EmbedCab="yes" />
+
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLLOCATION" Name="SetupTestProject1">
+					<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+					 <Component Id="ProductComponent" Guid="7066b289-f547-4a8a-9374-b2626fd9d1b1">
+						 <Shortcut Id="ApplicationStartMenuShortcut"
+				 Name="My Application Name"
+				 Description="My Application Description"
+				 Target="[APPLICATIONROOTDIRECTORY]DeployTestFromPrj.exe"
+				 WorkingDirectory="APPLICATIONROOTDIRECTORY"/>
+						 <File Source="$(var.DeployTestFromPrj.TargetPath)" />
+					 </Component> 
+				</Directory>
+			</Directory>
+		</Directory>
+
+		<Feature Id="ProductFeature" Title="Installation Target" Level="1">
+			<!-- TODO: Remove the comments around this ComponentRef element and the Component above in order to add resources to this installer. -->
+			 <ComponentRef Id="ProductComponent" /> 
+			
+			<!-- Note: The following ComponentGroupRef is required to pull in generated authoring from project references. -->
+			<ComponentGroupRef Id="Product.Generated" />
+		</Feature>
+	</Product>
+</Wix>

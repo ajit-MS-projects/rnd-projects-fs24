@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8345b2ea-0c00-4ac3-b556-3b0cdf8d1ddf" name="achahal@S24S104 2012-08-30 17:15:21" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5069fc2f-3c19-48d3-ac04-26a734c6588f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\ajit\rnd\ActiveRecordRelations\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="achahal_S24S104 2012-08-30 17_15_21">
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\ARR.Business\bin\Debug\ARR.Business.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.ActiveRecord.Web.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\packages\Iesi.Collections.3.1.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.Components.Validator.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.Core.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\Castle.ActiveRecord.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\ActiveRecordRelations\shared\NHibernate.ByteCode.Castle.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-30T17:15:21.7235456+02:00" queuing="2012-08-30T17:15:23.1596892+02:00" start="2012-08-30T17:15:23.3347067+02:00" finish="2012-08-30T17:15:35.6689400+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="S24S104" outcome="Error" timestamp="2012-08-30T17:15:35.6679399+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="UpdateProductTest" storage="d:\ajit\rnd\activerecordrelations\testproject1\bin\debug\testproject1.dll" id="017dbe6e-2369-89bd-e6a8-12d2ac46622a">
+      <Execution id="219454f9-fa37-4d31-8374-7470291def9f" />
+      <TestMethod codeBase="D:/ajit/rnd/ActiveRecordRelations/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProductTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateProductTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="017dbe6e-2369-89bd-e6a8-12d2ac46622a" executionId="219454f9-fa37-4d31-8374-7470291def9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="219454f9-fa37-4d31-8374-7470291def9f" testId="017dbe6e-2369-89bd-e6a8-12d2ac46622a" testName="UpdateProductTest" computerName="S24S104" duration="00:00:12.1632162" startTime="2012-08-30T17:15:23.5057238+02:00" endTime="2012-08-30T17:15:35.6689400+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="219454f9-fa37-4d31-8374-7470291def9f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

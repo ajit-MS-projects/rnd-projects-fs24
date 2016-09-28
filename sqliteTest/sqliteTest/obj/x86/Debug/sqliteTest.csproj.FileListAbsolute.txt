@@ -1,0 +1,13 @@
+D:\ajit\rnd\sqliteTest\sqliteTest\bin\Debug\sqliteTest.exe
+D:\ajit\rnd\sqliteTest\sqliteTest\bin\Debug\sqliteTest.pdb
+D:\ajit\rnd\sqliteTest\sqliteTest\obj\x86\Debug\sqliteTest.Properties.Resources.resources
+D:\ajit\rnd\sqliteTest\sqliteTest\obj\x86\Debug\sqliteTest.csproj.GenerateResource.Cache
+D:\ajit\rnd\sqliteTest\sqliteTest\obj\x86\Debug\sqliteTest.exe
+D:\ajit\rnd\sqliteTest\sqliteTest\obj\x86\Debug\sqliteTest.pdb
+D:\ajit\rnd\sqliteTest\sqliteTest\obj\x86\Debug\sqliteTest.Form1.resources
+D:\ajit\rnd\sqliteTest\sqliteTest\bin\Debug\testdb.db
+D:\ajit\rnd\sqliteTest\sqliteTest\bin\Debug\sqliteTest.exe.config
+D:\ajit\rnd\sqliteTest\sqliteTest\bin\Debug\EntityFramework.dll
+D:\ajit\rnd\sqliteTest\sqliteTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\ajit\rnd\sqliteTest\sqliteTest\bin\Debug\EntityFramework.xml
+D:\ajit\rnd\sqliteTest\sqliteTest\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,0 +1,13 @@
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\bin\Debug\EmbeddedSolrTest.Tests.dll
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\bin\Debug\EmbeddedSolrTest.Tests.pdb
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\bin\Debug\EmbeddedSolrTest.dll
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\bin\Debug\Lucene.Net.dll
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\bin\Debug\EmbeddedSolrTest.pdb
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\bin\Debug\Lucene.Net.pdb
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\bin\Debug\Lucene.Net.xml
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\obj\Debug\EmbeddedSolrTest.Tests.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\obj\Debug\EmbeddedSolrTest.Tests.dll
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\obj\Debug\EmbeddedSolrTest.Tests.pdb
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\bin\Debug\FS24.Http.Json.dll
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\ajit\rnd\EmbeddedSolrTest\EmbeddedSolrTest.Tests\bin\Debug\Newtonsoft.Json.xml

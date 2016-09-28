@@ -1,0 +1,9 @@
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859\bin\Debug\ExcutePsAndCopyToIso8859.exe.config
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859\bin\Debug\ExcutePsAndCopyToIso8859.exe
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859\bin\Debug\ExcutePsAndCopyToIso8859.pdb
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859\obj\Debug\ExcutePsAndCopyToIso8859.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859\obj\Debug\ExcutePsAndCopyToIso8859.Form1.resources
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859\obj\Debug\ExcutePsAndCopyToIso8859.Properties.Resources.resources
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859\obj\Debug\ExcutePsAndCopyToIso8859.csproj.GenerateResource.Cache
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859\obj\Debug\ExcutePsAndCopyToIso8859.exe
+D:\ajit\rnd\ExcutePsAndCopyToIso8859\ExcutePsAndCopyToIso8859\obj\Debug\ExcutePsAndCopyToIso8859.pdb

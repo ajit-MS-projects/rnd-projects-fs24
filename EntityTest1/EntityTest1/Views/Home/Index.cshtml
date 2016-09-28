@@ -1,0 +1,46 @@
+﻿@model EntityTest1.Models.NetzcodeLandViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<p>
+	@Html.Partial("_Partial1",Model.Lands)
+</p>
+<hr/>
+<h2>Netzcode</h2>
+<p>
+	@using (Html.BeginForm("AddNetzcode", "Home", FormMethod.Post))
+	{
+		<fieldset>
+			<span>Select lands for new Netzcode:</span>
+			@*@Html.DropDownListFor(model => Model.Lands, new SelectList(Model.Lands, "Id", "Name"))*@
+			@Html.ListBoxFor(model => Model.Lands, new SelectList(Model.Lands, "Id", "Name"))
+			<p>
+				<input type="submit" value="Add new Netzcode" />
+			</p>
+		</fieldset>
+	}
+
+</p>
+<table>
+    <tr>
+		<th>NetzcodesID&nbsp;&nbsp;&nbsp;&nbsp;</th>
+		<th>Lands</th>
+    </tr>
+
+@foreach (var item in Model.Netzcodes) {
+    <tr>
+		<td>
+           @item.NetzcodeID
+		</td>
+		<td>
+          @Html.Partial("_Partial2", item.LaenderZuordnung)
+		  <hr/>
+        </td>
+    </tr>
+}
+ 
+</table>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="224e0c9a-5373-4217-8e81-69117437b40a" name="achahal@S24S104 2014-01-10 16:06:30" runUser="ESCOUTNET\achahal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5c752ad2-59f7-4de0-8d7e-432db6d9aa07">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="achahal_S24S104 2014-01-10 16_06_30">
+      <DeploymentItem filename="D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp\bin\Debug\Ajit.DetectMyIp.dll" />
+      <DeploymentItem filename="D:\ajit\rnd\Ajit.DetectMyIp.Service\packages\Newtonsoft.Json.5.0.8\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-01-10T16:06:30.1542626+01:00" queuing="2014-01-10T16:06:31.2053677+01:00" start="2014-01-10T16:06:31.3523824+01:00" finish="2014-01-10T16:06:41.9354406+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="S24S104" outcome="Error" timestamp="2014-01-10T16:06:41.9344405+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateIpFileTest" storage="d:\ajit\rnd\ajit.detectmyip.service\ajit.detectmyip.test\bin\debug\ajit.detectmyip.test.dll" id="751e9209-5260-1f37-3783-15aee9d973eb">
+      <Execution id="16e30722-eb3a-4c23-ba59-6419bbd55854" />
+      <TestMethod codeBase="D:/ajit/rnd/Ajit.DetectMyIp.Service/Ajit.DetectMyIp.Test/bin/Debug/Ajit.DetectMyIp.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Ajit.DetectMyIp.Test.FileManagerTest, Ajit.DetectMyIp.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateIpFileTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="751e9209-5260-1f37-3783-15aee9d973eb" executionId="16e30722-eb3a-4c23-ba59-6419bbd55854" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="16e30722-eb3a-4c23-ba59-6419bbd55854" testId="751e9209-5260-1f37-3783-15aee9d973eb" testName="CreateIpFileTest" computerName="S24S104" duration="00:00:10.3310330" startTime="2014-01-10T16:06:31.6034075+01:00" endTime="2014-01-10T16:06:41.9344405+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16e30722-eb3a-4c23-ba59-6419bbd55854">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Ajax.BeginForm("ShowProduct", "Home", null, new AjaxOptions { UpdateTargetId = "contentDiv", HttpMethod = "post" }, new { id = "ajaxForm" })) 	{   @Html.TextBox("Name","SDfrsf") <br/>	  <input type="submit" value="Save" />	
+}
+<div id="contentDiv" ></div>

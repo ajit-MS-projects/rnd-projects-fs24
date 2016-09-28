@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostToForm", "PostToForm\PostToForm.csproj", "{A82C44EE-3E72-4DAE-9E97-C9E06AEECB6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlUtilities", "UrlUtilities\UrlUtilities.csproj", "{0C3529E1-8B03-4901-A5EC-8D1B3F5672B5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ajitchahal.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PostToForm\\PostToForm.csproj
+		SccProjectName1 = PostToForm
+		SccLocalPath1 = PostToForm
+		SccProjectUniqueName2 = UrlUtilities\\UrlUtilities.csproj
+		SccProjectName2 = UrlUtilities
+		SccLocalPath2 = UrlUtilities
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A82C44EE-3E72-4DAE-9E97-C9E06AEECB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82C44EE-3E72-4DAE-9E97-C9E06AEECB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82C44EE-3E72-4DAE-9E97-C9E06AEECB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82C44EE-3E72-4DAE-9E97-C9E06AEECB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3529E1-8B03-4901-A5EC-8D1B3F5672B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3529E1-8B03-4901-A5EC-8D1B3F5672B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3529E1-8B03-4901-A5EC-8D1B3F5672B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3529E1-8B03-4901-A5EC-8D1B3F5672B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

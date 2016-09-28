@@ -1,0 +1,8 @@
+D:\ajit\rnd\WCF_TCP\Wcf_TCP_Host\bin\Debug\Wcf_TCP_Host.exe
+D:\ajit\rnd\WCF_TCP\Wcf_TCP_Host\bin\Debug\Wcf_TCP_Host.pdb
+D:\ajit\rnd\WCF_TCP\Wcf_TCP_Host\bin\Debug\WCF_TCP.dll
+D:\ajit\rnd\WCF_TCP\Wcf_TCP_Host\bin\Debug\WCF_TCP.pdb
+D:\ajit\rnd\WCF_TCP\Wcf_TCP_Host\obj\x86\Debug\Wcf_TCP_Host.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\WCF_TCP\Wcf_TCP_Host\obj\x86\Debug\Wcf_TCP_Host.exe
+D:\ajit\rnd\WCF_TCP\Wcf_TCP_Host\obj\x86\Debug\Wcf_TCP_Host.pdb
+D:\ajit\rnd\WCF_TCP\Wcf_TCP_Host\bin\Debug\Wcf_TCP_Host.exe.config

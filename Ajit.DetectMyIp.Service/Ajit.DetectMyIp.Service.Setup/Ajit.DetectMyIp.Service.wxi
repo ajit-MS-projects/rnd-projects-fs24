@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include xmlns="http://schemas.microsoft.com/wix/2006/wi" >
+	<Component Id="ApplicationFiles" Guid="{D7EBCEEB-10AB-4EE8-A8E8-7C1759F29936}"  >
+		<File Id="Ajit.DetectMyIp.Service.exe" Name="Ajit.DetectMyIp.Service.exe" Source="$(var.Ajit.DetectMyIp.Service.TargetDir)Ajit.DetectMyIp.Service.exe" KeyPath="yes" />
+		<File Id ="Newtonsoft.Json.dll" Name="Newtonsoft.Json.dll" Source="$(var.Ajit.DetectMyIp.Service.TargetDir)Newtonsoft.Json.dll" />
+		<File Id ="System.Net.Http.dll" Name="System.Net.Http.dll" Source="$(var.Ajit.DetectMyIp.Service.TargetDir)System.Net.Http.dll" />
+		<File Id ="Ajit.DetectMyIp.dll" Name="Ajit.DetectMyIp.dll" Source="$(var.Ajit.DetectMyIp.Service.TargetDir)Ajit.DetectMyIp.dll" />
+		
+		<ServiceInstall Id              ="$(var.ServiceName)_ServiceInstaller"
+						DisplayName     ="$(var.ServiceDisplayName)"
+						Name            ="$(var.ServiceName)"
+						ErrorControl    ="normal"
+						Start           ="auto"
+						Type            ="ownProcess"
+						Description     ="$(var.ServiceDescription)"
+					  >
+			<!--<util:ServiceConfig FirstFailureActionType="restart"
+								SecondFailureActionType="restart"
+								ThirdFailureActionType="restart"
+								RestartServiceDelayInSeconds="60"
+								ResetPeriodInDays="1"
+								/>-->
+
+			<ServiceDependency Id="LanmanServer" />
+		</ServiceInstall>
+
+		<ServiceControl Id="$(var.ServiceName)_ServiceControl"
+						Name    ="$(var.ServiceName)"
+						Start   ="install"
+						Stop    ="uninstall"
+						Remove  ="uninstall"
+						Wait	="yes"
+						>
+
+		</ServiceControl>
+
+	</Component>
+
+	
+</Include>

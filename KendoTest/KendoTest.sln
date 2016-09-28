@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KendoTest", "KendoTest\KendoTest.csproj", "{9690872F-DF2B-4B7D-BA67-3E2DC2CC4A90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9690872F-DF2B-4B7D-BA67-3E2DC2CC4A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9690872F-DF2B-4B7D-BA67-3E2DC2CC4A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9690872F-DF2B-4B7D-BA67-3E2DC2CC4A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9690872F-DF2B-4B7D-BA67-3E2DC2CC4A90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

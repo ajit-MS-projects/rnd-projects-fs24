@@ -1,0 +1,13 @@
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\bin\Debug\Ajit.DetectMyIp.Test.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\bin\Debug\Ajit.DetectMyIp.Test.pdb
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\bin\Debug\Ajit.DetectMyIp.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\bin\Debug\Newtonsoft.Json.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\bin\Debug\System.Net.Http.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\bin\Debug\Ajit.DetectMyIp.pdb
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\bin\Debug\Newtonsoft.Json.xml
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\bin\Debug\System.Net.Http.xml
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\obj\Debug\Ajit.DetectMyIp.Test.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\obj\Debug\Ajit.DetectMyIp.Test.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\obj\Debug\Ajit.DetectMyIp.Test.pdb
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\bin\Debug\Ajit.DetectMyIp.Service.exe
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp.Test\bin\Debug\Ajit.DetectMyIp.Service.pdb

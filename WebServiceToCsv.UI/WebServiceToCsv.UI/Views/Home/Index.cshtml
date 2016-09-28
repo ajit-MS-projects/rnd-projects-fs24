@@ -1,0 +1,67 @@
+﻿@model IEnumerable<WebServiceToCsv.Contracts.IExportSettings>
+
+@{
+    ViewBag.Title = "Export Settings";
+}
+
+<h2>Export Settings</h2>
+
+<p>
+    @Html.ActionLink("Add New", "AddNewExportSetting")
+</p>
+<table>
+	<tr>
+		<th>
+			ExportId
+		</th>
+		<th>
+			ExportFor
+		</th>
+		<th>
+			FieldSeperator
+		</th>
+		<th>
+			FieldQualifier
+		</th>
+		<th>
+			Decimal
+		</th>
+		<th>
+			Currency
+		</th>
+		<th></th>
+		<th>Export URL for clients</th>
+	</tr>
+
+	@foreach (var item in Model) {
+		<tr>
+			<td>
+				@Html.DisplayFor(modelItem => item.ExportId)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.ExportFor)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.FieldSeperator)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.FieldQualifier)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Decimal)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Currency)
+			</td>
+			<td>
+				@Html.ActionLink("Edit", "EditExportSetting", new { exportId = item.ExportId }) |
+				@Html.ActionLink("Details", "DetailsExportSetting", new { exportId = item.ExportId }) |
+				@*@Html.ActionLink("Delete", "Delete", new { id=item.ExportId })*@
+			</td>
+			<td>
+				@ViewBag.BaseExportUrl@Html.DisplayFor(modelItem => item.ExportId)
+			</td>
+		</tr>
+	}
+
+</table>

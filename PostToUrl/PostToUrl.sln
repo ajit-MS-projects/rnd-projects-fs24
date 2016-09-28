@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostToUrl", "PostToUrl\PostToUrl.csproj", "{56927687-64F5-473E-9CD1-D5866A7B1295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTests.Business", "MyTests.Business\MyTests.Business.csproj", "{D066FB95-4FAF-4B7D-9A7F-1E50109028E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionForms", "ReflectionForms\ReflectionForms.csproj", "{16E15309-2616-4B05-8636-7AF1ECFA58CD}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ajitchahal.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MyTests.Business\\MyTests.Business.csproj
+		SccProjectName1 = MyTests.Business
+		SccLocalPath1 = MyTests.Business
+		SccProjectUniqueName2 = PostToUrl\\PostToUrl.csproj
+		SccProjectName2 = PostToUrl
+		SccLocalPath2 = PostToUrl
+		SccProjectUniqueName3 = ReflectionForms\\ReflectionForms.csproj
+		SccProjectName3 = ReflectionForms
+		SccLocalPath3 = ReflectionForms
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56927687-64F5-473E-9CD1-D5866A7B1295}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{56927687-64F5-473E-9CD1-D5866A7B1295}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{56927687-64F5-473E-9CD1-D5866A7B1295}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{56927687-64F5-473E-9CD1-D5866A7B1295}.Debug|x86.ActiveCfg = Debug|x86
+		{56927687-64F5-473E-9CD1-D5866A7B1295}.Debug|x86.Build.0 = Debug|x86
+		{56927687-64F5-473E-9CD1-D5866A7B1295}.Release|Any CPU.ActiveCfg = Release|x86
+		{56927687-64F5-473E-9CD1-D5866A7B1295}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{56927687-64F5-473E-9CD1-D5866A7B1295}.Release|Mixed Platforms.Build.0 = Release|x86
+		{56927687-64F5-473E-9CD1-D5866A7B1295}.Release|x86.ActiveCfg = Release|x86
+		{56927687-64F5-473E-9CD1-D5866A7B1295}.Release|x86.Build.0 = Release|x86
+		{D066FB95-4FAF-4B7D-9A7F-1E50109028E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D066FB95-4FAF-4B7D-9A7F-1E50109028E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D066FB95-4FAF-4B7D-9A7F-1E50109028E0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D066FB95-4FAF-4B7D-9A7F-1E50109028E0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D066FB95-4FAF-4B7D-9A7F-1E50109028E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D066FB95-4FAF-4B7D-9A7F-1E50109028E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D066FB95-4FAF-4B7D-9A7F-1E50109028E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D066FB95-4FAF-4B7D-9A7F-1E50109028E0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D066FB95-4FAF-4B7D-9A7F-1E50109028E0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D066FB95-4FAF-4B7D-9A7F-1E50109028E0}.Release|x86.ActiveCfg = Release|Any CPU
+		{16E15309-2616-4B05-8636-7AF1ECFA58CD}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{16E15309-2616-4B05-8636-7AF1ECFA58CD}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{16E15309-2616-4B05-8636-7AF1ECFA58CD}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{16E15309-2616-4B05-8636-7AF1ECFA58CD}.Debug|x86.ActiveCfg = Debug|x86
+		{16E15309-2616-4B05-8636-7AF1ECFA58CD}.Debug|x86.Build.0 = Debug|x86
+		{16E15309-2616-4B05-8636-7AF1ECFA58CD}.Release|Any CPU.ActiveCfg = Release|x86
+		{16E15309-2616-4B05-8636-7AF1ECFA58CD}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{16E15309-2616-4B05-8636-7AF1ECFA58CD}.Release|Mixed Platforms.Build.0 = Release|x86
+		{16E15309-2616-4B05-8636-7AF1ECFA58CD}.Release|x86.ActiveCfg = Release|x86
+		{16E15309-2616-4B05-8636-7AF1ECFA58CD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

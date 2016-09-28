@@ -1,0 +1,13 @@
+﻿@using Kendo.Mvc.UI
+@model List<MvcApplication2.Controllers.GridTestController.EmpViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@(Html.Kendo().Grid(Model).Name("myGrid")
+.Columns(ViewBag.Cols))
+
+

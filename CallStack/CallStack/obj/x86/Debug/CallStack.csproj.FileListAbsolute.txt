@@ -1,0 +1,9 @@
+d:\ajit\rnd\CallStack\CallStack\bin\Debug\CallStack.exe
+d:\ajit\rnd\CallStack\CallStack\bin\Debug\CallStack.pdb
+d:\ajit\rnd\CallStack\CallStack\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\ajit\rnd\CallStack\CallStack\obj\x86\Debug\CallStack.Form1.resources
+d:\ajit\rnd\CallStack\CallStack\obj\x86\Debug\CallStack.Properties.Resources.resources
+d:\ajit\rnd\CallStack\CallStack\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\ajit\rnd\CallStack\CallStack\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\ajit\rnd\CallStack\CallStack\obj\x86\Debug\CallStack.exe
+d:\ajit\rnd\CallStack\CallStack\obj\x86\Debug\CallStack.pdb

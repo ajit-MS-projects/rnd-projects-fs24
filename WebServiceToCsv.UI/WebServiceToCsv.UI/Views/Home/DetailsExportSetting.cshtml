@@ -1,0 +1,10 @@
+﻿@model WebServiceToCsv.UI.Models.MappingsAndSavedRequests
+@{
+    ViewBag.Title = "DetailsExportSetting";
+}
+
+<h2>ExportSetting Details >>> (@Model.ExportSettings.ExportFor)</h2> 
+
+@Html.Partial("_Mappings", Model, new ViewDataDictionary(Model.ExportSettings.ExportId))
+<br/>
+@Html.Partial("_SavedRequests", Model.SavedRequests)

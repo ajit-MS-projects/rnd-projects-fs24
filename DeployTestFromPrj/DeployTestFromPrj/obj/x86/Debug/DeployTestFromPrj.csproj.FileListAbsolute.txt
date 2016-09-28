@@ -1,0 +1,9 @@
+D:\ajit\rnd\DeployTestFromPrj\DeployTestFromPrj\bin\Debug\DeployTestFromPrj.exe
+D:\ajit\rnd\DeployTestFromPrj\DeployTestFromPrj\bin\Debug\DeployTestFromPrj.pdb
+D:\ajit\rnd\DeployTestFromPrj\DeployTestFromPrj\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ajit\rnd\DeployTestFromPrj\DeployTestFromPrj\obj\x86\Debug\DeployTestFromPrj.Form1.resources
+D:\ajit\rnd\DeployTestFromPrj\DeployTestFromPrj\obj\x86\Debug\DeployTestFromPrj.Properties.Resources.resources
+D:\ajit\rnd\DeployTestFromPrj\DeployTestFromPrj\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\ajit\rnd\DeployTestFromPrj\DeployTestFromPrj\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\ajit\rnd\DeployTestFromPrj\DeployTestFromPrj\obj\x86\Debug\DeployTestFromPrj.exe
+D:\ajit\rnd\DeployTestFromPrj\DeployTestFromPrj\obj\x86\Debug\DeployTestFromPrj.pdb

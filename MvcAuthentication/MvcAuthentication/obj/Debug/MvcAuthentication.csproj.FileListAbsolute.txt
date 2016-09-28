@@ -1,0 +1,5 @@
+D:\ajit\rnd\MvcAuthentication\MvcAuthentication\bin\Debug\MvcAuthentication.dll
+D:\ajit\rnd\MvcAuthentication\MvcAuthentication\bin\Debug\MvcAuthentication.pdb
+D:\ajit\rnd\MvcAuthentication\MvcAuthentication\obj\Debug\MvcAuthentication.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\MvcAuthentication\MvcAuthentication\obj\Debug\MvcAuthentication.dll
+D:\ajit\rnd\MvcAuthentication\MvcAuthentication\obj\Debug\MvcAuthentication.pdb

@@ -1,0 +1,9 @@
+d:\ajit\rnd\BasicAuth\BasicAuth\bin\Debug\BasicAuth.exe.config
+d:\ajit\rnd\BasicAuth\BasicAuth\bin\Debug\BasicAuth.exe
+d:\ajit\rnd\BasicAuth\BasicAuth\bin\Debug\BasicAuth.pdb
+d:\ajit\rnd\BasicAuth\BasicAuth\bin\Debug\HttpAuthenticationModule.dll
+d:\ajit\rnd\BasicAuth\BasicAuth\bin\Debug\Newtonsoft.Json.dll
+d:\ajit\rnd\BasicAuth\BasicAuth\bin\Debug\Newtonsoft.Json.xml
+d:\ajit\rnd\BasicAuth\BasicAuth\obj\Debug\BasicAuth.csprojResolveAssemblyReference.cache
+d:\ajit\rnd\BasicAuth\BasicAuth\obj\Debug\BasicAuth.exe
+d:\ajit\rnd\BasicAuth\BasicAuth\obj\Debug\BasicAuth.pdb

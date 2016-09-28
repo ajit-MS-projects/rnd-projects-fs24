@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="85E482C5-332C-4D39-B709-D6A94680B976" ModuleId="WebServiceToCsv.Services" />
+  <Module PersistentId="9DE06DFB-BD4B-4DE3-98EA-C898745F09E2" ModuleId="WebServiceToCsv.Contracts" />
+  <Module PersistentId="B03D6023-BE34-49B4-A5DC-3A2B7DA44EE9" ModuleId="WebServiceToCsv.Data" />
+  <Module PersistentId="678611C1-0191-43E7-9691-F2B77CB14D8B" ModuleId="WebServiceToCsv.UI" />
+  <Module PersistentId="B8BDB583-DD1D-40A8-9535-0DDD05D35C83" ModuleId="TestProject1" />
+</Modules>

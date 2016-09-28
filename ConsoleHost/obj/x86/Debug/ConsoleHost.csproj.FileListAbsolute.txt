@@ -1,0 +1,8 @@
+D:\ajit\rnd\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+D:\ajit\rnd\ConsoleHost\bin\Debug\ConsoleHost.exe
+D:\ajit\rnd\ConsoleHost\bin\Debug\ConsoleHost.pdb
+D:\ajit\rnd\ConsoleHost\bin\Debug\WcfSession.dll
+D:\ajit\rnd\ConsoleHost\bin\Debug\WcfSession.pdb
+D:\ajit\rnd\ConsoleHost\obj\x86\Debug\ConsoleHost.csprojResolveAssemblyReference.cache
+D:\ajit\rnd\ConsoleHost\obj\x86\Debug\ConsoleHost.exe
+D:\ajit\rnd\ConsoleHost\obj\x86\Debug\ConsoleHost.pdb

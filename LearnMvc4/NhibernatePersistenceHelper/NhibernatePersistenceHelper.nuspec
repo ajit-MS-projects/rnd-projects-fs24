@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>app.config.</releaseNotes>
+    <copyright>Copyright © Ajitchahal.de</copyright>
+    <tags>nhibernate persistence</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\app.config" target="content" /> 
+	<file src="bin\Release\Emp.hbm.xml" target="content" /> 
+</files>
+
+</package>

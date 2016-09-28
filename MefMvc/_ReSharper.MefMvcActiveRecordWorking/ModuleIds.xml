@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="DB7AE0FD-172E-47D7-9D03-66B5EA0EFA1F" ModuleId="ProductBusiness" />
+  <Module PersistentId="9973513E-456B-4207-AB89-0E92AE0B26F3" ModuleId="ProductContracts" />
+  <Module PersistentId="857B02E0-4CF3-4481-9477-B52706E194E3" ModuleId="MefMvcActiveRecordWorking" />
+</Modules>

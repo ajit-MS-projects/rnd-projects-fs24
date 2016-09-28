@@ -1,0 +1,66 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/f:packages.config" caret="0" fromTop="0" />
+    <File id="9DE06DFB-BD4B-4DE3-98EA-C898745F09E2/d:Services/f:IDataService.cs" caret="205" fromTop="10" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:DataService.cs" caret="371" fromTop="16" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:DeleteExistingDbAndCreateNewSchema.cshtml" caret="0" fromTop="0" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:Export.cshtml" caret="0" fromTop="0" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/f:Global.asax.cs" caret="950" fromTop="35" />
+    <File id="B03D6023-BE34-49B4-A5DC-3A2B7DA44EE9/f:packages.config" caret="0" fromTop="0" />
+    <File id="B03D6023-BE34-49B4-A5DC-3A2B7DA44EE9/f:PersistenceHelper.cs" caret="700" fromTop="18" />
+    <File id="B03D6023-BE34-49B4-A5DC-3A2B7DA44EE9/f:ExportSettings.cs" caret="305" fromTop="12" />
+    <File id="9DE06DFB-BD4B-4DE3-98EA-C898745F09E2/f:IExportSettings.cs" caret="0" fromTop="0" />
+    <File id="9DE06DFB-BD4B-4DE3-98EA-C898745F09E2/f:ISavedGetTyreRequest.cs" caret="178" fromTop="9" />
+    <File id="B03D6023-BE34-49B4-A5DC-3A2B7DA44EE9/f:Mapping.cs" caret="862" fromTop="26" />
+    <File id="9DE06DFB-BD4B-4DE3-98EA-C898745F09E2/f:IMapping.cs" caret="296" fromTop="12" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Models/f:MappingsAndSavedRequests.cs" caret="411" fromTop="15" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:Index.cshtml" caret="475" fromTop="26" />
+    <File id="9DE06DFB-BD4B-4DE3-98EA-C898745F09E2/d:Services/f:ITyresExportService.cs" caret="266" fromTop="11" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:AddNewExportSetting.cshtml" caret="1190" fromTop="34" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:EditExportSetting.cshtml" caret="649" fromTop="20" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:EditMapping.cshtml" caret="32" fromTop="0" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:_Mappings.cshtml" caret="520" fromTop="22" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:_SavedRequests.cshtml" caret="73" fromTop="2" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:DetailsExportSetting.cshtml" caret="0" fromTop="0" />
+    <File id="B03D6023-BE34-49B4-A5DC-3A2B7DA44EE9/f:SavedGetTyreRequest.cs" caret="0" fromTop="0" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Controllers/f:HomeController.cs" caret="1047" fromTop="0" />
+    <File id="B8BDB583-DD1D-40A8-9535-0DDD05D35C83/f:app.config" caret="4211" fromTop="41" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/d:Service References/d:TyreShopping/f:Reference.cs" caret="19570" fromTop="28" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="4979" fromTop="14" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/f:Web.config" caret="4211" fromTop="46" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:app.config" caret="1520" fromTop="26" />
+    <File id="B8BDB583-DD1D-40A8-9535-0DDD05D35C83/f:TyresExportServiceTest.cs" caret="581" fromTop="20" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="3743" fromTop="37" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="2700" fromTop="12" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="6543" fromTop="31" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Controllers/f:HomeController.cs" caret="945" fromTop="23" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:AddNewExportSetting.cshtml" caret="32" fromTop="0" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:_Mappings.cshtml" caret="57" fromTop="0" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:_Mappings.cshtml" caret="493" fromTop="20" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:DetailsExportSetting.cshtml" caret="218" fromTop="7" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="1031" fromTop="39" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:_Mappings.cshtml" caret="231" fromTop="4" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Controllers/f:HomeController.cs" caret="3150" fromTop="49" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Controllers/f:HomeController.cs" caret="2842" fromTop="38" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:EditMapping.cshtml" caret="721" fromTop="22" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:EditMapping.cshtml" caret="1285" fromTop="38" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Controllers/f:HomeController.cs" caret="3357" fromTop="58" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Views/d:Home/f:EditMapping.cshtml" caret="32" fromTop="0" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/d:Controllers/f:HomeController.cs" caret="3208" fromTop="40" />
+    <File id="B8BDB583-DD1D-40A8-9535-0DDD05D35C83/f:app.config" caret="0" fromTop="0" />
+    <File id="B8BDB583-DD1D-40A8-9535-0DDD05D35C83/f:app.config" caret="4337" fromTop="62" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="6883" fromTop="25" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="5879" fromTop="58" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="4592" fromTop="31" />
+    <File id="B8BDB583-DD1D-40A8-9535-0DDD05D35C83/f:app.config" caret="4211" fromTop="41" />
+    <File id="678611C1-0191-43E7-9691-F2B77CB14D8B/f:Web.config" caret="4212" fromTop="46" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/d:Service References/d:TyreShopping/f:Reference.cs" caret="360036" fromTop="30" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="5086" fromTop="14" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="5224" fromTop="19" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="5923" fromTop="33" />
+    <File id="85E482C5-332C-4D39-B709-D6A94680B976/f:TyresExportService.cs" caret="5397" fromTop="24" />
+    <File id="B8BDB583-DD1D-40A8-9535-0DDD05D35C83/f:TyresExportServiceTest.cs" caret="2207" fromTop="52" />
+  </RecentEdits>
+</RecentFiles>

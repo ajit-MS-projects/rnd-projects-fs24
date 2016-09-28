@@ -1,0 +1,7 @@
+D:\ajit\rnd\BitwiseOpsTest\BitwiseOpsTest\bin\Debug\BitwiseOpsTest.exe
+D:\ajit\rnd\BitwiseOpsTest\BitwiseOpsTest\bin\Debug\BitwiseOpsTest.pdb
+D:\ajit\rnd\BitwiseOpsTest\BitwiseOpsTest\obj\x86\Debug\BitwiseOpsTest.Form1.resources
+D:\ajit\rnd\BitwiseOpsTest\BitwiseOpsTest\obj\x86\Debug\BitwiseOpsTest.Properties.Resources.resources
+D:\ajit\rnd\BitwiseOpsTest\BitwiseOpsTest\obj\x86\Debug\BitwiseOpsTest.csproj.GenerateResource.Cache
+D:\ajit\rnd\BitwiseOpsTest\BitwiseOpsTest\obj\x86\Debug\BitwiseOpsTest.exe
+D:\ajit\rnd\BitwiseOpsTest\BitwiseOpsTest\obj\x86\Debug\BitwiseOpsTest.pdb

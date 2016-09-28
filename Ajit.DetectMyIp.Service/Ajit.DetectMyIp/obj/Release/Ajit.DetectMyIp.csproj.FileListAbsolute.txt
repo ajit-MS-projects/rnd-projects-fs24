@@ -1,0 +1,8 @@
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp\bin\Release\Ajit.DetectMyIp.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp\bin\Release\Ajit.DetectMyIp.pdb
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp\bin\Release\Newtonsoft.Json.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp\bin\Release\System.Net.Http.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp\bin\Release\Newtonsoft.Json.xml
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp\bin\Release\System.Net.Http.xml
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp\obj\Release\Ajit.DetectMyIp.dll
+D:\ajit\rnd\Ajit.DetectMyIp.Service\Ajit.DetectMyIp\obj\Release\Ajit.DetectMyIp.pdb

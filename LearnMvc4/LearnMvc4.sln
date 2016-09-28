@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnMvc4", "LearnMvc4\LearnMvc4.csproj", "{F32C6019-9120-48FD-8DDD-C48529F4644B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnMvc4.Tests", "LearnMvc4.Tests\LearnMvc4.Tests.csproj", "{8D03360B-04FD-47CD-AF5C-5C061F9FBAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Model", "Data.Model\Data.Model.csproj", "{34F2E576-038C-4E0C-8453-9EC540413FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NhibernatePersistenceHelper", "NhibernatePersistenceHelper\NhibernatePersistenceHelper.csproj", "{D97A658A-F2F0-4276-97AB-A927E3348CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{3FAC272A-F316-43F0-9201-78182C11C8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Test", "Service.Test\Service.Test.csproj", "{ADE5C23C-DDBB-44D1-B402-D8F389A58EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.MyTests", "Services.MyTests\Services.MyTests.csproj", "{C1A7A119-D948-41DE-A4E0-6B4C9E38071F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E.Data.Model", "E.Data.Model\E.Data.Model.csproj", "{8BC2C23E-0EFC-473F-BDEF-B2A73B82F610}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ajitchahal.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Data.Model\\Data.Model.csproj
+		SccProjectName1 = Data.Model
+		SccLocalPath1 = Data.Model
+		SccProjectUniqueName2 = E.Data.Model\\E.Data.Model.csproj
+		SccProjectName2 = E.Data.Model
+		SccLocalPath2 = E.Data.Model
+		SccProjectUniqueName3 = LearnMvc4.Tests\\LearnMvc4.Tests.csproj
+		SccProjectName3 = LearnMvc4.Tests
+		SccLocalPath3 = LearnMvc4.Tests
+		SccProjectUniqueName4 = LearnMvc4\\LearnMvc4.csproj
+		SccProjectName4 = LearnMvc4
+		SccLocalPath4 = LearnMvc4
+		SccProjectUniqueName5 = NhibernatePersistenceHelper\\NhibernatePersistenceHelper.csproj
+		SccProjectName5 = NhibernatePersistenceHelper
+		SccLocalPath5 = NhibernatePersistenceHelper
+		SccProjectUniqueName6 = Service.Test\\Service.Test.csproj
+		SccProjectName6 = Service.Test
+		SccLocalPath6 = Service.Test
+		SccProjectUniqueName7 = Services.MyTests\\Services.MyTests.csproj
+		SccProjectName7 = Services.MyTests
+		SccLocalPath7 = Services.MyTests
+		SccProjectUniqueName8 = Services\\Services.csproj
+		SccProjectName8 = Services
+		SccLocalPath8 = Services
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F32C6019-9120-48FD-8DDD-C48529F4644B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32C6019-9120-48FD-8DDD-C48529F4644B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32C6019-9120-48FD-8DDD-C48529F4644B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32C6019-9120-48FD-8DDD-C48529F4644B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D03360B-04FD-47CD-AF5C-5C061F9FBAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D03360B-04FD-47CD-AF5C-5C061F9FBAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D03360B-04FD-47CD-AF5C-5C061F9FBAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D03360B-04FD-47CD-AF5C-5C061F9FBAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F2E576-038C-4E0C-8453-9EC540413FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F2E576-038C-4E0C-8453-9EC540413FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F2E576-038C-4E0C-8453-9EC540413FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F2E576-038C-4E0C-8453-9EC540413FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97A658A-F2F0-4276-97AB-A927E3348CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97A658A-F2F0-4276-97AB-A927E3348CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97A658A-F2F0-4276-97AB-A927E3348CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97A658A-F2F0-4276-97AB-A927E3348CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FAC272A-F316-43F0-9201-78182C11C8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAC272A-F316-43F0-9201-78182C11C8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAC272A-F316-43F0-9201-78182C11C8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAC272A-F316-43F0-9201-78182C11C8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE5C23C-DDBB-44D1-B402-D8F389A58EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE5C23C-DDBB-44D1-B402-D8F389A58EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE5C23C-DDBB-44D1-B402-D8F389A58EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE5C23C-DDBB-44D1-B402-D8F389A58EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A7A119-D948-41DE-A4E0-6B4C9E38071F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A7A119-D948-41DE-A4E0-6B4C9E38071F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A7A119-D948-41DE-A4E0-6B4C9E38071F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A7A119-D948-41DE-A4E0-6B4C9E38071F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC2C23E-0EFC-473F-BDEF-B2A73B82F610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC2C23E-0EFC-473F-BDEF-B2A73B82F610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC2C23E-0EFC-473F-BDEF-B2A73B82F610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC2C23E-0EFC-473F-BDEF-B2A73B82F610}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

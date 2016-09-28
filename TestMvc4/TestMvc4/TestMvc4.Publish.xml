@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="ftp://stagereports.azurewebsites.net/" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FTP" replaceMatchingFiles="True" userName="StageReports\traffectiveftpuser" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYppJ4NUtI0W03la38CkV4QAAAAACAAAAAAADZgAAwAAAABAAAAA0IYfYE37echVsqNx6JdSgAAAAAASAAACgAAAAEAAAALuteK6JJRrc0hcQ26n8r2EoAAAAXNCrP+stLc9BTaSl39DDUTDsFjcNZpp8UreGRX9fakYBycdBuV4ZQxQAAAArnlRCBoRxvuW6br2Ns52uNu/sOA==" SelectedForPublish="False" />
+  <publishProfile publishUrl="d:\test1" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile2" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/System.Web.Http.dll" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/System.Web.WebPages.Razor.xml" publishTime="05/06/2013 10:52:14" />
+    <file relUrl="Global.asax" publishTime="05/06/2013 10:52:05" />
+    <file relUrl="bin/System.Net.Http.WebRequest.xml" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/System.Net.Http.dll" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/System.Net.Http.Formatting.dll" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/Newtonsoft.Json.xml" publishTime="05/06/2013 10:52:13" />
+    <file relUrl="bin/System.Web.Mvc.xml" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/System.Web.WebPages.Deployment.xml" publishTime="05/06/2013 10:52:14" />
+    <file relUrl="bin/TestMvc4.pdb" publishTime="05/06/2013 15:12:41" />
+    <file relUrl="bin/System.Web.Helpers.dll" publishTime="05/06/2013 10:52:14" />
+    <file relUrl="bin/System.Web.WebPages.dll" publishTime="05/06/2013 10:52:14" />
+    <file relUrl="packages.config" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/System.Web.Http.xml" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/TestMvc4.dll" publishTime="05/06/2013 15:12:41" />
+    <file relUrl="Views/Home/Index.cshtml" publishTime="05/06/2013 10:53:19" />
+    <file relUrl="bin/System.Web.Razor.xml" publishTime="05/06/2013 10:52:14" />
+    <file relUrl="bin/System.Web.WebPages.xml" publishTime="05/06/2013 10:52:14" />
+    <file relUrl="bin/System.Web.Http.WebHost.xml" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/Newtonsoft.Json.dll" publishTime="05/06/2013 10:52:13" />
+    <file relUrl="bin/System.Web.Helpers.xml" publishTime="05/06/2013 10:52:14" />
+    <file relUrl="bin/System.Web.Mvc.dll" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/System.Net.Http.WebRequest.dll" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/System.Web.Razor.dll" publishTime="05/06/2013 10:52:14" />
+    <file relUrl="bin/System.Web.WebPages.Deployment.dll" publishTime="05/06/2013 10:52:14" />
+    <file relUrl="bin/System.Web.Http.WebHost.dll" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/System.Net.Http.xml" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="05/06/2013 10:52:14" />
+    <file relUrl="Web.config" publishTime="05/06/2013 15:12:41" />
+    <file relUrl="bin/System.Net.Http.Formatting.xml" publishTime="05/06/2013 10:52:15" />
+    <file relUrl="Views/Web.config" publishTime="05/06/2013 10:52:05" />
+    <file relUrl="bin/System.Web.WebPages.Razor.dll" publishTime="05/06/2013 10:52:14" />
+  </publishProfile>
+</publishData>

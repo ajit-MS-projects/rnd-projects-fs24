@@ -1,0 +1,73 @@
+﻿@model WebServiceToCsv.Contracts.IExportSettings
+
+@{
+    ViewBag.Title = "EditExportSetting";
+}
+
+<h2>EditExportSetting</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>ExportSettings</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ExportId)
+        </div>
+        <div class="editor-field">
+			@Html.TextBoxFor(model => model.ExportId, new { @readonly = "readonly" })
+            @Html.ValidationMessageFor(model => model.ExportId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ExportFor)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ExportFor)
+            @Html.ValidationMessageFor(model => model.ExportFor)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FieldSeperator)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FieldSeperator)
+            @Html.ValidationMessageFor(model => model.FieldSeperator)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.FieldQualifier)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.FieldQualifier)
+            @Html.ValidationMessageFor(model => model.FieldQualifier)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Decimal)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Decimal)
+            @Html.ValidationMessageFor(model => model.Decimal)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Currency)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Currency)
+            @Html.ValidationMessageFor(model => model.Currency)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
